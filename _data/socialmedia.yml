@@ -1,22 +1,42 @@
+- name: Phone
+  url: https://s-guenther.github.io/contact
+  class: icon-message
+  title: Phone +49 160 9160 9708
+
+- name: Email
+  url: https://s-guenther.github.io/contact
+  class: icon-mail
+  title: Email info@sgrse.com
+
+- name: Website
+  url: https://s-guenther.github.io
+  class: icon-home
+  title: Website
+
+- name: LinkedIn
+  url: https://linkedin.com/in/guenther-sebastian
+  class: icon-linkedin
+  title: LinkedIn
+
 - name: GitHub
-  url: http://github.com/phlow
+  url: https://github.com/s-guenther
   class: icon-github
-  title: Code und mehr...
+  title: GitHub
 
-- name: YouTube
-  url: http://www.youtube.com/PhlowMedia
-  class: icon-youtube
-  title: "Videos, Video-Anleitungen und Filme von Phlow auf YouTube"
+# - name: Mixcloud
+#   url: http://www.mixcloud.com/phlow/
+#   class: icon-cloud
+#   title: "Mixe, was sonst?"
 
-- name: Twitter
-  url: http://twitter.com/phlow
-  class: icon-twitter
-  title: "Immer das Neuste von Phlow gibt es auf Twitter"
+# - name: YouTube
+#   url: http://www.youtube.com/PhlowMedia
+#   class: icon-youtube
+#   title: "Videos, Video-Anleitungen und Filme von Phlow auf YouTube"
 
-- name: Mixcloud
-  url: http://www.mixcloud.com/phlow/
-  class: icon-cloud
-  title: "Mixe, was sonst?"
+# - name: Twitter
+#   url: http://twitter.com/phlow
+#   class: icon-twitter
+#   title: "Immer das Neuste von Phlow gibt es auf Twitter"
 
 # - name: Facebook
 #   url: http://www.facebook.com/
