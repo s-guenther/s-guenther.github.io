@@ -360,7 +360,7 @@
       <div id="subfooter">
         <nav class="row">
           <section id="subfooter-left" class="small-12 medium-6 columns credits">
-            <p>Website template credits: <a href="http://phlow.de/">Phlow</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>
+            <p>Created with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and hosted with <a href="https://github.com/s-guenther/s-guenther.github.io" target="_blank">GitHub Pages</a>. Website template based on <a href="http://phlow.github.io/feeling-responsive/" target="_blank">Feeling Responsive</a> by <a href="http://phlow.de/" target=_blank>Phlow</a>.</p>
           </section>
 
           <section id="subfooter-right" class="small-12 medium-6 columns">
