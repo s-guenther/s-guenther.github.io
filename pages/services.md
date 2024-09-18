@@ -4,8 +4,8 @@ show_meta           : false
 title               : "Services Main Page"
 subheadline         : "Services subheadline"
 teaser              : "Services Teaser"
-header:
-   image_fullwidth  : "header_homepage_13.jpg"
+# header:
+#     image_fullwidth  : "header_homepage_13.jpg"
 permalink           : "/services/"
 ---
 

@@ -17,7 +17,12 @@ slogan: 'sebastian guenther • research • software • engineering'
 description: 'This describes my website on the footer'
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
-credits: '<p>Website template credits: <a href="http://phlow.de/">Phlow</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>'
+credits: '<p>Created with <a href="http://jekyllrb.com/"
+target="_blank">Jekyll</a> and hosted with <a
+href="https://github.com/s-guenther/s-guenther.github.io" target="_blank">GitHub
+Pages</a>. Website template based on <a
+href="http://phlow.github.io/feeling-responsive/" target="_blank">Feeling Responsive</a> by <a
+href="http://phlow.de/" target=_blank>Phlow</a>.</p>' 
 
 # Main author of the website
 # See > authors.yml

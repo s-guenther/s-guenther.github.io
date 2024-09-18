@@ -12,6 +12,16 @@ format: frontpage
 
 {% comment %}
 *
+* Finally, if there is content, spit it out.
+*
+{% endcomment %}
+
+<div class="row">
+    {{ content }}
+</div><!-- /.row -->
+
+{% comment %}
+*
 * First check, if widget is empty or not by checking if there is a title
 *
 {% endcomment %}
@@ -54,8 +64,6 @@ format: frontpage
 {% comment %}
 *
 * First check, if there are any posts at all
-*
-{% endcomment %}
 
 {% unless site.posts == empty %}
     <div class="row t30 b20 homepage">
@@ -98,14 +106,6 @@ format: frontpage
         </div><!-- /.medium-7.columns -->
     </div><!-- /.row -->
 {% endunless %}
-
-
-{% comment %}
-*
-* Finally, if there is content, spit it out.
 *
 {% endcomment %}
 
-<div class="row">
-    {{ content }}
-</div><!-- /.row -->

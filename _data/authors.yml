@@ -7,6 +7,6 @@
 # Resource › http://blog.sorryapp.com/blogging-with-jekyll/2014/02/06/adding-authors-to-your-jekyll-site.html
 s-guenther: # replace this with your info
   name: "Sebastian Günther"
-  siterole: "Info about mysefl"
+  siterole: "Info about myself"
   uri: https://sgrse.de/
   email: info@sgrse.de
