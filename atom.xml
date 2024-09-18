@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="//assets/xslt/atom.xslt" ?>
+<?xml-stylesheet type="text/css" href="//assets/css/atom.css" ?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<id>https://s-guenther.github.io//</id>
+	<title>sgrse</title>
+	<updated>2024-09-18T09:23:26+00:00</updated>
+
+	<subtitle>This describes my website on the footer</subtitle>
+
+	
+		
+		<author>
+			
+				<name>Sebastian Günther</name>
+			
+			
+			
+		</author>
+	
+
+	<link href="https://s-guenther.github.io//atom.xml" rel="self" type="application/rss+xml" />
+	<link href="https://s-guenther.github.io//" rel="alternate" type="text/html" />
+
+	<generator uri="http://jekyllrb.com" version="4.3.4">Jekyll</generator>
+
+	
+		<entry>
+			<id>https://s-guenther.github.io//service2/</id>
+			<title>Service 2</title>
+			<link href="https://s-guenther.github.io//service2/" rel="alternate" type="text/html" title="Service 2" />
+			<updated>2024-09-17T00:00:00+00:00</updated>
+
+			
+				
+				<author>
+					
+						<name>Sebastian Günther</name>
+					
+					
+						<email>info@sgrse.de</email>
+					
+					
+						<uri>https://sgrse.de/</uri>
+					
+				</author>
+			
+			<summary>Here is a teaser description of my second service. &lt;strong&gt;Know that&lt;/strong&gt; content will be added over time.</summary>
+			<content type="html" xml:base="https://s-guenther.github.io//service2/">&lt;p&gt;This is the main text that allows for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;markdown&lt;/code&gt; formatting.&lt;/p&gt;
+
+&lt;!--
+## Other Post Formats
+{: .t60 }
+
+
+
+
+
+
+&lt;ul class=&quot;side-nav&quot;&gt;
+
+  
+
+    
+
+  
+&lt;/ul&gt;
+
+
+--&gt;
+</content>
+
+			
+			
+				<category term="service" />
+			
+
+			<published>2024-09-17T00:00:00+00:00</published>
+		</entry>
+	
+		<entry>
+			<id>https://s-guenther.github.io//service1/</id>
+			<title>Service 1</title>
+			<link href="https://s-guenther.github.io//service1/" rel="alternate" type="text/html" title="Service 1" />
+			<updated>2024-09-17T00:00:00+00:00</updated>
+
+			
+				
+				<author>
+					
+						<name>Sebastian Günther</name>
+					
+					
+						<email>info@sgrse.de</email>
+					
+					
+						<uri>https://sgrse.de/</uri>
+					
+				</author>
+			
+			<summary>Here is a teaser description of my first service. &lt;strong&gt;Know that&lt;/strong&gt; content will be added over time.</summary>
+			<content type="html" xml:base="https://s-guenther.github.io//service1/">&lt;p&gt;This is the main text that allows for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;markdown&lt;/code&gt; formatting.&lt;/p&gt;
+
+&lt;!--
+## Other Post Formats
+{: .t60 }
+
+
+
+
+
+
+&lt;ul class=&quot;side-nav&quot;&gt;
+
+  
+
+    
+
+  
+&lt;/ul&gt;
+
+
+--&gt;
+</content>
+
+			
+			
+				<category term="service" />
+			
+
+			<published>2024-09-17T00:00:00+00:00</published>
+		</entry>
+	
+</feed>
