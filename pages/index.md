@@ -10,17 +10,17 @@ header:
 widget1:
   title: "Research Software"
   url: '/research-software/'
-  # image: logo_sgrse_banner.jpg
+  image: unsplash_code_303.jpg
   text: 'Custom software tools tailored to your unique challenges, integrating cutting-edge research into ready-to-deploy and production-ready solutions.'
 widget2:
   title: "Scientific Computing"
   url: '/scientific-computing/'
-  # image: widget-1-302x182.jpg
+  image: unsplash_pc_303.jpg
   text: 'Data science workflows, high-performance computing, modeling, simulation, and optimization to drive complex analyses and decision-making. '
 widget3:
   title: "Hardware Prototyping"
   url: '/hardware-prototyping/'
-  # image: widget-github-303x182.jpg
+  image: rendering_303.jpg
   text: 'Development of custom mechatronic and electromechanical prototypes, turning innovative concepts into functional hardware.'
 #
 # Use the call for action to show a button on the frontpage
@@ -33,7 +33,7 @@ widget3:
 # To change colors see sass/_01_settings_colors.scss
 #
 callforaction:
-  url: '/portfolio/'
+  url: '/projects/'
   text: This sounds abstract? Have a look at concrete projects.
   style: info
 permalink: /index.html

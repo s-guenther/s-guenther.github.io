@@ -1,12 +1,12 @@
 ---
 layout: page
 header: no
-subheadline: "Portfolio Main Page"
-title:  "Portfolio"
+subheadline: "Projects Main Page"
+title:  "Projects"
 teaser: "Overview over past projects"
 meta_teaser: "Some Additional Information"
 breadcrumb: true
-permalink           : "/portfolio/"
+permalink           : "/projects/"
 ---
 
 _This site is still under construction. Drop by occasionally and stay tuned for

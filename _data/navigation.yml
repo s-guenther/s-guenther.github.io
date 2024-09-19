@@ -9,8 +9,8 @@
   - title: "Hardware Prototyping"
     url: "/hardware-prototyping/"
 
-- title: "Portfolio"
-  url: "/portfolio/"
+- title: "Projects"
+  url: "/projects/"
   dropdown:
   - title: "Flywheel Energy Storage"
     url: "/flywheel/"
