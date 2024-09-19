@@ -1,19 +1,27 @@
 ---
 layout              : page
-header:
-  image_fullwidth: logo_sgrse_banner.svg
+header: no
+image:
+    title: banner_contact_wide.jpg
 title               : "Contact"
-meta_title          : "Contact meta-title"
-subheadline         : "Contact subheadline"
-teaser              : "Contact teaser"
+# subheadline         : "sebastian guenther | research • software • engineering"
+teaser              : "I'm looking forward to hearing about your project! Please reach out via email or phone."
 permalink           : "/contact/"
 ---
 
-Sebastian Günther\
-Freiberuflicher Ingenieur
+**Sebastian Günther**\
+**Freiberuflicher Ingenieur**
 
-+49 160 9160 9708\
-info \[at\] sgrse.de\
-sgrse.de\
-linkedin.com/in/guenther-sebastian
+---
 
+[+49 160 9160 9708](tel:+49 160 9160 9708)\
+[info@sgrse.de](mailto:info@sgrse.de)\
+[linkedin.com/in/guenther-sebastian](linkedin.com/in/guenther-sebastian)
+
+---
+
+<p style="font-size:0.75em;">
+Sebastian Günther<br>
+Wittekamp 21<br>
+30163 Hannover
+</p>

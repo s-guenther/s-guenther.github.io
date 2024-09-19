@@ -1,17 +1,13 @@
 - name: Phone
-  url: https://s-guenther.github.io/contact
+# url: https://s-guenther.github.io/contact
+  url: tel:+4916091609708
   class: icon-message
   title: Phone +49 160 9160 9708
 
 - name: Email
-  url: https://s-guenther.github.io/contact
+  url: mailto:info@sgrse.de
   class: icon-mail
   title: Email info@sgrse.com
-
-- name: Website
-  url: https://s-guenther.github.io
-  class: icon-home
-  title: Website
 
 - name: LinkedIn
   url: https://linkedin.com/in/guenther-sebastian
@@ -22,6 +18,11 @@
   url: https://github.com/s-guenther
   class: icon-github
   title: GitHub
+
+- name: Website
+  url: https://s-guenther.github.io
+  class: icon-home
+  title: Website
 
 # - name: Mixcloud
 #   url: http://www.mixcloud.com/phlow/

@@ -1,6 +1,7 @@
 ---
 layout: frontpage
 header: no
+title:  "Services"
 widget1:
   title: "Research Software"
   url: '/research-software/'

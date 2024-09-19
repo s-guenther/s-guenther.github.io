@@ -1,11 +1,11 @@
 ---
 layout: page
 header: no
-subheadline: "Subheadline String"
+# subheadline: "Subheadline String"
 title:  "Wind Farm Energy Storage Dimensioning"
-teaser: "Teaser String"
-meta_teaser: "Meta-Teaser String"
-breadcrumb: true
+teaser: "Dimensioning tool for energy storage for wind parks"
+# meta_teaser: "Meta-Teaser String"
+# breadcrumb: true
 permalink           : "/wind-farm/"
 ---
 

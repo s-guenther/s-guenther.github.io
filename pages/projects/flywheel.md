@@ -1,11 +1,11 @@
 ---
 layout: page
 header: no
-subheadline: "Academic Prototype"
+# subheadline: "Academic Prototype"
 title:  "Flywheel Energy Storage"
-teaser: "Teaser String"
-meta_teaser: "Meta-Teaser String"
-breadcrumb: true
+teaser: "Academic Prototype"
+# meta_teaser: "Meta-Teaser String"
+# breadcrumb: true
 permalink           : "/flywheel/"
 ---
 

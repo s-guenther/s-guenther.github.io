@@ -1,11 +1,11 @@
 ---
 layout: page
 header: no
-subheadline: "Projects Main Page"
+# subheadline: "Projects Main Page"
 title:  "Projects"
 teaser: "Overview over past projects"
 meta_teaser: "Some Additional Information"
-breadcrumb: true
+# breadcrumb: true
 permalink           : "/projects/"
 ---
 

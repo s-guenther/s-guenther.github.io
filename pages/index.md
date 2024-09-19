@@ -64,7 +64,8 @@ with a focus on:
 With over 10 years of experience in research and development across
 academia and industry, I combine deep technical knowledge with
 state-of-the-art research software engineering to deliver custom
-solutions. 
+solutions. Interested? Don't hesitate to [contact me]({{ site.url }}/contact/)
+to learn more. 
 
 ---
 
