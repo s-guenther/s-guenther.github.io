@@ -10,11 +10,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Atom Feed (Styled)</title>
 
-    <link rel="stylesheet" type="text/css" href="https://s-guenther.github.io//assets/css/styles_feeling_responsive.css">
+    <link rel="stylesheet" type="text/css" href="https://sgrse.de//assets/css/styles_feeling_responsive.css">
 
   
 
-	<script src="https://s-guenther.github.io//assets/js/modernizr.min.js"></script>
+	<script src="https://sgrse.de//assets/js/modernizr.min.js"></script>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
 	<script>
@@ -37,13 +37,13 @@
 	
 	
 	
-	<link rel="canonical" href="https://s-guenther.github.io//assets/xslt/atom.xslt">
+	<link rel="canonical" href="https://sgrse.de//assets/xslt/atom.xslt">
 
 
 	<!-- Facebook Open Graph -->
 	<meta property="og:title" content="Atom Feed (Styled)">
 	<meta property="og:description" content="This describes my website on the footer">
-	<meta property="og:url" content="https://s-guenther.github.io//assets/xslt/atom.xslt">
+	<meta property="og:url" content="https://sgrse.de//assets/xslt/atom.xslt">
 	<meta property="og:locale" content="en_EN">
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="sgrse">
@@ -53,36 +53,35 @@
 
 	
 
-	<link type="text/plain" rel="author" href="https://s-guenther.github.io//humans.txt">
+	<link type="text/plain" rel="author" href="https://sgrse.de//humans.txt">
 
 	
 
 	
 
-	<link rel="icon" sizes="32x32" href="https://s-guenther.github.io/assets/img/favicon-32x32.png">
-
-	<link rel="icon" sizes="192x192" href="https://s-guenther.github.io/assets/img/touch-icon-192x192.png">
-
-	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://s-guenther.github.io/assets/img/apple-touch-icon-180x180-precomposed.png">
-
-	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://s-guenther.github.io/assets/img/apple-touch-icon-152x152-precomposed.png">
-
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://s-guenther.github.io/assets/img/apple-touch-icon-144x144-precomposed.png">
-
-	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://s-guenther.github.io/assets/img/apple-touch-icon-120x120-precomposed.png">
-
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://s-guenther.github.io/assets/img/apple-touch-icon-114x114-precomposed.png">
+	
 
 	
-	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://s-guenther.github.io/assets/img/apple-touch-icon-76x76-precomposed.png">
 
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://s-guenther.github.io/assets/img/apple-touch-icon-72x72-precomposed.png">
+	
 
-	<link rel="apple-touch-icon-precomposed" href="https://s-guenther.github.io/assets/img/apple-touch-icon-precomposed.png">	
+	
 
-	<meta name="msapplication-TileImage" content="https://s-guenther.github.io/assets/img/msapplication_tileimage.png">
+	
 
-	<meta name="msapplication-TileColor" content="#fabb00">
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
 
 
 	
@@ -100,7 +99,7 @@
     <ul class="title-area">
       <li class="name">
         <h1 class="">
-          <a href="https://s-guenther.github.io/"><img class="top-bar__logo" src="https://s-guenther.github.io//images/logo_sgrse_centered_white.svg" alt="sgrse"></a>
+          <a href="https://sgrse.de/"><img class="top-bar__logo" src="https://sgrse.de//images/logo_sgrse_centered_white.svg" alt="sgrse"></a>
         </h1>
       </li>
        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
@@ -120,24 +119,24 @@
             
 
               <li class="has-dropdown">
-                <a  href="https://s-guenther.github.io//services/">Services</a>
+                <a  href="https://sgrse.de//services/">Services</a>
 
                   <ul class="dropdown">
                     
 
                       
 
-                      <li><a  href="https://s-guenther.github.io//research-software/">Research Software</a></li>
+                      <li><a  href="https://sgrse.de//research-software/">Research Software</a></li>
                     
 
                       
 
-                      <li><a  href="https://s-guenther.github.io//scientific-computing/">Scientific Computing</a></li>
+                      <li><a  href="https://sgrse.de//scientific-computing/">Scientific Computing</a></li>
                     
 
                       
 
-                      <li><a  href="https://s-guenther.github.io//hardware-prototyping/">Hardware Prototyping</a></li>
+                      <li><a  href="https://sgrse.de//hardware-prototyping/">Hardware Prototyping</a></li>
                     
                   </ul>
 
@@ -156,19 +155,19 @@
             
 
               <li class="has-dropdown">
-                <a  href="https://s-guenther.github.io//portfolio/">Portfolio</a>
+                <a  href="https://sgrse.de//portfolio/">Portfolio</a>
 
                   <ul class="dropdown">
                     
 
                       
 
-                      <li><a  href="https://s-guenther.github.io//flywheel/">Flywheel Energy Storage</a></li>
+                      <li><a  href="https://sgrse.de//flywheel/">Flywheel Energy Storage</a></li>
                     
 
                       
 
-                      <li><a  href="https://s-guenther.github.io//wind-farm/">Wind Farm</a></li>
+                      <li><a  href="https://sgrse.de//wind-farm/">Wind Farm</a></li>
                     
                   </ul>
 
@@ -185,7 +184,7 @@
 
             
             
-              <li><a  href="https://s-guenther.github.io//about/">About Me</a></li>
+              <li><a  href="https://sgrse.de//about/">About Me</a></li>
               <li class="divider"></li>
 
             
@@ -239,7 +238,7 @@
             
             
               <li class="divider"></li>
-              <li><a  href="https://s-guenther.github.io//contact/">Contact</a></li>
+              <li><a  href="https://sgrse.de//contact/">Contact</a></li>
 
             
             
@@ -257,8 +256,8 @@
 <div id="masthead-no-image-header">
 	<div class="row">
 		<div class="small-12 columns">
-			<a id="logo" href="https://s-guenther.github.io/" title="sgrse – sebastian guenther | research • software • engineering">
-				<img src="https://s-guenther.github.io//assets/img/logo.png" alt="sgrse – sebastian guenther | research • software • engineering">
+			<a id="logo" href="https://sgrse.de/" title="sgrse – sebastian guenther | research • software • engineering">
+				<img src="https://sgrse.de//assets/img/logo.png" alt="sgrse – sebastian guenther | research • software • engineering">
 			</a>
 		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->
@@ -355,7 +354,7 @@
 		
 
 
-<script src="https://s-guenther.github.io//assets/js/javascript.min.js"></script>
+<script src="https://sgrse.de//assets/js/javascript.min.js"></script>
 
 
 

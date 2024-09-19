@@ -2,9 +2,9 @@
 <?xml-stylesheet type="text/xsl" href="//assets/xslt/atom.xslt" ?>
 <?xml-stylesheet type="text/css" href="//assets/css/atom.css" ?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<id>https://s-guenther.github.io//</id>
+	<id>https://sgrse.de//</id>
 	<title>sgrse</title>
-	<updated>2024-09-19T13:54:44+00:00</updated>
+	<updated>2024-09-19T14:26:19+00:00</updated>
 
 	<subtitle>This describes my website on the footer</subtitle>
 
@@ -19,16 +19,16 @@
 		</author>
 	
 
-	<link href="https://s-guenther.github.io//atom.xml" rel="self" type="application/rss+xml" />
-	<link href="https://s-guenther.github.io//" rel="alternate" type="text/html" />
+	<link href="https://sgrse.de//atom.xml" rel="self" type="application/rss+xml" />
+	<link href="https://sgrse.de//" rel="alternate" type="text/html" />
 
 	<generator uri="http://jekyllrb.com" version="4.3.4">Jekyll</generator>
 
 	
 		<entry>
-			<id>https://s-guenther.github.io//service2/</id>
+			<id>https://sgrse.de//service2/</id>
 			<title>Service 2</title>
-			<link href="https://s-guenther.github.io//service2/" rel="alternate" type="text/html" title="Service 2" />
+			<link href="https://sgrse.de//service2/" rel="alternate" type="text/html" title="Service 2" />
 			<updated>2024-09-17T00:00:00+00:00</updated>
 
 			
@@ -46,7 +46,7 @@
 				</author>
 			
 			<summary>Here is a teaser description of my second service. &lt;strong&gt;Know that&lt;/strong&gt; content will be added over time.</summary>
-			<content type="html" xml:base="https://s-guenther.github.io//service2/">&lt;p&gt;This is the main text that allows for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;markdown&lt;/code&gt; formatting.&lt;/p&gt;
+			<content type="html" xml:base="https://sgrse.de//service2/">&lt;p&gt;This is the main text that allows for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;markdown&lt;/code&gt; formatting.&lt;/p&gt;
 
 &lt;!--
 ## Other Post Formats
@@ -79,9 +79,9 @@
 		</entry>
 	
 		<entry>
-			<id>https://s-guenther.github.io//service1/</id>
+			<id>https://sgrse.de//service1/</id>
 			<title>Service 1</title>
-			<link href="https://s-guenther.github.io//service1/" rel="alternate" type="text/html" title="Service 1" />
+			<link href="https://sgrse.de//service1/" rel="alternate" type="text/html" title="Service 1" />
 			<updated>2024-09-17T00:00:00+00:00</updated>
 
 			
@@ -99,7 +99,7 @@
 				</author>
 			
 			<summary>Here is a teaser description of my first service. &lt;strong&gt;Know that&lt;/strong&gt; content will be added over time.</summary>
-			<content type="html" xml:base="https://s-guenther.github.io//service1/">&lt;p&gt;This is the main text that allows for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;markdown&lt;/code&gt; formatting.&lt;/p&gt;
+			<content type="html" xml:base="https://sgrse.de//service1/">&lt;p&gt;This is the main text that allows for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;markdown&lt;/code&gt; formatting.&lt;/p&gt;
 
 &lt;!--
 ## Other Post Formats

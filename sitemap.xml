@@ -5,24 +5,9 @@
 
 	
 	<url>
-	<loc>https://s-guenther.github.io//404.html</loc>
+	<loc>https://sgrse.de//404.html</loc>
 	
-		<lastmod>2024-09-19T13:54:44+00:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://s-guenther.github.io//about/</loc>
-	
-		<lastmod>2024-09-19T13:54:44+00:00</lastmod>
+		<lastmod>2024-09-19T14:26:19+00:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -35,9 +20,9 @@
 
 	
 	<url>
-	<loc>https://s-guenther.github.io//blog/archive/</loc>
+	<loc>https://sgrse.de//about/</loc>
 	
-		<lastmod>2024-09-19T13:54:44+00:00</lastmod>
+		<lastmod>2024-09-19T14:26:19+00:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -49,12 +34,10 @@
 	
 
 	
-
-	
 	<url>
-	<loc>https://s-guenther.github.io//atom.xml</loc>
+	<loc>https://sgrse.de//blog/archive/</loc>
 	
-		<lastmod>2024-09-19T13:54:44+00:00</lastmod>
+		<lastmod>2024-09-19T14:26:19+00:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -69,208 +52,9 @@
 
 	
 	<url>
-	<loc>https://s-guenther.github.io//contact/</loc>
+	<loc>https://sgrse.de//atom.xml</loc>
 	
-		<lastmod>2024-09-19T13:54:44+00:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://s-guenther.github.io//feed.xml</loc>
-	
-		<lastmod>2024-09-19T13:54:44+00:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://s-guenther.github.io//flywheel/</loc>
-	
-		<lastmod>2024-09-19T13:54:44+00:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://s-guenther.github.io//hardware-prototyping/</loc>
-	
-		<lastmod>2024-09-19T13:54:44+00:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://s-guenther.github.io//humans.txt</loc>
-	
-		<lastmod>2024-09-19T13:54:44+00:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://s-guenther.github.io//blog/</loc>
-	
-		<lastmod>2024-09-19T13:54:44+00:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://s-guenther.github.io//</loc>
-	
-		<lastmod>2024-09-19T13:54:44+00:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://s-guenther.github.io//portfolio/</loc>
-	
-		<lastmod>2024-09-19T13:54:44+00:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://s-guenther.github.io//redirect-page/</loc>
-	
-		<lastmod>2024-09-19T13:54:44+00:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://s-guenther.github.io//research-software/</loc>
-	
-		<lastmod>2024-09-19T13:54:44+00:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://s-guenther.github.io//robots.txt</loc>
-	
-		<lastmod>2024-09-19T13:54:44+00:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-
-	
-
-	
-	<url>
-	<loc>https://s-guenther.github.io//scientific-computing/</loc>
-	
-		<lastmod>2024-09-19T13:54:44+00:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://s-guenther.github.io//services/</loc>
-	
-		<lastmod>2024-09-19T13:54:44+00:00</lastmod>
-	
-	
-		<changefreq>monthly</changefreq>
-	
-	
-		<priority>0.3</priority>
-	
-	</url>
-	
-
-	
-	<url>
-	<loc>https://s-guenther.github.io//sitemap.xml</loc>
-	
-		<lastmod>2024-09-19T13:54:44+00:00</lastmod>
+		<lastmod>2024-09-19T14:26:19+00:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -285,9 +69,225 @@
 
 	
 	<url>
-	<loc>https://s-guenther.github.io//wind-farm/</loc>
+	<loc>https://sgrse.de//contact/</loc>
 	
-		<lastmod>2024-09-19T13:54:44+00:00</lastmod>
+		<lastmod>2024-09-19T14:26:19+00:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://sgrse.de//feed.xml</loc>
+	
+		<lastmod>2024-09-19T14:26:19+00:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://sgrse.de//flywheel/</loc>
+	
+		<lastmod>2024-09-19T14:26:19+00:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://sgrse.de//hardware-prototyping/</loc>
+	
+		<lastmod>2024-09-19T14:26:19+00:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://sgrse.de//humans.txt</loc>
+	
+		<lastmod>2024-09-19T14:26:19+00:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://sgrse.de//blog/</loc>
+	
+		<lastmod>2024-09-19T14:26:19+00:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://sgrse.de//</loc>
+	
+		<lastmod>2024-09-19T14:26:19+00:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://sgrse.de//portfolio/</loc>
+	
+		<lastmod>2024-09-19T14:26:19+00:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://sgrse.de//redirect-page/</loc>
+	
+		<lastmod>2024-09-19T14:26:19+00:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://sgrse.de//research-software/</loc>
+	
+		<lastmod>2024-09-19T14:26:19+00:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://sgrse.de//robots.txt</loc>
+	
+		<lastmod>2024-09-19T14:26:19+00:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+
+	
+
+	
+	<url>
+	<loc>https://sgrse.de//scientific-computing/</loc>
+	
+		<lastmod>2024-09-19T14:26:19+00:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://sgrse.de//services/</loc>
+	
+		<lastmod>2024-09-19T14:26:19+00:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://sgrse.de//sitemap.xml</loc>
+	
+		<lastmod>2024-09-19T14:26:19+00:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+
+	
+	<url>
+	<loc>https://sgrse.de//wind-farm/</loc>
+	
+		<lastmod>2024-09-19T14:26:19+00:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -307,7 +307,7 @@
 
 	
 	<url>
-	<loc>https://s-guenther.github.io//service2/</loc>
+	<loc>https://sgrse.de//service2/</loc>
 	
 		<lastmod>2024-09-17T00:00:00+00:00</lastmod>
 	
@@ -322,7 +322,7 @@
 
 	
 	<url>
-	<loc>https://s-guenther.github.io//service1/</loc>
+	<loc>https://sgrse.de//service1/</loc>
 	
 		<lastmod>2024-09-17T00:00:00+00:00</lastmod>
 	

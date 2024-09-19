@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://s-guenther.github.io//sitemap.xml
+Sitemap: https://sgrse.de//sitemap.xml
