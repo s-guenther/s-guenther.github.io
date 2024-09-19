@@ -1,23 +1,36 @@
 ---
-layout              : page-fullwidth
+layout: frontpage
 header: no
-show_meta           : false
-title               : "Services Main Page"
-subheadline         : "Services subheadline"
-teaser              : "Services Teaser"
-# header:
-#     image_fullwidth  : "header_homepage_13.jpg"
-permalink           : "/services/"
+widget1:
+  title: "Research Software"
+  url: '/research-software/'
+  # image: logo_sgrse_banner.jpg
+  text: 'Custom software tools tailored to your unique challenges, integrating cutting-edge research into ready-to-deploy and production-ready solutions.'
+widget2:
+  title: "Scientific Computing"
+  url: '/scientific-computing/'
+  # image: widget-1-302x182.jpg
+  text: 'Data science workflows, high-performance computing, modeling, simulation, and optimization to drive complex analyses and decision-making. '
+widget3:
+  title: "Hardware Prototyping"
+  url: '/hardware-prototyping/'
+  # image: widget-github-303x182.jpg
+  text: 'Development of custom mechatronic and electromechanical prototypes, turning innovative concepts into functional hardware.'
+#
+# Use the call for action to show a button on the frontpage
+#
+# To make internal links, just use a permalink like this
+# url: /getting-started/
+#
+# To style the button in different colors, use no value
+# to use the main color or success, alert or secondary.
+# To change colors see sass/_01_settings_colors.scss
+#
+permalink: /services/
+
+#
+# This is a nasty hack to make the navigation highlight
+# this page as active in the topbar navigation
+#
+homepage: true
 ---
-
-Here starts `markdown` content. You can see my
-
-- First service: [link]({{ site.url }}{{ site.baseurl }}/service1/)
-- Second service: [link]({{ site.url }}{{ site.baseurl }}/service2/)
-
-<!--
-<a class="radius button small" href="{{ site.url }}{{ site.baseurl }}/documentation/">Check out the documentation for all the tricks ›</a>
-
-
- [1]: {{ site.url }}{{ site.baseurl }}/documentation/
--->

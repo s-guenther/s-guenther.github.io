@@ -9,17 +9,17 @@ header:
   image_fullwidth: logo_sgrse_banner.svg
 widget1:
   title: "Research Software"
-  url: '{{ site.url }}{{ site.baseurl }}/research-software/'
+  url: '/research-software/'
   # image: logo_sgrse_banner.jpg
   text: 'Custom software tools tailored to your unique challenges, integrating cutting-edge research into ready-to-deploy and production-ready solutions.'
 widget2:
   title: "Scientific Computing"
-  url: '{{ site.url }}{{ site.baseurl }}/scientific-computing/'
+  url: '/scientific-computing/'
   # image: widget-1-302x182.jpg
   text: 'Data science workflows, high-performance computing, modeling, simulation, and optimization to drive complex analyses and decision-making. '
 widget3:
   title: "Hardware Prototyping"
-  url: '{{ site.url }}{{ site.baseurl }}/hardware-prototyping/'
+  url: '/hardware-prototyping/'
   # image: widget-github-303x182.jpg
   text: 'Development of custom mechatronic and electromechanical prototypes, turning innovative concepts into functional hardware.'
 #
@@ -33,7 +33,7 @@ widget3:
 # To change colors see sass/_01_settings_colors.scss
 #
 callforaction:
-  url: '{{ site.url }}{{ site.baseurl }}/portfolio/'
+  url: '/portfolio/'
   text: This sounds abstract? Have a look at concrete projects.
   style: info
 permalink: /index.html

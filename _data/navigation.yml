@@ -2,21 +2,25 @@
   url: "/services/"
   side: left
   dropdown:
-  - title: "Service 1"
-    url: "/service1/"
-  - title: "Service 2"
-    url: "/service2/"
+  - title: "Research Software"
+    url: "/research-software/"
+  - title: "Scientific Computing"
+    url: "/scientific-computing/"
+  - title: "Hardware Prototyping"
+    url: "/hardware-prototyping/"
 
-- title: About
-  url: "/about/"
+- title: "Portfolio"
+  url: "/portfolio/"
+  dropdown:
+  - title: "Flywheel Energy Storage"
+    url: "/flywheel/"
+  - title: "Wind Farm"
+    url: "/wind-farm/"
   side: left
 
-# - title: Blog
-#   url: "/blog/"
-#   side: left
-#   dropdown:
-#   - title: "Blog Archive"
-#     url: "/blog/archive/"
+- title: "About Me"
+  url: "/about/"
+  side: left
 
 - title: "Contact"
   url: "/contact/"
