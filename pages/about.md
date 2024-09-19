@@ -1,11 +1,10 @@
 ---
-layout              : page
+layout              : page-fullwidth
+header: no
 show_meta           : false
 title               : "About"
 subheadline         : "About subheadline"
 teaser              : "This is a teaser for the about page"
-header:
-   image_fullwidth  : "header_homepage_13.jpg"
 permalink           : "/about/"
 ---
 

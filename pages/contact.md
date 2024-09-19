@@ -1,5 +1,7 @@
 ---
 layout              : page
+header:
+  image_fullwidth: logo_sgrse_banner.svg
 title               : "Contact"
 meta_title          : "Contact meta-title"
 subheadline         : "Contact subheadline"

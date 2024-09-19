@@ -1,5 +1,6 @@
 ---
-layout              : page
+layout              : page-fullwidth
+header: no
 show_meta           : false
 title               : "Services Main Page"
 subheadline         : "Services subheadline"

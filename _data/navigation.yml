@@ -1,7 +1,3 @@
-- title: sgrse
-  url: "/"
-  side: left
-
 - title: "Services"
   url: "/services/"
   side: left
