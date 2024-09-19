@@ -155,7 +155,7 @@
             
 
               <li class="has-dropdown">
-                <a  href="https://sgrse.de//portfolio/">Portfolio</a>
+                <a  href="https://sgrse.de//projects/">Projects</a>
 
                   <ul class="dropdown">
                     
@@ -335,15 +335,15 @@
           <section id="subfooter-right" class="small-12 medium-6 columns">
             <ul class="inline-list social-icons">
             
-              <li><a href="https://s-guenther.github.io/contact" target="_blank" class="icon-message" title="Phone +49 160 9160 9708"></a></li>
+              <li><a href="tel:+4916091609708" target="_blank" class="icon-message" title="Phone +49 160 9160 9708"></a></li>
             
-              <li><a href="https://s-guenther.github.io/contact" target="_blank" class="icon-mail" title="Email info@sgrse.com"></a></li>
-            
-              <li><a href="https://s-guenther.github.io" target="_blank" class="icon-home" title="Website"></a></li>
+              <li><a href="mailto:info@sgrse.de" target="_blank" class="icon-mail" title="Email info@sgrse.com"></a></li>
             
               <li><a href="https://linkedin.com/in/guenther-sebastian" target="_blank" class="icon-linkedin" title="LinkedIn"></a></li>
             
               <li><a href="https://github.com/s-guenther" target="_blank" class="icon-github" title="GitHub"></a></li>
+            
+              <li><a href="https://s-guenther.github.io" target="_blank" class="icon-home" title="Website"></a></li>
             
             </ul>
           </section>
