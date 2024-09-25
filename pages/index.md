@@ -45,7 +45,7 @@ permalink: /index.html
 homepage: true
 ---
 
-**Tailored solutions for complex computational challenges**
+**Tailored software solutions for complex computational challenges**
 
 ---
 

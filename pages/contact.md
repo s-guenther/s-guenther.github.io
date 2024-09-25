@@ -17,11 +17,3 @@ permalink           : "/contact/"
 [+49 160 9160 9708](tel:+49 160 9160 9708)\
 [info@sgrse.de](mailto:info@sgrse.de)\
 [linkedin.com/in/guenther-sebastian](linkedin.com/in/guenther-sebastian)
-
----
-
-<p style="font-size:0.75em;">
-Sebastian Günther<br>
-Wittekamp 21<br>
-30163 Hannover
-</p>
