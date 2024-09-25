@@ -18,13 +18,20 @@ description: 'This describes my website on the footer'
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
 credits: '<p style="text-align: center; margin: 0;">sebastian guenther | research •
-software • engineering</p><p style="font-size:0.75em; text-align: center;
+software • engineering</p><p style="font-size:0.65em; text-align: center;
 margin-top: 0">Created with <a href="http://jekyllrb.com/"
 target="_blank">Jekyll</a> and hosted with <a
 href="https://github.com/s-guenther/s-guenther.github.io" target="_blank">GitHub
 Pages</a>. Website template based on <a
 href="http://phlow.github.io/feeling-responsive/" target="_blank">Feeling Responsive</a> by <a
-href="http://phlow.de/" target=_blank>Phlow</a>.</p>' 
+href="http://phlow.de/" target=_blank>Phlow</a>.</p>'
+
+# Text on the right footer below the social icons
+credits2: '<p style="font-size:0.65em; text-align: center;
+margin-top: 0em">
+<a href="/impressum/">Impressum</a> |
+<a href="/datenschutz/">Datenschutz</a> |
+<a href="/sitemap.xml/">Sitemap</a></p>'
 
 # Main author of the website
 # See > authors.yml

@@ -6,14 +6,17 @@ layout: compress
 <head>
 	{% include _head.html %}
 </head>
-<body id="top-of-page" class="{{ layout.format }}">
-	{% unless page.skip_boilerplate %}
-	{% include _navigation.html %}
-	{% endunless %}
+<body id="top-of-page" class="{{ layout.format }}" style="display: flex; flex-direction: column; min-height: 100vh;">
+	<div id="page-wrapper" style="flex: 1;">
+		{% unless page.skip_boilerplate %}
+		{% include _navigation.html %}
+		{% endunless %}
 
-	{% include _masthead.html %}
-	{{ content }}
+		{% include _masthead.html %}
+		{{ content }}
+	</div>
 
+	<!-- Footer (which will stay at the bottom) -->
 	{% unless page.skip_boilerplate %}
 	{% include _footer.html %}
 	{% endunless %}
