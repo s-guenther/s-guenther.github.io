@@ -59,6 +59,25 @@ body.video cite { color: #fff; }
     width: auto;
 }
 
+/* next-previouis-in-projects macro
+------------------------------------------------------------------- */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Ensures buttons wrap if the container gets too narrow */
+  }
+  
+  .button-container a {
+    margin: 0 0px; /* No spacing between buttons */
+  }
+  
+  /* Optional: If you want the right-aligned button at the end */
+  .button-container .right {
+    margin-left: auto; /* Pushes the right button to the right side */
+  }
+
+
 /* Search
 ------------------------------------------------------------------- */
 

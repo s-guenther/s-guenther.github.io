@@ -44,13 +44,34 @@
           {% if link.side == 'left' %}
 
             {% comment %}   If left side WITHOUT dropdown menu do   {% endcomment %}
+            <!-- No dropdown menu -->
             {% if link.dropdown == nil %}
               <li{% if link.url == page.url %} class="active"{% elsif page.homepage == true and link.url == '/' %} class="active"{% endif %}><a {% if link.class %}class="{{link.class}}"{% endif %} href="{{ domain }}{{ _baseurl }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a></li>
               <li class="divider"></li>
 
             {% comment %}   If left side WITH dropdown menu do   {% endcomment %}
-            {% else %}
+            <!-- Dynamic auto-projects dropdown menu from YAML file -->
+            {% elsif link.dropdown  == 'auto-projects' %}
+              <li class="has-dropdown{% if link.url == page.url %} active{% endif %}">
+                <a {% if link.class %}class="{{link.class}}"{% endif %} href="{{ domain }}{{ _baseurl }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a>
 
+                  <ul class="dropdown">
+                    {% for dropdown_link in site.posts %}
+
+                      {% if dropdown_link.url contains 'http' %}
+                        {% assign domain = '' %}
+                        {% else %}
+                        {% assign domain = site.url %}
+                      {% endif %}
+
+                      <li><a {% if dropdown_link.class %}class="{{dropdown_link.class}}"{% endif %} href="{{ domain }}{{ _baseurl }}{{ dropdown_link.url }}"{% if dropdown_link.url contains 'http' %} target="_blank"{% endif %}>{{ dropdown_link.title | escape }}</a></li>
+                    {% endfor %}
+                  </ul>
+
+              </li>
+              <li class="divider"></li>
+            <!-- Static dropdown menu from YAML file -->
+            {% else %}
               <li class="has-dropdown{% if link.url == page.url %} active{% endif %}">
                 <a {% if link.class %}class="{{link.class}}"{% endif %} href="{{ domain }}{{ _baseurl }}{{ link.url }}"{% if link.url contains 'http' %} target="_blank"{% endif %}>{{ link.title | escape }}</a>
 

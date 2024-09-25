@@ -11,12 +11,8 @@
 
 - title: "Projects"
   url: "/projects/"
-  dropdown:
-  - title: "Flywheel Energy Storage"
-    url: "/flywheel/"
-  - title: "Wind Farm"
-    url: "/wind-farm/"
   side: left
+  dropdown: "auto-projects"
 
 - title: "About Me"
   url: "/about/"

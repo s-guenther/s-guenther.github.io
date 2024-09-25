@@ -1,0 +1,44 @@
+{% comment %}
+*
+* This include creates a next/previous link to a post of the same category
+* using the categories-variable in front matter.
+*
+* Use ›  {% include next-previous-post-in-category %}
+*
+{% endcomment %}
+
+
+{% comment %}
+*
+* assign FIRST category from categories variable from front matter to cat
+* and make a string from the array by using › join: ''
+*
+{% endcomment %}
+
+{% assign cat = page.categories | first | join: '' %}
+{% for post in site.categories.[cat] %}
+{% if post.url == page.url %}
+{% assign post_index0 = forloop.index0 %}
+{% assign post_index1 = forloop.index %}
+{% endif %}
+{% endfor %}
+{% for post in site.categories.[cat] %}
+{% if post_index0 == forloop.index %}
+{% assign next_post = post.url %}
+{% assign next_post_name = post.title %}
+{% endif %}
+{% if post_index1 == forloop.index0 %}
+{% assign prev_post = post.url %}
+{% assign prev_post_name = post.title %}
+{% endif %}
+{% endfor %}
+
+<div class="button-container">
+{% if prev_post %}
+<a class="left button tiny radius icon-chevron-left r15" href="{{site.url}}{{site.baseurl}}{{ prev_post }}">{{ prev_post_name }}</a>
+{% endif %}
+{% if next_post %}
+<a class="button tiny radius" href="{{site.url}}{{site.baseurl}}{{ next_post }}">{{ next_post_name }}<span class="icon-chevron-right"></span></a>
+{% endif %}
+<a class="right button tiny radius" href="{{site.url}}{{site.baseurl}}/projects/">Project Overview</a>
+</div>
