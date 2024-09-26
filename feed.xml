@@ -50,8 +50,7 @@ exchange with existing systems. Developed with Python and incorporating linear
 programming and optimization algorithms, the tool is computationally efficient
 and capable of handling large datasets.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;This site is still under construction. Drop by occasionally and stay tuned for
-updates.&lt;/em&gt;&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;div class=&quot;button-container&quot;&gt;
 
@@ -68,8 +67,34 @@ updates.&lt;/em&gt;&lt;/p&gt;
 				<title>Green Residential Area</title>
 				<link>https://sgrse.de//projects/green-residential-area/</link>
 				<pubDate>Tue, 24 Sep 2024 00:00:00 +0000</pubDate>
-				<description>&lt;p&gt;&lt;em&gt;This site is still under construction. Drop by occasionally and stay tuned for
-updates.&lt;/em&gt;&lt;/p&gt;
+				<description>&lt;p&gt;This project aimed to develop an optimized
+energy model for a sustainable residential community. The project explored
+various scenarios to balance energy efficiency with renewable energy
+integration, focusing on heating, cooling, and electricity demands. It analyzed
+how different building types, insulation standards, and renewable energy sources
+like photovoltaic (PV) systems could impact energy use.&lt;/p&gt;
+
+&lt;p&gt;Detailed consumption profiles for electricity, heating, and hot water were
+generated through simulations, creating time-resolved power consumption and
+generation profiles for a thorough analysis of the community’s energy needs. 
+Beyond matching energy use with production, the project investigated how energy
+storage and demand-side management could maximize self-consumption and reduce
+grid dependence. Adjusting energy use, such as shifting tasks to periods of high
+PV generation, helped align demand with production.&lt;/p&gt;
+
+&lt;p&gt;Energy storage for electricity and heat, along with combined heat and power
+(CHP) units, were also explored to further reduce energy imports and ensure a
+stable power supply for the community. 
+The simulations provided valuable insights into varying input parameters,
+helping to design a flexible system that can adapt to weather fluctuations or
+different energy demands.&lt;/p&gt;
+
+&lt;p&gt;Overall, the project demonstrates how smart
+energy planning, renewable energy, and storage solutions can create efficient,
+self-sustaining residential areas that contribute significantly to the energy
+transition.&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;div class=&quot;button-container&quot;&gt;
 
@@ -128,8 +153,7 @@ overspeed, were integrated into the design to minimize the risk of failure. The
 system’s housing and auxiliary equipment provide robust protection, while
 maintaining a relatively compact form factor.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;This site is still under construction. Drop by occasionally and stay tuned for
-updates.&lt;/em&gt;&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;div class=&quot;button-container&quot;&gt;
 
@@ -148,8 +172,38 @@ updates.&lt;/em&gt;&lt;/p&gt;
 				<title>Tram System</title>
 				<link>https://sgrse.de//projects/tram-system/</link>
 				<pubDate>Sun, 22 Sep 2024 00:00:00 +0000</pubDate>
-				<description>&lt;p&gt;&lt;em&gt;This site is still under construction. Drop by occasionally and stay tuned for
-updates.&lt;/em&gt;&lt;/p&gt;
+				<description>&lt;p&gt;The project involves the development and optimization of a MATLAB/Simulink/SimPowerSystems
+program to simulate electrical tram networks, which is adaptable to other
+networks such as factories that either operate with either AC or DC power. The system
+is designed with modularity in mind, allowing for easy scalability, detailed
+calculation of route energy requirements (accounting for height and curve
+profiles), and flexible integration of Simulink libraries and block-based
+construction for adjustments and improvements.&lt;/p&gt;
+
+&lt;p&gt;Key features include the ability to optimize the placement and sizing of
+flywheel energy storage systems, which enhance energy savings by storing and
+discharging energy at appropriate times. The simulation is highly customizable,
+offering adjustable simulation accuracy, external model generation via XML, and
+effective post-processing of simulation data. The simulation allows for precise
+timetable and load cycle creation in a tabular format and considers the
+influence of energy sources, including substation positioning and the direction
+of tram movement on either track.&lt;/p&gt;
+
+&lt;p&gt;The project utilizes MATLAB functions to generate train schedules, manage
+simulation data, and control the flow of information between SimPowerSystems and
+external modules. It also automates the block and model generation in
+Simulink/SimPowerSystems based on track and network data provided via XML,
+ensuring seamless integration of electrical and mechanical models. This
+high-level markup file approach simplifies the customization of complex track
+systems.&lt;/p&gt;
+
+&lt;p&gt;The placement and sizing of energy storage systems along the tram network are
+optimized using external genetic and evolutionary algorithms, which interface
+with MATLAB through XML. This design allows for flexible modifications and
+enhancements, making the program a powerful tool for energy management in tram
+systems.&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;div class=&quot;button-container&quot;&gt;
 
@@ -209,15 +263,14 @@ The system’s ability to handle automated measurement cycles offers a scalable
 solution that bridges the gap between manual measurements and high-end
 commercial systems.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;This site is still under construction. Drop by occasionally and stay tuned for
-updates.&lt;/em&gt;&lt;/p&gt;
+&lt;hr /&gt;
 
 &lt;div class=&quot;button-container&quot;&gt;
 
 &lt;a class=&quot;left button tiny radius icon-chevron-left r15&quot; href=&quot;https://sgrse.de//projects/tram-system/&quot;&gt;Tram System&lt;/a&gt;
 
 
-&lt;a class=&quot;left button tiny radius&quot; href=&quot;https://sgrse.de//projects/others/&quot;&gt;Further Projects&lt;span class=&quot;icon-chevron-right&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+&lt;a class=&quot;left button tiny radius&quot; href=&quot;https://sgrse.de//projects/others/&quot;&gt;Further Service Examples&lt;span class=&quot;icon-chevron-right&quot;&gt;&lt;/span&gt;&lt;/a&gt;
 
 &lt;a class=&quot;right button tiny radius&quot; href=&quot;https://sgrse.de//projects/&quot;&gt;Project Overview&lt;/a&gt;
 &lt;/div&gt;
@@ -226,11 +279,74 @@ updates.&lt;/em&gt;&lt;/p&gt;
 			</item>
 		
 			<item>
-				<title>Further Projects</title>
+				<title>Further Service Examples</title>
 				<link>https://sgrse.de//projects/others/</link>
 				<pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
-				<description>&lt;p&gt;&lt;em&gt;This site is still under construction. Drop by occasionally and stay tuned for
-updates.&lt;/em&gt;&lt;/p&gt;
+				<description>&lt;h4 id=&quot;core-services&quot;&gt;Core Services&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Scaling calculations on high-performance computers (HPC).&lt;/li&gt;
+  &lt;li&gt;Accelerating existing models through refactoring with more efficient
+algorithms or programming languages.&lt;/li&gt;
+  &lt;li&gt;Optimizing energy management in smart grids with machine learning
+algorithms.&lt;/li&gt;
+  &lt;li&gt;Developing load forecasting algorithms for microgrids&lt;/li&gt;
+  &lt;li&gt;Development of a supervisory agent controlling an autonomous fleet in
+warehouses using model-predictive control.&lt;/li&gt;
+  &lt;li&gt;Implementing machine learning algorithms for pattern recognition in large
+datasets to detect anomalies in production processes early.&lt;/li&gt;
+  &lt;li&gt;Creating digital twins for monitoring and optimizing production systems.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;related-activities&quot;&gt;Related Activities&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Supporting project teams at the intersection of research and software
+development.&lt;/li&gt;
+  &lt;li&gt;Transitioning a prototype project into a university-supported research
+project and developing a research funding proposal.&lt;/li&gt;
+  &lt;li&gt;Facilitating knowledge transfer between research institutes and industry
+partners.&lt;/li&gt;
+  &lt;li&gt;Conducting feasibility studies for new technological approaches.&lt;/li&gt;
+  &lt;li&gt;Providing lectures and training.&lt;/li&gt;
+  &lt;li&gt;Consulting and advising on improving the software architecture of existing
+systems.&lt;/li&gt;
+  &lt;li&gt;Advising on integrating artificial intelligence into existing production
+processes.&lt;/li&gt;
+  &lt;li&gt;Creating white papers and studies on new technological developments and
+their applications.&lt;/li&gt;
+  &lt;li&gt;Strategic consulting for planning and implementing digital transformation
+projects.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;prototyping-for-mechatronic-systems&quot;&gt;Prototyping for Mechatronic Systems&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Prototyping automated test stands for quality assurance.&lt;/li&gt;
+  &lt;li&gt;Designing intelligent sensor-actuator systems.&lt;/li&gt;
+  &lt;li&gt;Developing integrated sensor modules for machine and plant monitoring.&lt;/li&gt;
+  &lt;li&gt;Building robotic assistance systems for manual manufacturing.&lt;/li&gt;
+  &lt;li&gt;Developing adaptive damping systems to reduce vibrations in components.&lt;/li&gt;
+  &lt;li&gt;Creating smart components with piezoceramics and adaptive systems.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;excluded-services&quot;&gt;Excluded Services&lt;/h4&gt;
+
+&lt;p&gt;Standard tasks such as:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Designing photovoltaic systems for residential buildings.&lt;/li&gt;
+  &lt;li&gt;Designing PID controllers for standardized process chains.&lt;/li&gt;
+  &lt;li&gt;GUI development for an existing CLI-based calculation tool.&lt;/li&gt;
+  &lt;li&gt;Developing simple database applications without analytical components.&lt;/li&gt;
+  &lt;li&gt;Dimensioning standard air conditioning systems for office buildings.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Although these tasks can be handled, there are specialized professionals who can
+perform them faster, cheaper, and better. Instead, I focus on challenges that
+require non-standardized modeling and unique solutions.&lt;/p&gt;
+
+&lt;hr /&gt;
 
 &lt;div class=&quot;button-container&quot;&gt;
 
