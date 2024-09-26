@@ -163,7 +163,7 @@
 
                       
 
-                      <li><a  href="https://sgrse.de//projects/wind-park/">Wind Park</a></li>
+                      <li><a  href="https://sgrse.de//projects/wind-park/">Wind Farm</a></li>
                     
 
                       
