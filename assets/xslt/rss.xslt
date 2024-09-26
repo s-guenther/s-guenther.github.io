@@ -59,29 +59,30 @@
 
 	
 
-	
+	<link rel="icon" sizes="32x32" href="https://sgrse.de/assets/img/favicon-32x32.png">
+
+	<link rel="icon" sizes="192x192" href="https://sgrse.de/assets/img/touch-icon-192x192.png">
+
+	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://sgrse.de/assets/img/apple-touch-icon-180x180-precomposed.png">
+
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://sgrse.de/assets/img/apple-touch-icon-152x152-precomposed.png">
+
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://sgrse.de/assets/img/apple-touch-icon-144x144-precomposed.png">
+
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://sgrse.de/assets/img/apple-touch-icon-120x120-precomposed.png">
+
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://sgrse.de/assets/img/apple-touch-icon-114x114-precomposed.png">
 
 	
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://sgrse.de/assets/img/apple-touch-icon-76x76-precomposed.png">
 
-	
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://sgrse.de/assets/img/apple-touch-icon-72x72-precomposed.png">
 
-	
+	<link rel="apple-touch-icon-precomposed" href="https://sgrse.de/assets/img/apple-touch-icon-precomposed.png">	
 
-	
+	<meta name="msapplication-TileImage" content="https://sgrse.de/assets/img/msapplication_tileimage.png">
 
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
+	<meta name="msapplication-TileColor" content="#fabb00">
 
 
 	
@@ -116,8 +117,8 @@
           
 
             
+            <!-- No dropdown menu -->
             
-
               <li class="has-dropdown">
                 <a  href="https://sgrse.de//services/">Services</a>
 
@@ -152,8 +153,8 @@
           
 
             
+            <!-- No dropdown menu -->
             
-
               <li class="has-dropdown">
                 <a  href="https://sgrse.de//projects/">Projects</a>
 
@@ -162,17 +163,38 @@
 
                       
 
-                      <li><a  href="https://sgrse.de//flywheel/">Flywheel Energy Storage</a></li>
+                      <li><a  href="https://sgrse.de//projects/wind-park/">Wind Park</a></li>
                     
 
                       
 
-                      <li><a  href="https://sgrse.de//wind-farm/">Wind Farm</a></li>
+                      <li><a  href="https://sgrse.de//projects/green-residential-area/">Green Residential Area</a></li>
+                    
+
+                      
+
+                      <li><a  href="https://sgrse.de//projects/flywheel/">Flywheel</a></li>
+                    
+
+                      
+
+                      <li><a  href="https://sgrse.de//projects/tram-system/">Tram System</a></li>
+                    
+
+                      
+
+                      <li><a  href="https://sgrse.de//projects/rotary-table/">Rotary Table</a></li>
+                    
+
+                      
+
+                      <li><a  href="https://sgrse.de//projects/others/">Further Projects</a></li>
                     
                   </ul>
 
               </li>
               <li class="divider"></li>
+            <!-- Static dropdown menu from YAML file -->
             
           
         
@@ -183,11 +205,13 @@
           
 
             
+            <!-- No dropdown menu -->
             
               <li><a  href="https://sgrse.de//about/">About Me</a></li>
               <li class="divider"></li>
 
             
+            <!-- Dynamic auto-projects dropdown menu from YAML file -->
             
           
         
@@ -348,7 +372,7 @@
               
               <li style="padding: 0"></li>
             </ul><br>
-            <p style="font-size:0.65em; text-align: center; margin-top: 0em"> <a href="/impressum/">Impressum</a> | <a href="/datenschutz/">Datenschutz</a> | <a href="/sitemap.xml/">Sitemap</a></p>
+            <p style="font-size:0.65em; text-align: center; margin-top: 0em"> <a href="/impressum/">Impressum</a> | <a href="/datenschutz/">Datenschutz</a> | <a href="/sitemap.xml">Sitemap</a></p>
           </section>
         </nav>
       </div><!-- /#subfooter -->

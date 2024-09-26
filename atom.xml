@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://sgrse.de//</id>
 	<title>sgrse</title>
-	<updated>2024-09-25T07:13:14+00:00</updated>
+	<updated>2024-09-26T11:05:10+00:00</updated>
 
 	<subtitle>This describes my website on the footer</subtitle>
 
@@ -24,5 +24,259 @@
 
 	<generator uri="http://jekyllrb.com" version="4.3.4">Jekyll</generator>
 
+	
+		<entry>
+			<id>https://sgrse.de//projects/wind-park/</id>
+			<title>Wind Park</title>
+			<link href="https://sgrse.de//projects/wind-park/" rel="alternate" type="text/html" title="Wind Park" />
+			<updated>2024-09-25T00:00:00+00:00</updated>
+
+			
+				
+				<author>
+					
+						<name>Sebastian Günther</name>
+					
+					
+						<email>info@sgrse.de</email>
+					
+					
+						<uri>https://sgrse.de/</uri>
+					
+				</author>
+			
+			<summary>Dimensioning tool for energy storage for wind parks. Here is a lot of main page. </summary>
+			<content type="html" xml:base="https://sgrse.de//projects/wind-park/">&lt;p&gt;&lt;em&gt;This site is still under construction. Drop by occasionally and stay tuned for
+updates.&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;button-container&quot;&gt;
+
+
+&lt;a class=&quot;left button tiny radius&quot; href=&quot;https://sgrse.de//projects/green-residential-area/&quot;&gt;Green Residential Area&lt;span class=&quot;icon-chevron-right&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+
+&lt;a class=&quot;right button tiny radius&quot; href=&quot;https://sgrse.de//projects/&quot;&gt;Project Overview&lt;/a&gt;
+&lt;/div&gt;
+</content>
+
+			
+				<category term="projects" />
+			
+			
+
+			<published>2024-09-25T00:00:00+00:00</published>
+		</entry>
+	
+		<entry>
+			<id>https://sgrse.de//projects/green-residential-area/</id>
+			<title>Green Residential Area</title>
+			<link href="https://sgrse.de//projects/green-residential-area/" rel="alternate" type="text/html" title="Green Residential Area" />
+			<updated>2024-09-24T00:00:00+00:00</updated>
+
+			
+				
+				<author>
+					
+						<name>Sebastian Günther</name>
+					
+					
+						<email>info@sgrse.de</email>
+					
+					
+						<uri>https://sgrse.de/</uri>
+					
+				</author>
+			
+			<summary>Here follows Teaser text</summary>
+			<content type="html" xml:base="https://sgrse.de//projects/green-residential-area/">&lt;p&gt;&lt;em&gt;This site is still under construction. Drop by occasionally and stay tuned for
+updates.&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;button-container&quot;&gt;
+
+&lt;a class=&quot;left button tiny radius icon-chevron-left r15&quot; href=&quot;https://sgrse.de//projects/wind-park/&quot;&gt;Wind Park&lt;/a&gt;
+
+
+&lt;a class=&quot;left button tiny radius&quot; href=&quot;https://sgrse.de//projects/flywheel/&quot;&gt;Flywheel&lt;span class=&quot;icon-chevron-right&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+
+&lt;a class=&quot;right button tiny radius&quot; href=&quot;https://sgrse.de//projects/&quot;&gt;Project Overview&lt;/a&gt;
+&lt;/div&gt;
+</content>
+
+			
+				<category term="projects" />
+			
+			
+
+			<published>2024-09-24T00:00:00+00:00</published>
+		</entry>
+	
+		<entry>
+			<id>https://sgrse.de//projects/flywheel/</id>
+			<title>Flywheel</title>
+			<link href="https://sgrse.de//projects/flywheel/" rel="alternate" type="text/html" title="Flywheel" />
+			<updated>2024-09-23T00:00:00+00:00</updated>
+
+			
+				
+				<author>
+					
+						<name>Sebastian Günther</name>
+					
+					
+						<email>info@sgrse.de</email>
+					
+					
+						<uri>https://sgrse.de/</uri>
+					
+				</author>
+			
+			<summary>Academic Prototype</summary>
+			<content type="html" xml:base="https://sgrse.de//projects/flywheel/">&lt;p&gt;&lt;em&gt;This site is still under construction. Drop by occasionally and stay tuned for
+updates.&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;button-container&quot;&gt;
+
+&lt;a class=&quot;left button tiny radius icon-chevron-left r15&quot; href=&quot;https://sgrse.de//projects/green-residential-area/&quot;&gt;Green Residential Area&lt;/a&gt;
+
+
+&lt;a class=&quot;left button tiny radius&quot; href=&quot;https://sgrse.de//projects/tram-system/&quot;&gt;Tram System&lt;span class=&quot;icon-chevron-right&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+
+&lt;a class=&quot;right button tiny radius&quot; href=&quot;https://sgrse.de//projects/&quot;&gt;Project Overview&lt;/a&gt;
+&lt;/div&gt;
+</content>
+
+			
+				<category term="projects" />
+			
+			
+
+			<published>2024-09-23T00:00:00+00:00</published>
+		</entry>
+	
+		<entry>
+			<id>https://sgrse.de//projects/tram-system/</id>
+			<title>Tram System</title>
+			<link href="https://sgrse.de//projects/tram-system/" rel="alternate" type="text/html" title="Tram System" />
+			<updated>2024-09-22T00:00:00+00:00</updated>
+
+			
+				
+				<author>
+					
+						<name>Sebastian Günther</name>
+					
+					
+						<email>info@sgrse.de</email>
+					
+					
+						<uri>https://sgrse.de/</uri>
+					
+				</author>
+			
+			<summary>Here follows Teaser text</summary>
+			<content type="html" xml:base="https://sgrse.de//projects/tram-system/">&lt;p&gt;&lt;em&gt;This site is still under construction. Drop by occasionally and stay tuned for
+updates.&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;button-container&quot;&gt;
+
+&lt;a class=&quot;left button tiny radius icon-chevron-left r15&quot; href=&quot;https://sgrse.de//projects/flywheel/&quot;&gt;Flywheel&lt;/a&gt;
+
+
+&lt;a class=&quot;left button tiny radius&quot; href=&quot;https://sgrse.de//projects/rotary-table/&quot;&gt;Rotary Table&lt;span class=&quot;icon-chevron-right&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+
+&lt;a class=&quot;right button tiny radius&quot; href=&quot;https://sgrse.de//projects/&quot;&gt;Project Overview&lt;/a&gt;
+&lt;/div&gt;
+</content>
+
+			
+				<category term="projects" />
+			
+			
+
+			<published>2024-09-22T00:00:00+00:00</published>
+		</entry>
+	
+		<entry>
+			<id>https://sgrse.de//projects/rotary-table/</id>
+			<title>Rotary Table</title>
+			<link href="https://sgrse.de//projects/rotary-table/" rel="alternate" type="text/html" title="Rotary Table" />
+			<updated>2024-09-21T00:00:00+00:00</updated>
+
+			
+				
+				<author>
+					
+						<name>Sebastian Günther</name>
+					
+					
+						<email>info@sgrse.de</email>
+					
+					
+						<uri>https://sgrse.de/</uri>
+					
+				</author>
+			
+			<summary>Here follows Teaser text</summary>
+			<content type="html" xml:base="https://sgrse.de//projects/rotary-table/">&lt;p&gt;&lt;em&gt;This site is still under construction. Drop by occasionally and stay tuned for
+updates.&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;button-container&quot;&gt;
+
+&lt;a class=&quot;left button tiny radius icon-chevron-left r15&quot; href=&quot;https://sgrse.de//projects/tram-system/&quot;&gt;Tram System&lt;/a&gt;
+
+
+&lt;a class=&quot;left button tiny radius&quot; href=&quot;https://sgrse.de//projects/others/&quot;&gt;Further Projects&lt;span class=&quot;icon-chevron-right&quot;&gt;&lt;/span&gt;&lt;/a&gt;
+
+&lt;a class=&quot;right button tiny radius&quot; href=&quot;https://sgrse.de//projects/&quot;&gt;Project Overview&lt;/a&gt;
+&lt;/div&gt;
+</content>
+
+			
+				<category term="projects" />
+			
+			
+
+			<published>2024-09-21T00:00:00+00:00</published>
+		</entry>
+	
+		<entry>
+			<id>https://sgrse.de//projects/others/</id>
+			<title>Further Projects</title>
+			<link href="https://sgrse.de//projects/others/" rel="alternate" type="text/html" title="Further Projects" />
+			<updated>2024-09-20T00:00:00+00:00</updated>
+
+			
+				
+				<author>
+					
+						<name>Sebastian Günther</name>
+					
+					
+						<email>info@sgrse.de</email>
+					
+					
+						<uri>https://sgrse.de/</uri>
+					
+				</author>
+			
+			<summary>Teaser for further projects</summary>
+			<content type="html" xml:base="https://sgrse.de//projects/others/">&lt;p&gt;&lt;em&gt;This site is still under construction. Drop by occasionally and stay tuned for
+updates.&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;button-container&quot;&gt;
+
+&lt;a class=&quot;left button tiny radius icon-chevron-left r15&quot; href=&quot;https://sgrse.de//projects/rotary-table/&quot;&gt;Rotary Table&lt;/a&gt;
+
+
+&lt;a class=&quot;right button tiny radius&quot; href=&quot;https://sgrse.de//projects/&quot;&gt;Project Overview&lt;/a&gt;
+&lt;/div&gt;
+</content>
+
+			
+				<category term="projects" />
+			
+			
+
+			<published>2024-09-20T00:00:00+00:00</published>
+		</entry>
 	
 </feed>
