@@ -5,6 +5,8 @@ show_meta           : false
 title               : "About Me"
 #subheadline         : "Delivering Research-Driven Solutions with Deep Technical Expertise"
 teaser              : "Combining ten years of experience in engineering, research, and software development to bridge the gap between innovation and practical application."
+image:
+    title: about_me_wide.jpg
 permalink           : "/about/"
 ---
 
@@ -49,8 +51,11 @@ wind park operators and contributing to the design of a sustainable energy-plus
 housing community. I’ve also collaborated with organizations such as ecovillage
 Hannover eG and TII Energy, gaining valuable insights into energy storage
 technologies and industry requirements. 
+
 ---
 
-[Check out my services]({{ site.url }}/services/) or
+Check out my
+[services]({{ site.url }}/services/),
+[projects]({{ site.url }}/projects/), or
 [contact me]({{ site.url }}/contact/) to learn more.
 

@@ -7,6 +7,8 @@ title:  "Projects"
 teaser: "Overview over past projects"
 meta_teaser: "Some Additional Information"
 # breadcrumb: true
+image:
+    title: projects_pv.jpg
 permalink           : "/projects/"
 ---
 

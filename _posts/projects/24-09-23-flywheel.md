@@ -9,8 +9,8 @@ teaser: "Academic Prototype"
 categories:
     - projects
 image:
-    thumb: "dummy_project_thumb.jpg"
-    title: "dummy_project.jpg"
+    thumb: "projects/flywheel_thumb.jpg"
+    title: "projects/flywheel_wide.jpg"
 ---
 
 _This site is still under construction. Drop by occasionally and stay tuned for

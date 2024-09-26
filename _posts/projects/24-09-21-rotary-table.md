@@ -9,8 +9,8 @@ teaser: "Here follows Teaser text"
 categories:
     - projects
 image:
-    thumb: "dummy_project_thumb.jpg"
-    title: "dummy_project.jpg"
+    thumb: "projects/rotary_table_thumb.jpg"
+    title: "projects/rotary_table_wide.jpg"
 ---
 
 _This site is still under construction. Drop by occasionally and stay tuned for
