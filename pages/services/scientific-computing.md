@@ -23,7 +23,7 @@ architectures to handle massive datasets or computational workloads.
 
 I ensure efficient and
 scalable solutions. My experience spans key programming languages such as
-**Python**, **Julia**, **Rust*, and **Matlab**, enabling computational
+**Python**, **Julia**, **Rust**, and **Matlab**, enabling computational
 efficiency across fields like renewable energy for system simulations, energy
 storage, or forecasting.  
 I integrate parallel computing techniques and ensure all software is scalable,

@@ -1,9 +1,9 @@
 ---
 layout: page
 header: no
-subheadline: "Rotary Table for a Measurement System"
+subheadline: "A Rotary Table and Automation for a Measurement System"
 title:  "Rotary Table"
-teaser: "This project developed a numerically controlled rotary table integrated with a Laser Scanning Vibrometer for structural health monitoring. It automates the precise measurement of wave propagation in curved composite structures, such as carbon fiber reinforced polymers (CFRP). The system is  enables accurate and efficient data collection through automated measurement cycles." 
+teaser: "This project developed a numerically controlled rotary table integrated with a Laser Scanning Vibrometer for structural health monitoring. It automates the precise measurement of wave propagation in curved composite structures, such as carbon fiber reinforced polymers (CFRP). The system enables accurate and efficient data collection through automated measurement cycles." 
 # meta_teaser: "Meta-Teaser String"
 # breadcrumb: true
 categories:
@@ -54,7 +54,6 @@ The system’s ability to handle automated measurement cycles offers a scalable
 solution that bridges the gap between manual measurements and high-end
 commercial systems. 
 
-_This site is still under construction. Drop by occasionally and stay tuned for
-updates._
+---
 
 {% include next-previous-in-projects %}

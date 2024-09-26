@@ -4,7 +4,7 @@ format: blog-index
 header: no
 # subheadline: "Projects Main Page"
 title:  "Projects"
-teaser: "Overview over past projects"
+teaser: "Explore my portfolio featuring expertise in research software development, scientific computing, hardware prototyping, and energy systems. From simulating tram networks to developing flywheel energy storage systems, my projects demonstrate a focus on delivering scalable solutions for complex engineering challenges in both academic and industrial settings."
 meta_teaser: "Some Additional Information"
 # breadcrumb: true
 image:

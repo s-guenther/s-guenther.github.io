@@ -53,7 +53,6 @@ overspeed, were integrated into the design to minimize the risk of failure. The
 system’s housing and auxiliary equipment provide robust protection, while
 maintaining a relatively compact form factor. 
 
-_This site is still under construction. Drop by occasionally and stay tuned for
-updates._
+---
 
 {% include next-previous-in-projects %}

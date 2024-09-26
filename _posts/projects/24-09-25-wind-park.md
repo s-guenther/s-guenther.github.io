@@ -51,7 +51,6 @@ exchange with existing systems. Developed with Python and incorporating linear
 programming and optimization algorithms, the tool is computationally efficient
 and capable of handling large datasets. 
 
-_This site is still under construction. Drop by occasionally and stay tuned for
-updates._
+---
 
 {% include next-previous-in-projects %}

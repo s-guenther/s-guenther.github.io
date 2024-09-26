@@ -45,20 +45,20 @@ permalink: /index.html
 homepage: true
 ---
 
-**Tailored software solutions for complex computational challenges**
+##### Tailored software solutions for complex computational challenges
 
 ---
 
 I provide customized solutions for
 
 <p align="center">
-<strong>Modeling</strong>, <strong>Simulation</strong>, <strong>Optimization</strong>, and <strong>Machine Learning</strong>,
+<strong>Modeling</strong>, <strong>Simulation</strong>, <strong>Optimization</strong>, and <strong>Artificial Intelligence</strong>,
 </p>
 
 with a focus on:
 
 <p align="center">
-<strong>Renewable energy systems</strong>, <strong>Energy storage</strong>, and <strong>Infrastructure & transport</strong>.
+<strong>Renewable Energy Systems</strong>, <strong>Energy Storage</strong>, and <strong>Infrastructure & Transport</strong>.
 </p>
 
 With over 10 years of experience in research and development across
