@@ -10,4 +10,4 @@ end
 
 gem 'asciidoctor', '~> 1.5.4'
 gem 'coderay', '1.1.1'
-
+gem 'fontcustom', git: 'https://github.com/Silverfin-Engineering/fontcustom.git', branch: 'master'

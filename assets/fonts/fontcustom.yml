@@ -25,7 +25,7 @@ no_hash: true
 #force: true
 
 # Display (possibly useful) debugging messages.
-#debug: true
+debug: true
 
 # Hide status messages.
 #quiet: true

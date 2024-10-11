@@ -6,6 +6,7 @@
   font-family: "iconfont";
   src: url("./iconfont.eot");
   src: url("./iconfont.eot?#iefix") format("embedded-opentype"),
+       url("./iconfont.woff2") format("woff2"),
        url("./iconfont.woff") format("woff"),
        url("./iconfont.ttf") format("truetype"),
        url("./iconfont.svg#iconfont") format("svg");
@@ -47,7 +48,6 @@
 .icon-feather:before,
 .icon-github:before,
 .icon-globe:before,
-.icon-googleplus:before,
 .icon-heart:before,
 .icon-heart-outlined:before,
 .icon-home:before,
@@ -64,12 +64,15 @@
 .icon-price-tag:before,
 .icon-rocket:before,
 .icon-rss:before,
+.icon-sgrse:before,
 .icon-soundcloud:before,
 .icon-star:before,
 .icon-star-outlined:before,
+.icon-telephone:before,
 .icon-thumbs-down:before,
 .icon-thumbs-up:before,
 .icon-tree:before,
+.icon-tree-orig:before,
 .icon-tumblr:before,
 .icon-twitter:before,
 .icon-upload-to-cloud:before,
@@ -116,7 +119,6 @@
 .icon-feather:before { content: "\f114"; }
 .icon-github:before { content: "\f115"; }
 .icon-globe:before { content: "\f116"; }
-.icon-googleplus:before { content: "\f136"; }
 .icon-heart:before { content: "\f117"; }
 .icon-heart-outlined:before { content: "\f118"; }
 .icon-home:before { content: "\f119"; }
@@ -133,12 +135,15 @@
 .icon-price-tag:before { content: "\f124"; }
 .icon-rocket:before { content: "\f125"; }
 .icon-rss:before { content: "\f126"; }
+.icon-sgrse:before { content: "\f137"; }
 .icon-soundcloud:before { content: "\f127"; }
 .icon-star:before { content: "\f128"; }
 .icon-star-outlined:before { content: "\f129"; }
+.icon-telephone:before { content: "\f138"; }
 .icon-thumbs-down:before { content: "\f12a"; }
 .icon-thumbs-up:before { content: "\f12b"; }
 .icon-tree:before { content: "\f134"; }
+.icon-tree-orig:before { content: "\f139"; }
 .icon-tumblr:before { content: "\f12c"; }
 .icon-twitter:before { content: "\f12d"; }
 .icon-upload-to-cloud:before { content: "\f12e"; }
