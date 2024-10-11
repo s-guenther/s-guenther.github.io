@@ -16,7 +16,7 @@ permalink           : "/contact/"
 
 [+49 160 9160 9708](tel:+49 160 9160 9708)\
 [info@sgrse.de](mailto:info@sgrse.de)\
-[linkedin.com/in/guenther-sebastian](linkedin.com/in/guenther-sebastian)
+<a href="https://linkedin.com/in/guenther-sebastian" target="_blank">linkedin.com/in/guenther-sebastian</a>
 
 ---
 
