@@ -2,7 +2,7 @@
 # Theme documentation: https://blowfish.page/docs/configuration/
 
 theme = "blowfish"
-baseURL = "https://sgrse.de/"
+baseURL = "https://www.sgrse.de/"  # must match static/CNAME
 
 # German is the main language and lives at the root (/), English at /en/.
 defaultContentLanguage = "de"
