@@ -1,0 +1,12 @@
+---
+title: "Projects"
+description: "Selected projects from freelance work, industry, research and studies."
+# Applies to all project pages: no thumbnails in the list, photos only
+# on the project page itself.
+cascade:
+  hideFeatureImage: true
+---
+
+The first project comes from my freelance work since 2024. The others came
+earlier: during my doctorate, in an industry project alongside it, as a
+working student and in my theses. The setting is stated for each.
