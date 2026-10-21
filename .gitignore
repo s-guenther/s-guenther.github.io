@@ -1,10 +1,10 @@
-_site
-.bundle
-.DS_Store
-.jekyll-cache
-.jekyll-metadata
-.sass-cache
-Gemfile.lock
-vendor/
+# Hugo output and cache
+public/
+resources/_gen/
+.hugo_build.lock
+
+# Private, not part of the site
 __personal/
 CLAUDE.md
+
+.DS_Store

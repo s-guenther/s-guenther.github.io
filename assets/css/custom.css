@@ -1,0 +1,29 @@
+/* Site-specific adjustments on top of the Blowfish theme.
+   Loaded automatically by the theme. Keep this file short. */
+
+/* Header logo: the theme sizes SVG logos as a 5rem square; ours is wide. */
+.logo svg {
+  height: 3.25rem;
+  width: auto;
+}
+
+/* Homepage (profile layout): keep name and portrait centred, but set the
+   text below left-aligned so that lists read normally. */
+article.text-center > section.prose {
+  text-align: left;
+}
+
+/* Dark mode: lighten the two logo colours for contrast. */
+.dark .logo svg [style*="#3c667b"],
+.dark .logo svg [fill="#3c667b"] {
+  fill: rgb(var(--color-primary-300)) !important;
+}
+.dark .logo svg [style*="#00897c"],
+.dark .logo svg [fill="#00897c"] {
+  fill: rgb(var(--color-secondary-400)) !important;
+}
+
+/* Use the teal logo colour for link underlines in running text. */
+.prose a {
+  text-decoration-color: rgb(var(--color-secondary-500));
+}

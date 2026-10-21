@@ -1,0 +1,59 @@
+# -- Theme options --
+# Only options that differ from the theme defaults or matter for this site.
+# Full list: themes/blowfish/config/_default/params.toml
+# Documentation: https://blowfish.page/docs/configuration/#theme-parameters
+
+colorScheme = "sgrse"           # assets/css/schemes/sgrse.css (logo colours)
+defaultAppearance = "light"
+autoSwitchAppearance = true     # follow the visitor's light/dark setting
+
+enableSearch = false
+enableCodeCopy = false
+disableTextInHeader = true      # the logo already shows "sgrse"
+logo = "img/logo.svg"
+defaultSocialImage = "img/logo.svg"
+
+# Keep visitors on the language they chose; no automatic redirect.
+[languageRedirect]
+  enabled = false
+
+[header]
+  layout = "basic"
+
+[footer]
+  showMenu = true
+  showCopyright = true
+  showThemeAttribution = false
+  showAppearanceSwitcher = true
+  showScrollToTop = true
+
+[homepage]
+  layout = "profile"            # portrait, name, headline, links, then text
+  showRecent = false
+
+[article]
+  showDate = false
+  showAuthor = false
+  showHero = true
+  heroStyle = "basic"
+  showBreadcrumbs = false
+  showDraftLabel = true
+  showEdit = false
+  showHeadingAnchors = false
+  showPagination = false
+  showReadingTime = false
+  showTableOfContents = false
+  showTaxonomies = false
+  showWordCount = false
+  showRelatedContent = false
+  showZenMode = false
+
+[list]
+  showHero = false
+  showBreadcrumbs = false
+  showSummary = true
+  showTableOfContents = false
+  showCards = false
+  orderByWeight = true
+  groupByYear = false
+  cardView = false

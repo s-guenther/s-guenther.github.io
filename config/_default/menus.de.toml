@@ -1,0 +1,31 @@
+# -- Main menu (header) --
+[[main]]
+  name = "Leistungen"
+  pageRef = "services"
+  weight = 10
+
+[[main]]
+  name = "Projekte"
+  pageRef = "projects"
+  weight = 20
+
+[[main]]
+  name = "Über mich"
+  pageRef = "about"
+  weight = 30
+
+[[main]]
+  name = "Kontakt"
+  pageRef = "contact"
+  weight = 40
+
+# -- Footer menu --
+[[footer]]
+  name = "Impressum"
+  pageRef = "impressum"
+  weight = 10
+
+[[footer]]
+  name = "Datenschutz"
+  pageRef = "datenschutz"
+  weight = 20

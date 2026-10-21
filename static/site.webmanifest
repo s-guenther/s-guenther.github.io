@@ -1,0 +1,10 @@
+{
+  "name": "sgrse",
+  "short_name": "sgrse",
+  "icons": [
+    { "src": "/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png" }
+  ],
+  "theme_color": "#3c667b",
+  "background_color": "#ffffff",
+  "display": "browser"
+}

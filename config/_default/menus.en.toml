@@ -1,0 +1,32 @@
+# -- Main menu (header) --
+[[main]]
+  name = "Services"
+  pageRef = "services"
+  weight = 10
+
+[[main]]
+  name = "Projects"
+  pageRef = "projects"
+  weight = 20
+
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 30
+
+[[main]]
+  name = "Contact"
+  pageRef = "contact"
+  weight = 40
+
+# -- Footer menu --
+# The legal pages exist in German only.
+[[footer]]
+  name = "Impressum (Legal notice)"
+  url = "/impressum/"
+  weight = 10
+
+[[footer]]
+  name = "Datenschutz (Privacy)"
+  url = "/datenschutz/"
+  weight = 20

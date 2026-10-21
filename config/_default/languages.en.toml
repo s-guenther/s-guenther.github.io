@@ -1,0 +1,24 @@
+disabled = false
+locale = "en"
+label = "English"
+weight = 2
+title = "sgrse"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  description = "Sebastian Günther, engineer: modelling, simulation and data analysis for energy systems."
+  copyright = "© { year } Sebastian Günther"
+
+[params.author]
+  name = "Sebastian Günther"
+  image = "img/portrait.jpg"
+  headline = "Modelling, simulation and data analysis for energy systems"
+  links = [
+    { email = "mailto:info@sgrse.de" },
+    { phone = "tel:+4916091609708" },
+    { linkedin = "https://linkedin.com/in/guenther-sebastian" },
+    { github = "https://github.com/s-guenther" },
+  ]

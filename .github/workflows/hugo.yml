@@ -1,0 +1,40 @@
+# Build the Hugo site and publish it to the gh-pages branch, which GitHub
+# Pages serves at https://sgrse.de. Runs only on pushes to master.
+name: Hugo site
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code including the theme submodule
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Set up Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          # Keep within the range in themes/blowfish/config.toml
+          # ([module.hugoVersion]) and in sync with the local version.
+          hugo-version: "0.167.0"
+          extended: true
+
+      - name: Build
+        run: hugo --gc --minify
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: gh-pages

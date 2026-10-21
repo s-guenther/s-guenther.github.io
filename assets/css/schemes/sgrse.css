@@ -1,0 +1,43 @@
+/* sgrse scheme
+   Derived from the logo colours with tools/color_scale.py (OKLCH):
+   primary   = slate blue #3c667b ("sg" in the logo), shade 600
+   secondary = teal       #00897c ("rse" in the logo), shade 600
+   neutral   = cool grey with a slight blue tint
+               (python3 tools/color_scale.py neutral "#4a5860" 0.015)
+   Format required by Blowfish: RGB triplets, shades 50..900, no 950. */
+:root {
+  --color-neutral: 255, 255, 255;
+  /* neutral, anchored at 600 = #4a5860 */
+  --color-neutral-50: 245, 247, 248;
+  --color-neutral-100: 234, 237, 239;
+  --color-neutral-200: 214, 220, 223;
+  --color-neutral-300: 188, 198, 204;
+  --color-neutral-400: 156, 166, 173;
+  --color-neutral-500: 116, 126, 132;
+  --color-neutral-600: 78, 87, 93;
+  --color-neutral-700: 62, 71, 76;
+  --color-neutral-800: 46, 55, 60;
+  --color-neutral-900: 27, 35, 39;
+  /* primary, anchored at 600 = #3c667b */
+  --color-primary-50: 243, 248, 250;
+  --color-primary-100: 230, 238, 243;
+  --color-primary-200: 205, 222, 231;
+  --color-primary-300: 174, 201, 215;
+  --color-primary-400: 133, 171, 191;
+  --color-primary-500: 93, 136, 158;
+  --color-primary-600: 60, 102, 123;
+  --color-primary-700: 42, 79, 98;
+  --color-primary-800: 26, 58, 73;
+  --color-primary-900: 12, 37, 48;
+  /* secondary, anchored at 600 = #00897c */
+  --color-secondary-50: 240, 249, 247;
+  --color-secondary-100: 223, 242, 238;
+  --color-secondary-200: 192, 228, 221;
+  --color-secondary-300: 151, 210, 200;
+  --color-secondary-400: 93, 183, 170;
+  --color-secondary-500: 49, 161, 147;
+  --color-secondary-600: 0, 137, 124;
+  --color-secondary-700: 0, 99, 89;
+  --color-secondary-800: 0, 63, 56;
+  --color-secondary-900: 0, 40, 36;
+}

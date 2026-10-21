@@ -1,0 +1,19 @@
+# -- Markup --
+# Required by the theme (copied from themes/blowfish/config/_default).
+
+[goldmark]
+  [goldmark.parser]
+    wrapStandAloneImageWithinParagraph = false
+
+    [goldmark.parser.attribute]
+      block = true
+
+  [goldmark.renderer]
+    unsafe = true
+
+[highlight]
+  noClasses = false
+
+[tableOfContents]
+  startLevel = 2
+  endLevel = 3
