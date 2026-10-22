@@ -251,7 +251,8 @@ s-guenther.github.io/
 ```
 
 Generated or private, not in git: `public/` (build output),
-`resources/_gen/` (Hugo's image cache), `__personal/`, `CLAUDE.md`.
+`resources/_gen/` (Hugo's image cache), `__personal/`, `CLAUDE.md`, and the
+planning notes `todo_relaunch.md` and `design_plan.md`.
 
 ### 4.2 Content files
 

@@ -3,7 +3,8 @@
 For whoever continues work on the design or technical side of sgrse.de
 (the owner, another person, or an AI assistant). Status: design completed
 2026-10-22 on branch `hugo`. The plan and its history are in
-`design_plan.md`; the concepts are explained in `docs/hugo_guide.md`.
+`design_plan.md` (local only, git-ignored because it contains strategic
+notes); the concepts are explained in `docs/hugo_guide.md`.
 
 ## 1. Current state in one paragraph
 
