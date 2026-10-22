@@ -72,7 +72,7 @@ html {
 /* 3. Header -------------------------------------------------------------- */
 
 .sg-header-spacer {
-  height: 4.5rem;
+  height: 3.5rem;
 }
 .sg-header {
   background-color: rgb(var(--color-primary-600));
@@ -82,12 +82,12 @@ html {
   background-color: rgb(var(--color-primary-700));
 }
 .sg-header .main-menu {
-  min-height: 4.5rem;
+  min-height: 3.5rem;
 }
 
 /* Logo (white SVG); the theme sizes SVG logos as a 5rem square. */
 .logo svg {
-  height: 2.75rem;
+  height: 2.25rem;
   width: auto;
 }
 
@@ -132,7 +132,7 @@ html {
 .sg-footer {
   /* full viewport width although the footer sits in the page column */
   margin-inline: calc(50% - 50vw);
-  margin-top: 4rem;
+  margin-top: 3rem;
   background-color: rgb(var(--color-primary-600));
   color: #fff;
 }
@@ -144,7 +144,7 @@ html {
      px-6 sm:px-14 md:px-24 lg:px-32) */
   max-width: 80rem;
   margin: 0 auto;
-  padding: 2rem 1.5rem;
+  padding: 1.1rem 1.5rem;
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem 3rem;
@@ -155,9 +155,10 @@ html {
   font-size: 1rem;
   margin: 0;
 }
-.sg-footer-sep {
-  opacity: 0.6;
-  margin: 0 0.25em;
+.sg-footer-tagline {
+  font-size: 0.9rem;
+  margin: 0;
+  opacity: 0.9;
 }
 .sg-footer-copy {
   font-size: 0.8rem;
@@ -168,7 +169,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.75rem;
+  gap: 0.5rem;
 }
 .sg-footer-icons {
   display: flex;
@@ -181,12 +182,12 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 2.75rem;
-  height: 2.75rem;
+  width: 2.25rem;
+  height: 2.25rem;
   border-radius: 9999px;
   background-color: #fff;
   color: rgb(var(--color-primary-700));
-  font-size: 1.25rem;
+  font-size: 1.05rem;
   transition: background-color 0.15s;
 }
 .sg-footer-icons a:hover {
@@ -283,53 +284,62 @@ figure.sg-banner img {
   figure.sg-banner img { animation: none; }
 }
 
-/* Tiles ({{< tiles >}}): wider than the reading column, centred. */
+/* Tiles ({{< tiles >}}): three columns within the reading column; each
+   tile is one link to its subheading on the services page. */
 .sg-tiles {
-  --sg-tiles-width: min(64rem, calc(100vw - 3rem));
-  width: var(--sg-tiles-width);
-  margin: 2.5rem calc(50% - var(--sg-tiles-width) / 2);
+  margin: 2rem 0 1rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+@media (max-width: 640px) {
+  .sg-tiles { grid-template-columns: 1fr; }
 }
 .sg-tile {
   display: flex;
   flex-direction: column;
+  text-decoration: none;
+  color: inherit;
 }
-.sg-tile-img img {
+.sg-tile img {
   width: 100%;
   aspect-ratio: 4 / 3;
   object-fit: cover;
   border-radius: 0.25rem;
   margin: 0;
+  transition: opacity 0.15s;
 }
 @media (max-width: 640px) {
-  .sg-tile-img img { aspect-ratio: 16 / 9; }
+  .sg-tile img { aspect-ratio: 16 / 9; }
 }
 .sg-tile h3 {
-  margin: 0.9rem 0 0.4rem;
-  font-size: 1.4rem;
+  margin: 0.7rem 0 0.3rem;
+  font-size: 1.15rem;
   font-weight: 600;
-}
-.sg-tile h3 a {
   color: rgb(var(--color-secondary-700));
-  text-decoration: none;
 }
-.dark .sg-tile h3 a {
+.dark .sg-tile h3 {
   color: rgb(var(--color-secondary-200));
 }
-.sg-tile h3 a:hover {
-  color: rgb(var(--color-primary-700));
-}
 .sg-tile p {
-  margin: 0 0 1rem;
-  font-size: 1rem;
-  line-height: 1.6;
-  flex-grow: 1;
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+.sg-tile:hover h3 {
+  color: rgb(var(--color-primary-700));
+  text-decoration: underline;
+}
+.dark .sg-tile:hover h3 {
+  color: rgb(var(--color-primary-300));
+}
+.sg-tile:hover img {
+  opacity: 0.85;
 }
 
-/* Buttons: tile buttons and the large call-to-action link. */
-.sg-button,
+/* Buttons: in Markdown, {.sg-more} (small) or {.sg-cta} (large, full
+   width) on the line after a paragraph that contains one link. */
+.sg-more a,
 .sg-cta a {
   display: inline-block;
   align-self: flex-start;
@@ -341,11 +351,15 @@ figure.sg-banner img {
   text-decoration: none !important;
   transition: background-color 0.15s;
 }
-.sg-button {
-  padding: 0.4rem 1rem;
-  font-size: 0.9rem;
+.sg-more {
+  margin: 0 0 2rem;
+  text-align: right;
 }
-.sg-button:hover,
+.sg-more a {
+  padding: 0.4rem 1rem;
+  font-size: 0.95rem;
+}
+.sg-more a:hover,
 .sg-cta a:hover {
   background-color: rgb(var(--color-primary-700));
 }
@@ -368,6 +382,13 @@ figure.sg-banner img {
 }
 .dark .sg-band {
   background-color: rgba(var(--color-primary-900), 0.5);
+}
+
+/* Jump targets (e.g. /leistungen/#hardware-prototyping) end up below the
+   fixed header instead of behind it. */
+.anchor,
+[id] {
+  scroll-margin-top: 4.5rem;
 }
 
 /* 7. Lists and detail pages (projects, services) ------------------------- */

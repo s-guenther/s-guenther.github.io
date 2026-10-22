@@ -17,9 +17,12 @@ nachvollziehbarem Bericht oder als funktionsfähigen Prototyp.
 
 {{< tiles >}}
 
+[Mehr zu den Leistungen ›]({{< ref "services" >}})
+{.sg-more}
+
 **Zwei Arten der Zusammenarbeit:** als Auftrag mit klar definiertem Ergebnis,
 oder als Verstärkung Ihres Projektteams bei Arbeitsspitzen.
-[Mehr zur Zusammenarbeit]({{< ref "services" >}})
+[Mehr zur Zusammenarbeit]({{< ref "services" >}}#zusammenarbeit)
 {.sg-band}
 
 [Konkrete Projekte ansehen ›]({{< ref "projects" >}})

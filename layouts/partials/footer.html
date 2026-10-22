@@ -1,15 +1,13 @@
 {{/* Site override of themes/blowfish/layouts/partials/footer.html.
      Reason: full-width teal footer in two columns as on the original site:
-     name and tagline left; contact icons (from params.author.links in
+     name and tagline (two lines) left; contact icons (from params.author.links in
      languages.*.toml) and legal links (footer menu) right.
      Styling in assets/css/custom.css. */}}
 <footer id="site-footer" class="sg-footer print:hidden">
   <div class="sg-footer-inner">
     <div class="sg-footer-left">
-      <p class="sg-footer-name">
-        {{ site.Params.author.name }}
-        {{ with site.Params.tagline }}<span class="sg-footer-sep">|</span> {{ . }}{{ end }}
-      </p>
+      <p class="sg-footer-name">{{ site.Params.author.name }}</p>
+      {{ with site.Params.tagline }}<p class="sg-footer-tagline">{{ . }}</p>{{ end }}
       {{ with replace site.Params.copyright "{ year }" now.Year }}
         <p class="sg-footer-copy">{{ . | markdownify }}</p>
       {{ end }}

@@ -17,9 +17,12 @@ traceable report, or as a working prototype.
 
 {{< tiles >}}
 
+[More about services ›]({{< ref "services" >}})
+{.sg-more}
+
 **Two ways of working together:** as an assignment with a defined result,
 or as support for your project team during workload peaks.
-[More on working together]({{< ref "services" >}})
+[More on working together]({{< ref "services" >}}#zusammenarbeit)
 {.sg-band}
 
 [See concrete projects ›]({{< ref "projects" >}})

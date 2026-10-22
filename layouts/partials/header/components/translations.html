@@ -1,0 +1,12 @@
+{{/* Site override of themes/blowfish/layouts/partials/header/components/translations.html.
+     Reason: the language switch toggles directly to the same page in the
+     other language (one click) instead of opening a dropdown. The label
+     shows the target language (e.g. "EN" on a German page). Pages without
+     a translation (Impressum, Datenschutz) show no switch. */}}
+{{ range first 1 .Translations }}
+  <a href="{{ .RelPermalink }}" class="sg-lang flex items-center" hreflang="{{ .Language.Lang }}"
+    title="{{ .Language.Label }}" aria-label="{{ .Language.Label }}">
+    <span class="me-1">{{ partial "icon.html" "language" }}</span>
+    <span class="text-sm font-medium">{{ .Language.Params.displayName }}</span>
+  </a>
+{{ end }}

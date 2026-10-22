@@ -1,24 +1,21 @@
-{{/* Tiles with photo, title, summary and button for all pages of a section,
-     ordered by weight. Used on the home page and the services overview.
-     Usage in Markdown: {{< tiles >}} or {{< tiles section="projects" >}}
-     Each page needs: title, summary, weight, and an image featured.jpg in
-     its folder. Styling: assets/css/custom.css (sg-tiles). */}}
-{{ $section := .Page.Site.GetPage (printf "/%s" (.Get "section" | default "services")) }}
-{{ with $section }}
+{{/* Clickable tiles (photo, title, text) for the three service areas.
+     Usage in Markdown: {{< tiles >}}
+     The tiles are defined in the front matter of the services page
+     (content/services/index.*.md, field "tiles"); each tile links to the
+     subheading with the given anchor on that page. Images are files in
+     content/services/. Styling: assets/css/custom.css (sg-tiles). */}}
+{{ with .Page.Site.GetPage "/services" }}
+  {{ $services := . }}
   <div class="sg-tiles not-prose">
-    {{ range .Pages.ByWeight }}
-      {{ $page := . }}
-      <article class="sg-tile">
-        {{ with .Resources.GetMatch "featured*" }}
-          {{ $img := .Fill "640x480 Center q80" }}
-          <a href="{{ $page.RelPermalink }}" class="sg-tile-img" tabindex="-1" aria-hidden="true">
-            <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="" loading="lazy">
-          </a>
+    {{ range .Params.tiles }}
+      <a class="sg-tile" href="{{ $services.RelPermalink }}#{{ .anchor }}">
+        {{ with $services.Resources.Get .image }}
+          {{ $img := .Fill "640x400 Center q80" }}
+          <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="" loading="lazy">
         {{ end }}
-        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-        <p>{{ .Params.summary | markdownify }}</p>
-        <a class="sg-button" href="{{ .RelPermalink }}">{{ i18n "sg_more" }} ›</a>
-      </article>
+        <h3>{{ .title }}</h3>
+        <p>{{ .text | markdownify }}</p>
+      </a>
     {{ end }}
   </div>
 {{ end }}
