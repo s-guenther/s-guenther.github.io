@@ -4,6 +4,13 @@ Source of [sgrse.de](https://sgrse.de), built with [Hugo](https://gohugo.io)
 and the [Blowfish](https://blowfish.page) theme. German is the main language
 (`/`), English is at `/en/`.
 
+Further documentation:
+
+- `docs/hugo_guide.md`: how Hugo and the theme work, how this project is
+  organised, everyday tasks (start here if Hugo is new to you).
+- `docs/design_notes.md`: technical notes, caveats and lessons learned for
+  further work on the design.
+
 ## Where things are
 
 | Path | Content |
@@ -20,6 +27,7 @@ and the [Blowfish](https://blowfish.page) theme. German is the main language
 | `i18n/` | Site-specific interface words (e.g. "Mehr"/"More"). |
 | `static/` | Files copied as is: fonts, favicons, `CNAME`. |
 | `themes/blowfish/` | The theme as a git submodule. Do not edit; override instead. |
+| `docs/` | Guide and technical notes. |
 
 ## Writing content
 
