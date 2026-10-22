@@ -523,11 +523,34 @@ figure.sg-page-banner img {
   object-fit: cover;
   border-radius: 0.25rem;
 }
+/* Narrow screens: keep photo and text side by side with a smaller square
+   photo, like the tiles on the home page (the theme would stack them with
+   a full-width photo). */
 @media (max-width: 767px) {
+  .article-link--simple {
+    flex-direction: row;
+    gap: 1rem;
+  }
   .article-link--simple .thumbnail {
-    width: 100%;
-    height: 10rem !important;
-    aspect-ratio: auto;
+    width: 7rem;
+    height: 7rem !important;
+  }
+  .article-link--simple > div:not(.thumbnail) {
+    margin-top: 0;
+    min-width: 0;
+  }
+  /* empty spacer the theme puts at the right edge of each entry */
+  .article-link--simple > div:last-child:empty {
+    display: none;
+  }
+  .article-link--simple h2,
+  .article-link__summary {
+    hyphens: auto;
+    overflow-wrap: break-word;
+  }
+  .article-link--simple h2 {
+    font-size: 1.15rem;
+    line-height: 1.3;
   }
 }
 
