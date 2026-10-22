@@ -85,10 +85,26 @@ html {
   min-height: 3.5rem;
 }
 
-/* Logo (white SVG); the theme sizes SVG logos as a 5rem square. */
+/* Logo (white SVG); the theme sizes SVG logos as a 5rem square. The SVG's
+   drawing area ends exactly at the last letter: allow drawing beyond it
+   (else the "e" is clipped by rounding at some widths) and do not let the
+   menu squeeze the logo. */
 .logo svg {
   height: 2.25rem;
   width: auto;
+  overflow: visible;
+}
+.sg-header .main-menu > div:first-child,
+.sg-header .logo {
+  flex-shrink: 0;
+  padding-right: 2px;
+}
+
+/* "Start"/"Home" menu entry (menus.*.toml): only in the burger menu on
+   narrow screens; on wide screens the logo links to the home page. */
+.sg-header .md\:flex nav > a[href="/"]:not(.sg-lang),
+.sg-header .md\:flex nav > a[href="/en/"]:not(.sg-lang) {
+  display: none;
 }
 
 /* Menu items on the bar: white. */
@@ -230,7 +246,7 @@ html {
    header and text separately to max-w-prose and aligns them left. */
 #main-content {
   width: 100%;
-  max-width: 46rem;
+  max-width: 41.5rem;
   margin-inline: auto;
   padding-top: 1.5rem;
 }

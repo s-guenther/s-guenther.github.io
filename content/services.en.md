@@ -1,23 +1,26 @@
 ---
 # Interim text; final wording in front (a), see todo_relaunch.md
 title: "Services"
-summary: "Research software, scientific computing and hardware prototyping: methods from research, applied to a company's concrete questions."
-# Tiles on the home page ({{< tiles >}}): title, text, image in this folder,
-# and the subheading on this page they link to (the {#...} ids below).
+# Tiles on the home page ({{< tiles >}}): title, text, image (path in
+# assets/), and the subheading on this page they link to (the {#...} ids
+# below).
 tiles:
   - title: "Research software"
     text: "Software for modelling, simulation and analysis that turns scientific methods into usable tools."
-    image: "tile-research-software.jpg"
+    image: "img/services/tile-research-software.jpg"
     anchor: "research-software"
   - title: "Scientific computing"
     text: "Models, simulations and optimisation for energy systems and energy storage, from sizing to the evaluation of large parameter studies."
-    image: "tile-scientific-computing.jpg"
+    image: "img/services/banner.jpg"
     anchor: "scientific-computing"
   - title: "Hardware prototyping"
     text: "Design and construction of mechatronic prototypes and test rigs, including control and data acquisition."
-    image: "tile-hardware-prototyping.jpg"
+    image: "img/services/tile-hardware-prototyping.jpg"
     anchor: "hardware-prototyping"
 ---
+
+![Inside a computer: mainboard, processor and graphics card](img/services/banner.jpg)
+{.sg-page-banner}
 
 I apply methods from research to a company's concrete questions and deliver
 the result as a usable tool: as software, as a calculation with a traceable

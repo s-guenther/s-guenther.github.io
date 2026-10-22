@@ -1,15 +1,15 @@
 {{/* Clickable tiles (photo, title, text) for the three service areas.
      Usage in Markdown: {{< tiles >}}
      The tiles are defined in the front matter of the services page
-     (content/services/index.*.md, field "tiles"); each tile links to the
-     subheading with the given anchor on that page. Images are files in
-     content/services/. Styling: assets/css/custom.css (sg-tiles). */}}
+     (content/services.*.md, field "tiles"); each tile links to the
+     subheading with the given anchor on that page. Images are paths in
+     assets/ (e.g. img/services/...). Styling: assets/css/custom.css. */}}
 {{ with .Page.Site.GetPage "/services" }}
   {{ $services := . }}
   <div class="sg-tiles not-prose">
     {{ range .Params.tiles }}
       <a class="sg-tile" href="{{ $services.RelPermalink }}#{{ .anchor }}">
-        {{ with $services.Resources.Get .image }}
+        {{ with resources.Get .image }}
           {{ $img := .Fill "640x400 Center q80" }}
           <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="" loading="lazy">
         {{ end }}

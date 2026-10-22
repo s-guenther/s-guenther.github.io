@@ -10,10 +10,10 @@ and the [Blowfish](https://blowfish.page) theme. German is the main language
 | --- | --- |
 | `content/` | All pages as Markdown. Translations sit side by side: `about.de.md` and `about.en.md`. |
 | `content/_index.*.md` | Home page. |
-| `content/services/` | The services page (`index.*.md`), its banner `featured.jpg`, and the three tile images. The home page tiles are defined in its front matter (`tiles`). |
+| `content/services.*.md` | The services page. The home page tiles are defined in its front matter (`tiles`); banner and tile images are in `assets/img/services/`. |
 | `content/projects/<name>/` | One folder per project: `index.de.md`, `index.en.md`, `featured.jpg`. |
 | `config/_default/` | Site settings (`hugo.toml`), theme options (`params.toml`), per-language title, author and contact links (`languages.*.toml`), menus (`menus.*.toml`). |
-| `assets/img/` | Logos, portrait, contact photo. |
+| `assets/img/` | Logos, portrait, contact photo, services images. |
 | `assets/css/schemes/sgrse.css` | Colour palette from the logo (generated with `tools/color_scale.py`). |
 | `assets/css/custom.css` | All site styling on top of the theme, in numbered sections. |
 | `layouts/` | The few theme files replaced for this site, see below. |
@@ -41,8 +41,8 @@ weight: 30              # order in lists and tiles (lower first)
 - **New project:** copy an existing project folder, adapt both
   `index.*.md` files, replace `featured.jpg` (any size; Hugo crops it for
   the thumbnail and the photo strip).
-- **Service tiles:** edit the `tiles` list in `content/services/index.*.md`
-  (title, text, image, anchor). Each tile links to the subheading with that
+- **Service tiles:** edit the `tiles` list in `content/services.*.md`
+  (title, text, image path in `assets/`, anchor). Each tile links to the subheading with that
   anchor, written in Markdown as `## Forschungssoftware {#research-software}`.
   Anchors are the same in both languages.
 - **Banner photo inside a page:** put the image line in Markdown and
@@ -51,6 +51,8 @@ weight: 30              # order in lists and tiles (lower first)
   `{.sg-cta}` below a paragraph give the highlighted band, a small button
   and a large full-width button (home page).
 - **Tiles:** `{{< tiles >}}` shows the three service tiles (home page).
+- **Menu:** `config/_default/menus.*.toml`. The first entry ("Start" /
+  "Home") is shown only in the burger menu on narrow screens.
 - Placeholders that still need facts are marked `**[TODO: ...]**`; list them
   with `grep -rn TODO content`.
 

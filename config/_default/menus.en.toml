@@ -1,4 +1,11 @@
 # -- Main menu (header) --
+# "Home" appears only in the burger menu on narrow screens (hidden on wide
+# screens by assets/css/custom.css, where the logo links home).
+[[main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 1
+
 [[main]]
   name = "Services"
   pageRef = "services"
