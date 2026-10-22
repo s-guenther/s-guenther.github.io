@@ -4,6 +4,7 @@ description: "Ausgewählte Projekte aus freiberuflicher Arbeit, Industrie, Forsc
 ---
 
 ![Photovoltaikmodule](banner.jpg)
+{.sg-page-banner}
 
 Das erste Projekt stammt aus meiner freiberuflichen Tätigkeit seit 2024. Die
 übrigen entstanden vorher: in der Promotion, in einem Industrieprojekt

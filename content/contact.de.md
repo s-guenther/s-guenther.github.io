@@ -4,14 +4,20 @@ slug: "kontakt"
 description: "So erreichen Sie mich."
 ---
 
+![Visitenkarten von sgrse](img/contact.jpg)
+{.sg-page-banner}
+
 Am einfachsten per E-Mail mit zwei, drei Sätzen zu Ihrer Fragestellung. Ich
 melde mich in der Regel innerhalb von **[TODO]** Werktagen.
 
 **Sebastian Günther**\
 Freiberuflicher Ingenieur, Hannover
 
-E-Mail: [info@sgrse.de](mailto:info@sgrse.de)\
-Telefon: [+49 160 9160 9708](tel:+4916091609708)\
-LinkedIn: [linkedin.com/in/guenther-sebastian](https://linkedin.com/in/guenther-sebastian)
+{{< icon "email" >}}[info@sgrse.de](mailto:info@sgrse.de)\
+{{< icon "phone" >}}[+49 160 9160 9708](tel:+4916091609708)\
+{{< icon "linkedin" >}}[linkedin.com/in/guenther-sebastian](https://linkedin.com/in/guenther-sebastian)\
+{{< icon "github" >}}[github.com/s-guenther](https://github.com/s-guenther)
+{.sg-contact-lines}
 
 Vor Ort in Hannover und Niedersachsen, sonst remote im deutschsprachigen Raum.
+Ich arbeite auf Deutsch und Englisch.

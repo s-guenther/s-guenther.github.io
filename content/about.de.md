@@ -4,6 +4,9 @@ slug: "ueber-mich"
 description: "Werdegang, Kenntnisse, Veröffentlichungen und Software."
 ---
 
+![Sebastian Günther](img/portrait.jpg)
+{.sg-portrait}
+
 Ich bin Ingenieur mit Hintergrund in Mechatronik und habe mich in der
 Promotion auf Energiespeicher, Optimierung und wissenschaftliche
 Programmierung spezialisiert. Seit 2024 arbeite ich freiberuflich in

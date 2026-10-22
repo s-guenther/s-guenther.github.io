@@ -451,9 +451,9 @@ figure.sg-banner img {
 html[lang="de"] .article-link__summary::after { content: " Weiterlesen ›"; }
 html[lang="en"] .article-link__summary::after { content: " Read more ›"; }
 
-/* Banner photo at the top of a page body (e.g. projects overview). */
-#main-content .prose > section > figure:first-child img,
-#main-content .prose figure:first-child > img {
+/* Banner photo in a page body: in Markdown, put {.sg-page-banner} on the
+   line after the image (used on the projects overview and contact page). */
+figure.sg-page-banner img {
   width: 100%;
   max-height: 14rem;
   object-fit: cover;
@@ -465,4 +465,41 @@ html[lang="en"] .article-link__summary::after { content: " Read more ›"; }
     height: 10rem !important;
     aspect-ratio: auto;
   }
+}
+
+/* 8. About and contact --------------------------------------------------- */
+
+/* Portrait: in Markdown, {.sg-portrait} on the line after the image.
+   Floats right of the intro on wide screens. */
+figure.sg-portrait {
+  float: right;
+  width: 11rem;
+  margin: 0.4rem 0 1rem 1.75rem;
+}
+figure.sg-portrait img {
+  width: 100%;
+  border-radius: 0.25rem;
+  margin: 0;
+}
+#main-content h2 {
+  clear: both;
+}
+@media (max-width: 640px) {
+  figure.sg-portrait {
+    float: none;
+    width: 10rem;
+    margin: 0 auto 1.5rem;
+  }
+}
+
+/* Contact lines with icons. */
+.sg-contact-lines {
+  font-family: var(--sg-font-ui);
+  font-feature-settings: "lnum";
+  font-size: 1.15rem;
+  line-height: 2.2;
+}
+.sg-contact-lines .icon {
+  color: rgb(var(--color-primary-600));
+  margin-right: 0.5rem;
 }

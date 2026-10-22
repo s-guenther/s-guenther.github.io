@@ -3,6 +3,9 @@ title: "About"
 description: "Background, skills, publications and software."
 ---
 
+![Sebastian Günther](img/portrait.jpg)
+{.sg-portrait}
+
 I am an engineer with a background in mechatronics. During my doctorate I
 specialised in energy storage, optimisation and scientific programming. Since
 2024 I have been working as a freelancer in Hannover.
