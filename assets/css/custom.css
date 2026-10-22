@@ -256,3 +256,115 @@ h1 {
 .dark h1 {
   color: rgb(var(--color-secondary-200));
 }
+
+/* 6. Home page and tiles ------------------------------------------------- */
+
+/* Logo banner; fades in on load (skipped if the visitor's system asks for
+   reduced motion). White in dark mode for contrast. */
+.sg-banner {
+  margin: 1rem 0 2.5rem;
+  text-align: center;
+}
+figure.sg-banner img {
+  display: inline-block;
+  width: min(100%, 22rem);
+  height: auto;
+  animation: sg-fade-in 1s ease-out both;
+}
+.dark figure.sg-banner img {
+  filter: brightness(0) invert(1);
+}
+@keyframes sg-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  figure.sg-banner img { animation: none; }
+}
+
+/* Tiles ({{< tiles >}}): wider than the reading column, centred. */
+.sg-tiles {
+  --sg-tiles-width: min(64rem, calc(100vw - 3rem));
+  width: var(--sg-tiles-width);
+  margin: 2.5rem calc(50% - var(--sg-tiles-width) / 2);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 2rem;
+}
+.sg-tile {
+  display: flex;
+  flex-direction: column;
+}
+.sg-tile-img img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 0.25rem;
+  margin: 0;
+}
+@media (max-width: 640px) {
+  .sg-tile-img img { aspect-ratio: 16 / 9; }
+}
+.sg-tile h3 {
+  margin: 0.9rem 0 0.4rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.sg-tile h3 a {
+  color: rgb(var(--color-secondary-700));
+  text-decoration: none;
+}
+.dark .sg-tile h3 a {
+  color: rgb(var(--color-secondary-200));
+}
+.sg-tile h3 a:hover {
+  color: rgb(var(--color-primary-700));
+}
+.sg-tile p {
+  margin: 0 0 1rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  flex-grow: 1;
+}
+
+/* Buttons: tile buttons and the large call-to-action link. */
+.sg-button,
+.sg-cta a {
+  display: inline-block;
+  align-self: flex-start;
+  font-family: var(--sg-font-ui);
+  font-weight: 500;
+  color: #fff !important;
+  background-color: rgb(var(--color-primary-600));
+  border-radius: 0.25rem;
+  text-decoration: none !important;
+  transition: background-color 0.15s;
+}
+.sg-button {
+  padding: 0.4rem 1rem;
+  font-size: 0.9rem;
+}
+.sg-button:hover,
+.sg-cta a:hover {
+  background-color: rgb(var(--color-primary-700));
+}
+.sg-cta {
+  margin: 2.5rem 0;
+  text-align: center;
+}
+.sg-cta a {
+  display: block;
+  padding: 0.9rem 1.5rem;
+  font-size: 1.25rem;
+}
+
+/* Highlighted band, e.g. "Zwei Arten der Zusammenarbeit". */
+.sg-band {
+  padding: 1rem 1.25rem;
+  border-left: 4px solid rgb(var(--color-primary-600));
+  background-color: rgb(var(--color-primary-50));
+  border-radius: 0 0.25rem 0.25rem 0;
+}
+.dark .sg-band {
+  background-color: rgba(var(--color-primary-900), 0.5);
+}

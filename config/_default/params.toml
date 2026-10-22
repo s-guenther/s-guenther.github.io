@@ -29,7 +29,7 @@ tagline = "research • software • engineering"   # shown in the footer
   showScrollToTop = true
 
 [homepage]
-  layout = "profile"            # portrait, name, headline, links, then text
+  layout = "page"               # plain Markdown page (content/_index.*.md)
   showRecent = false
 
 [article]

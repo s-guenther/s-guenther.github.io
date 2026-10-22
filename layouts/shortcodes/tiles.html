@@ -1,0 +1,24 @@
+{{/* Tiles with photo, title, summary and button for all pages of a section,
+     ordered by weight. Used on the home page and the services overview.
+     Usage in Markdown: {{< tiles >}} or {{< tiles section="projects" >}}
+     Each page needs: title, summary, weight, and an image featured.jpg in
+     its folder. Styling: assets/css/custom.css (sg-tiles). */}}
+{{ $section := .Page.Site.GetPage (printf "/%s" (.Get "section" | default "services")) }}
+{{ with $section }}
+  <div class="sg-tiles not-prose">
+    {{ range .Pages.ByWeight }}
+      {{ $page := . }}
+      <article class="sg-tile">
+        {{ with .Resources.GetMatch "featured*" }}
+          {{ $img := .Fill "640x480 Center q80" }}
+          <a href="{{ $page.RelPermalink }}" class="sg-tile-img" tabindex="-1" aria-hidden="true">
+            <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="" loading="lazy">
+          </a>
+        {{ end }}
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <p>{{ .Params.summary | markdownify }}</p>
+        <a class="sg-button" href="{{ .RelPermalink }}">{{ i18n "sg_more" }} ›</a>
+      </article>
+    {{ end }}
+  </div>
+{{ end }}

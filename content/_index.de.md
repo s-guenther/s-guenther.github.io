@@ -1,25 +1,29 @@
 ---
-title: "Start"
-description: "Sebastian Günther, Ingenieur in Hannover: Modellierung, Simulation und Datenanalyse für Energiesysteme und Energiespeicher."
+# Interim text; final wording in front (a), see todo_relaunch.md
+title: ""
+description: "Sebastian Günther, Ingenieur in Hannover: Forschungssoftware, Scientific Computing und Hardware-Prototyping für Energiesysteme und technische Anwendungen."
 ---
 
-Ich bin Ingenieur in Hannover und übernehme kurze, klar abgegrenzte Aufgaben
-in Modellierung, Simulation und Datenanalyse, vor allem für Energiesysteme und
-Energiespeicher. Sie erhalten einen nachvollziehbaren Bericht und den
-Quellcode, mit dem die Ergebnisse entstanden sind.
+![sgrse: Sebastian Günther, research • software • engineering](img/logo-banner.svg)
+{.sg-banner}
 
-## Typische Aufgaben
+## Methoden aus der Forschung für Fragestellungen aus der Praxis
 
-- **Energiespeicher auslegen und bewerten:** Größe, Technologie und
-  Betriebsstrategie für ein gegebenes Last- oder Erzeugungsprofil.
-- **Flexibilität bewerten:** wie viel Last sich verschieben lässt und was das
-  bringt.
-- **Mess- und Zeitreihendaten auswerten:** aufbereiten, statistisch
-  auswerten, verständlich darstellen.
-- **Berechnungen automatisieren:** bestehende Excel- oder Matlab-Rechnungen in
-  wiederverwendbare Python-Werkzeuge überführen.
+Ich bin Ingenieur in Hannover und arbeite seit über zehn Jahren in Forschung
+und Entwicklung zu Energiesystemen und Energiespeichern. Ich bringe
+Modellierung, Simulation und Optimierung aus der Forschung zu Unternehmen und
+liefere das Ergebnis als nutzbares Werkzeug: als Software, als Berechnung mit
+nachvollziehbarem Bericht oder als funktionsfähigen Prototyp.
 
-[Mehr zu den Leistungen]({{< ref "services" >}})
+{{< tiles >}}
+
+**Zwei Arten der Zusammenarbeit:** als Auftrag mit klar definiertem Ergebnis,
+oder als Verstärkung Ihres Projektteams bei Arbeitsspitzen.
+[Mehr zur Zusammenarbeit]({{< ref "services" >}})
+{.sg-band}
+
+[Konkrete Projekte ansehen ›]({{< ref "projects" >}})
+{.sg-cta}
 
 ## Nachweise
 
@@ -27,13 +31,7 @@ Quellcode, mit dem die Ergebnisse entstanden sind.
   Energiespeichersystemen: Dissertation eingereicht und begutachtet,
   Verteidigung am 23.11.2026.
 - Fachartikel in *Applied Energy*, *Energy Informatics* und *Renewable and
-  Sustainable Energy Reviews*.
-- Quelloffene Software auf [GitHub](https://github.com/s-guenther).
-- [Projekte]({{< ref "projects" >}}) aus freiberuflicher Arbeit, Industrie und
-  Forschung.
-
-## Kontakt
-
-Schreiben Sie mir in zwei, drei Sätzen, worum es geht:
-[info@sgrse.de](mailto:info@sgrse.de) oder telefonisch unter
-[+49 160 9160 9708](tel:+4916091609708).
+  Sustainable Energy Reviews*; quelloffene Software auf
+  [GitHub](https://github.com/s-guenther).
+- Industrieprojekt zur Speicherauslegung, eigenständig akquiriert und
+  umgesetzt; freiberufliche Projekte seit 2024.

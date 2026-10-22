@@ -10,7 +10,7 @@ title = "sgrse"
   rtl = false
   dateFormat = "2 January 2006"
   description = "Sebastian Günther, engineer: modelling, simulation and data analysis for energy systems."
-  copyright = "© { year } Sebastian Günther"
+  copyright = "© { year }"
 
 [params.author]
   name = "Sebastian Günther"

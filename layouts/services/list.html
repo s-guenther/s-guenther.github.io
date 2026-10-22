@@ -1,0 +1,12 @@
+{{/* Layout for the services overview (content/services/_index.*.md).
+     Reason: the theme's section list would add an automatic list of the
+     service pages below the text; here the page text alone is shown, and
+     the tiles are placed in the Markdown with {{< tiles >}}. */}}
+{{ define "main" }}
+  <article class="prose dark:prose-invert max-w-full">
+    <header id="single_header">
+      <h1>{{ .Title }}</h1>
+    </header>
+    <section>{{ .Content }}</section>
+  </article>
+{{ end }}

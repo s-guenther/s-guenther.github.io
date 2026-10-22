@@ -10,7 +10,7 @@ title = "sgrse"
   rtl = false
   dateFormat = "2. January 2006"
   description = "Sebastian Günther, Ingenieur: Modellierung, Simulation und Datenanalyse für Energiesysteme."
-  copyright = "© { year } Sebastian Günther"
+  copyright = "© { year }"
 
 [params.author]
   name = "Sebastian Günther"
@@ -23,9 +23,11 @@ title = "sgrse"
     { github = "https://github.com/s-guenther" },
   ]
 
-# German URLs for the project section: /projekte/ and /projekte/<slug>/
+# German URLs for sections: /projekte/..., /leistungen/...
 [permalinks]
   [permalinks.page]
     projects = "/projekte/:slug/"
+    services = "/leistungen/:slug/"
   [permalinks.section]
     projects = "/projekte/"
+    services = "/leistungen/"

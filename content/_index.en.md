@@ -1,38 +1,36 @@
 ---
-title: "Home"
-description: "Sebastian Günther, engineer in Hannover: modelling, simulation and data analysis for energy systems and energy storage."
+# Interim text; final wording in front (a), see todo_relaunch.md
+title: ""
+description: "Sebastian Günther, engineer in Hannover: research software, scientific computing and hardware prototyping for energy systems and technical applications."
 ---
 
-I am an engineer based in Hannover, Germany. I take on short, clearly scoped
-tasks in modelling, simulation and data analysis, mainly for energy systems
-and energy storage. You receive a traceable report and the source code that
-produced the results.
+![sgrse: Sebastian Günther, research • software • engineering](img/logo-banner.svg)
+{.sg-banner}
 
-## Typical tasks
+## Methods from research for questions from practice
 
-- **Sizing and assessing energy storage:** size, technology and operating
-  strategy for a given load or generation profile.
-- **Assessing flexibility:** how much load can be shifted and what it is
-  worth.
-- **Analysing measurement and time-series data:** cleaning, statistical
-  analysis, clear presentation.
-- **Automating calculations:** turning existing Excel or Matlab calculations
-  into reusable Python tools.
+I am an engineer based in Hannover, Germany, and have worked in research and
+development on energy systems and energy storage for more than ten years. I
+bring modelling, simulation and optimisation from research to companies and
+deliver the result as a usable tool: as software, as a calculation with a
+traceable report, or as a working prototype.
 
-[More about services]({{< ref "services" >}})
+{{< tiles >}}
+
+**Two ways of working together:** as an assignment with a defined result,
+or as support for your project team during workload peaks.
+[More on working together]({{< ref "services" >}})
+{.sg-band}
+
+[See concrete projects ›]({{< ref "projects" >}})
+{.sg-cta}
 
 ## Evidence
 
 - Doctorate at Leibniz University Hannover on hybrid energy storage systems:
   dissertation submitted and graded, defence on 23 November 2026.
 - Journal articles in *Applied Energy*, *Energy Informatics* and *Renewable
-  and Sustainable Energy Reviews*.
-- Open-source software on [GitHub](https://github.com/s-guenther).
-- [Projects]({{< ref "projects" >}}) from freelance work, industry and
-  research.
-
-## Contact
-
-Write me two or three sentences about your question:
-[info@sgrse.de](mailto:info@sgrse.de) or call
-[+49 160 9160 9708](tel:+4916091609708).
+  and Sustainable Energy Reviews*; open-source software on
+  [GitHub](https://github.com/s-guenther).
+- Industry project on storage sizing, acquired and delivered on my own;
+  freelance projects since 2024.
