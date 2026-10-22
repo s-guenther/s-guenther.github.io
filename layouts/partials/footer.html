@@ -1,0 +1,43 @@
+{{/* Site override of themes/blowfish/layouts/partials/footer.html.
+     Reason: full-width teal footer in two columns as on the original site:
+     name and tagline left; contact icons (from params.author.links in
+     languages.*.toml) and legal links (footer menu) right.
+     Styling in assets/css/custom.css. */}}
+<footer id="site-footer" class="sg-footer print:hidden">
+  <div class="sg-footer-inner">
+    <div class="sg-footer-left">
+      <p class="sg-footer-name">
+        {{ site.Params.author.name }}
+        {{ with site.Params.tagline }}<span class="sg-footer-sep">|</span> {{ . }}{{ end }}
+      </p>
+      {{ with replace site.Params.copyright "{ year }" now.Year }}
+        <p class="sg-footer-copy">{{ . | markdownify }}</p>
+      {{ end }}
+    </div>
+    <div class="sg-footer-right">
+      {{ with site.Params.author.links }}
+        <ul class="sg-footer-icons">
+          {{ range . }}
+            {{ range $name, $url := . }}
+              <li>
+                <a href="{{ $url | safeURL }}" title="{{ $name | title }}" aria-label="{{ $name | title }}"
+                  {{ if hasPrefix $url "http" }}target="_blank" rel="noopener noreferrer"{{ end }}>
+                  {{ partial "icon.html" $name }}
+                </a>
+              </li>
+            {{ end }}
+          {{ end }}
+        </ul>
+      {{ end }}
+      {{ with site.Menus.footer }}
+        <nav class="sg-footer-legal" aria-label="{{ i18n "nav.footer_menu" }}">
+          {{ range . }}<a href="{{ .URL }}">{{ .Name }}</a>{{ end }}
+        </nav>
+      {{ end }}
+    </div>
+  </div>
+  {{/* Keep the theme's extension hook. */}}
+  {{ if templates.Exists "partials/extend-footer.html" }}
+    {{ partialCached "extend-footer.html" . }}
+  {{ end }}
+</footer>

@@ -1,0 +1,10 @@
+{{/* Site override of themes/blowfish/layouts/partials/header/fixed-fill.html.
+     Reason: permanent full-width teal header bar (as on the original site).
+     Change: own classes sg-header / sg-header-spacer instead of the theme's
+     background and spacer classes; styling in assets/css/custom.css. */}}
+<div class="sg-header-spacer"></div>
+<div class="sg-header fixed top-0 inset-x-0 z-100">
+  <div class="relative m-auto leading-7 max-w-7xl px-6 sm:px-14 md:px-24 lg:px-32">
+    {{ partial "header/basic.html" . }}
+  </div>
+</div>

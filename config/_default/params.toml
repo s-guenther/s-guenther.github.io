@@ -10,15 +10,16 @@ autoSwitchAppearance = true     # follow the visitor's light/dark setting
 enableSearch = false
 enableCodeCopy = false
 disableTextInHeader = true      # the logo already shows "sgrse"
-logo = "img/logo.svg"
+logo = "img/logo-white.svg"   # header bar is always teal
 defaultSocialImage = "img/logo.svg"
+tagline = "research • software • engineering"   # shown in the footer
 
 # Keep visitors on the language they chose; no automatic redirect.
 [languageRedirect]
   enabled = false
 
 [header]
-  layout = "basic"
+  layout = "fixed-fill"          # overridden: layouts/partials/header/fixed-fill.html
 
 [footer]
   showMenu = true

@@ -1,29 +1,258 @@
-/* Site-specific adjustments on top of the Blowfish theme.
-   Loaded automatically by the theme. Keep this file short. */
+/* Site-specific styling on top of the Blowfish theme.
+   Loaded automatically by the theme. Sections:
+   1. Fonts  2. Page  3. Header  4. Footer  5. Content */
 
-/* Header logo: the theme sizes SVG logos as a 5rem square; ours is wide. */
+/* 1. Fonts ---------------------------------------------------------------
+   Self-hosted (static/fonts/, SIL Open Font License); nothing is loaded
+   from Google. Raleway is the typeface of the logo; used for headings,
+   navigation, buttons. Source Serif 4 for running text. */
+
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/fonts/raleway-latin.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Raleway";
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/fonts/raleway-latin-italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Source Serif 4";
+  font-style: normal;
+  font-weight: 200 900;
+  font-display: swap;
+  src: url("/fonts/sourceserif4-latin.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Source Serif 4";
+  font-style: italic;
+  font-weight: 200 900;
+  font-display: swap;
+  src: url("/fonts/sourceserif4-latin-italic.woff2") format("woff2");
+}
+
+:root {
+  --sg-font-text: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --sg-font-ui: "Raleway", "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  font-family: var(--sg-font-text);
+}
+
+/* Raleway everywhere outside running text. "lnum": Raleway's default
+   digits vary in height; lining digits read better in years and figures. */
+h1, h2, h3, h4, h5, h6,
+.sg-header, .sg-footer, .sg-ui,
+button, label, nav, .prose th {
+  font-family: var(--sg-font-ui);
+  font-feature-settings: "lnum";
+}
+
+/* 2. Page ---------------------------------------------------------------- */
+
+/* Light grey page background in light mode (the theme's bg-neutral is
+   white and also used as "white" for text, so it is not changed). */
+html:not(.dark) body {
+  background-color: rgb(240, 242, 243);
+}
+
+/* The footer bar extends beyond the centred page column; avoid a
+   horizontal scrollbar from that. */
+html {
+  overflow-x: clip;
+}
+
+/* 3. Header -------------------------------------------------------------- */
+
+.sg-header-spacer {
+  height: 4.5rem;
+}
+.sg-header {
+  background-color: rgb(var(--color-primary-600));
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+.dark .sg-header {
+  background-color: rgb(var(--color-primary-700));
+}
+.sg-header .main-menu {
+  min-height: 4.5rem;
+}
+
+/* Logo (white SVG); the theme sizes SVG logos as a 5rem square. */
 .logo svg {
-  height: 3.25rem;
+  height: 2.75rem;
   width: auto;
 }
 
-/* Homepage (profile layout): keep name and portrait centred, but set the
-   text below left-aligned so that lists read normally. */
-article.text-center > section.prose {
-  text-align: left;
+/* Menu items on the bar: white. */
+.sg-header a,
+.sg-header button,
+.sg-header label {
+  color: #fff;
+}
+.sg-header a:hover,
+.sg-header button:hover,
+.sg-header label:hover {
+  color: rgb(var(--color-primary-100));
+}
+.sg-header .main-menu nav a span,
+.sg-header .main-menu nav button span {
+  font-size: 1rem;
+  font-weight: 500;
 }
 
-/* Dark mode: lighten the two logo colours for contrast. */
-.dark .logo svg [style*="#3c667b"],
-.dark .logo svg [fill="#3c667b"] {
-  fill: rgb(var(--color-primary-300)) !important;
+/* Dropdowns and the mobile menu open on a light/dark panel: normal text
+   colours there. */
+.sg-header .menuhide a,
+.sg-header #mobile-menu-dialog a,
+.sg-header #mobile-menu-dialog label,
+.sg-header #mobile-menu-dialog button {
+  color: rgb(var(--color-neutral-900));
 }
-.dark .logo svg [style*="#00897c"],
-.dark .logo svg [fill="#00897c"] {
-  fill: rgb(var(--color-secondary-400)) !important;
+.dark .sg-header .menuhide a,
+.dark .sg-header #mobile-menu-dialog a,
+.dark .sg-header #mobile-menu-dialog label,
+.dark .sg-header #mobile-menu-dialog button {
+  color: rgb(var(--color-neutral-100));
+}
+.sg-header .menuhide a:hover,
+.sg-header #mobile-menu-dialog a:hover {
+  color: rgb(var(--color-primary-600));
 }
 
-/* Use the teal logo colour for link underlines in running text. */
+/* 4. Footer -------------------------------------------------------------- */
+
+.sg-footer {
+  /* full viewport width although the footer sits in the page column */
+  margin-inline: calc(50% - 50vw);
+  margin-top: 4rem;
+  background-color: rgb(var(--color-primary-600));
+  color: #fff;
+}
+.dark .sg-footer {
+  background-color: rgb(var(--color-primary-700));
+}
+.sg-footer-inner {
+  /* same width and side padding as the header (theme: max-w-7xl,
+     px-6 sm:px-14 md:px-24 lg:px-32) */
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem 3rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.sg-footer-name {
+  font-size: 1rem;
+  margin: 0;
+}
+.sg-footer-sep {
+  opacity: 0.6;
+  margin: 0 0.25em;
+}
+.sg-footer-copy {
+  font-size: 0.8rem;
+  margin: 0.25rem 0 0;
+  opacity: 0.85;
+}
+.sg-footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+.sg-footer-icons {
+  display: flex;
+  gap: 0.75rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.sg-footer-icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 9999px;
+  background-color: #fff;
+  color: rgb(var(--color-primary-700));
+  font-size: 1.25rem;
+  transition: background-color 0.15s;
+}
+.sg-footer-icons a:hover {
+  background-color: rgb(var(--color-primary-100));
+}
+.sg-footer-legal {
+  font-size: 0.8rem;
+}
+.sg-footer-legal a {
+  color: #fff;
+  text-decoration: none;
+}
+.sg-footer-legal a:hover {
+  text-decoration: underline;
+}
+.sg-footer-legal a + a::before {
+  content: "|";
+  margin: 0 0.5em;
+  opacity: 0.6;
+}
+@media (min-width: 640px) {
+  .sg-footer-inner { padding-inline: 3.5rem; }
+}
+@media (min-width: 768px) {
+  .sg-footer-inner { padding-inline: 6rem; }
+}
+@media (min-width: 1024px) {
+  .sg-footer-inner { padding-inline: 8rem; }
+}
+@media (max-width: 640px) {
+  .sg-footer-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* 5. Content ------------------------------------------------------------- */
+
+/* One centred reading column, as on the original site. The theme limits
+   header and text separately to max-w-prose and aligns them left. */
+#main-content {
+  width: 100%;
+  max-width: 46rem;
+  margin-inline: auto;
+  padding-top: 1.5rem;
+}
+#main-content .max-w-prose,
+#main-content .prose {
+  max-width: none;
+}
+
+/* Links in running text: darker teal for contrast on the grey background;
+   headings in the slate blue of the logo. */
+.prose {
+  --tw-prose-links: rgb(var(--color-primary-700));
+  --tw-prose-headings: rgb(var(--color-secondary-700));
+}
+.dark .prose {
+  --tw-prose-links: rgb(var(--color-primary-300));
+  --tw-prose-headings: rgb(var(--color-secondary-200));
+}
 .prose a {
-  text-decoration-color: rgb(var(--color-secondary-500));
+  text-decoration-color: rgb(var(--color-primary-400));
+}
+h1 {
+  color: rgb(var(--color-secondary-700));
+}
+.dark h1 {
+  color: rgb(var(--color-secondary-200));
 }
