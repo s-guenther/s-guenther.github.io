@@ -7,7 +7,7 @@ description: "How to reach me."
 {.sg-page-banner}
 
 The easiest way is an email with two or three sentences about your question.
-I usually reply within **[TODO]** working days.
+I reply within two working days.
 
 **Sebastian Günther**\
 Freelance engineer, Hannover, Germany

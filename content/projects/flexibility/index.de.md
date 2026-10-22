@@ -1,17 +1,23 @@
 ---
 title: "Bewertung von Flexibilitätspotenzialen"
 slug: "flexibilitaet"
-subheadline: "Freiberuflicher Auftrag"
-summary: "Werkzeug zur Bewertung von Lastverschiebungspotenzialen (Demand-Side-Management) und Analysen damit."
+subheadline: "Demand-Side-Management"
+summary: "Wie viel Last lässt sich zeitlich verschieben, und was bringt das? Für einen Kunden habe ich ein Werkzeug entwickelt, das diese Frage quantitativ beantwortet, und damit die Analysen durchgeführt."
 weight: 10
 ---
 
-**Rahmen:** freiberuflicher Auftrag · **Zeitraum:** **[TODO]** ·
-**Werkzeuge:** **[TODO]**
+- **Rahmen:** freiberuflicher Auftrag
+- **Auftraggeber:** vertraulich
+- **Werkzeuge:** Python
 
-Für einen Kunden habe ich ein Werkzeug entwickelt, mit dem sich das Potenzial
-zur zeitlichen Verschiebung von Lasten (Demand-Side-Management) bewerten
-lässt, und damit Analysen durchgeführt.
+### Mein Beitrag
 
-**[TODO: freigegebene Angaben ergänzen, z. B. Branche, Fragestellung,
-Vorgehen, Art der Ergebnisse. Details nur nach Freigabe durch den Kunden.]**
+- Entwicklung eines Werkzeugs zur Bewertung von
+  Lastverschiebungspotenzialen (Demand-Side-Management)
+- Durchführung und Auswertung der Analysen
+- Aufbereitung der Ergebnisse für den Kunden
+
+### Ergebnis
+
+- Quantitative Entscheidungsgrundlage zur Nutzung von Flexibilität
+- Weitere Details sind vertraulich.

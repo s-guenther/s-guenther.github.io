@@ -1,5 +1,4 @@
 ---
-# Interim text; final wording in front (a), see todo_relaunch.md
 title: ""
 description: "Sebastian Günther, engineer in Hannover: research software, scientific computing and hardware prototyping for energy systems and technical applications."
 ---
@@ -11,8 +10,8 @@ description: "Sebastian Günther, engineer in Hannover: research software, scien
 
 I am an engineer based in Hannover, Germany, and have worked in research and
 development on energy systems and energy storage for more than ten years. I
-bring modelling, simulation and optimisation from research to companies and
-deliver the result as a usable tool: as software, as a calculation with a
+model, simulate and optimise technical systems and deliver the result in a
+form you can keep working with: as software, as a calculation with a
 traceable report, or as a working prototype.
 
 {{< tiles >}}
@@ -28,12 +27,19 @@ or as support for your project team during workload peaks.
 [See concrete projects ›]({{< ref "projects" >}})
 {.sg-cta}
 
-## Evidence
+## About
 
-- Doctorate at Leibniz University Hannover on hybrid energy storage systems:
-  dissertation submitted and graded, defence on 23 November 2026.
-- Journal articles in *Applied Energy*, *Energy Informatics* and *Renewable
-  and Sustainable Energy Reviews*; open-source software on
-  [GitHub](https://github.com/s-guenther).
-- Industry project on storage sizing, acquired and delivered on my own;
-  freelance projects since 2024.
+Studies in mechatronics in Magdeburg, research and a dissertation on hybrid
+energy storage systems at Leibniz University Hannover, six journal articles
+as first author. The software behind my research is open source on GitHub.
+
+[More about me ›]({{< ref "about" >}})
+{.sg-more}
+
+## Contact
+
+Write me two or three sentences about your question, or give me a call. I
+reply within two working days.
+
+[Get in touch ›]({{< ref "contact" >}})
+{.sg-more}

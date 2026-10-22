@@ -1,15 +1,22 @@
 ---
 title: "Assessing flexibility potential"
-subheadline: "Freelance assignment"
-summary: "A tool to assess load-shifting potential (demand-side management) and analyses run with it."
+subheadline: "Demand-side management"
+summary: "How much load can be shifted in time, and what is it worth? For a client I developed a tool that answers this question quantitatively, and ran the analyses with it."
 weight: 10
 ---
 
-**Setting:** freelance assignment · **Period:** **[TODO]** ·
-**Tools:** **[TODO]**
+- **Setting:** freelance assignment
+- **Client:** confidential
+- **Tools:** Python
 
-For a client I developed a tool to assess the potential for shifting loads in
-time (demand-side management), and ran analyses with it.
+### My contribution
 
-**[TODO: add approved information, e.g. sector, question, approach, type of
-results. Details only after approval by the client.]**
+- Development of a tool to assess load-shifting potential (demand-side
+  management)
+- Running and evaluating the analyses
+- Preparing the results for the client
+
+### Outcome
+
+- A quantitative basis for decisions on using flexibility
+- Further details are confidential.

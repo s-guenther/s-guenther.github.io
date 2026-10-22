@@ -1,28 +1,34 @@
 ---
 title: "Hybride Energiespeichersysteme"
 slug: "promotion"
-subheadline: "Promotion, Leibniz Universität Hannover"
-summary: "Wann lohnt sich die Kombination zweier Speichertechnologien, und wie groß müssen sie sein?"
+subheadline: "Auslegung kombinierter Speicher"
+summary: "Wann lohnt es sich, zwei Speichertechnologien zu kombinieren, und wie groß müssen sie sein? Ich habe diese Frage anwendungsunabhängig untersucht: mit Optimierungsmodellen, Simulation und Parameterstudien über mehr als 1.000 Lastprofile."
 weight: 20
 ---
 
-**Rahmen:** Promotion, Leibniz Universität Hannover · **Zeitraum:**
-**[TODO]**–2026 · **Werkzeuge:** Python, Pyomo, GLPK, IPOPT, pygmo, SLURM
+- **Rahmen:** Leibniz Universität Hannover, Institut für Elektrische
+  Energiesysteme, Fachgebiet Elektrische Energiespeichersysteme
+- **Stand:** Dissertation eingereicht und begutachtet, Disputation am
+  23.11.2026
+- **Werkzeuge:** Python, Pyomo, GLPK, IPOPT, pygmo, Rechencluster mit SLURM
 
-Dissertation: *Hybrid energy storage systems: a generalized quantitative
-analysis with a focus on system sizing* (eingereicht im Juni 2026,
-begutachtet, Verteidigung am 23.11.2026).
+### Inhalt
 
-Ein hybrides Speichersystem kombiniert zwei Speichertechnologien, etwa einen
-Speicher für viel Energie und einen für hohe Leistung. Die Arbeit untersucht
-anwendungsunabhängig, wann eine solche Kombination kleiner ausfallen kann als
-ein einzelner Speicher, und welchen Einfluss Betriebsstrategie,
-Wirkungsgrade und Selbstentladung darauf haben.
+- Theoretische Auslegungsgrenzen: wann ein Hybridspeicher kleiner ausfallen
+  kann als ein Einzelspeicher
+- Benchmark-Satz repräsentativer Lastprofile für unverzerrte Vergleiche
+  (ESTSS)
+- Repräsentative Energiemanagementstrategien, abgeleitet aus einer
+  Meta-Review
+- Vergleich von vier Strategieklassen in rund 10.000 Konfigurationen:
+  Auslegung und Strategieentwurf lassen sich mit geringem Verlust trennen
+- Einfluss von Wirkungsgrad und Selbstentladung in über 800.000
+  Parameterkonfigurationen: Größenvorteile selten über 3 %,
+  Verlusteinsparung oft über 20 %
 
-Methodisch beruht sie auf Optimierungsmodellen zur Auslegung, auf der
-Simulation von Energiemanagementstrategien und auf großen Parameterstudien
-über viele Lastprofile, gerechnet auf einem Rechencluster. **[TODO: eine
-konkrete Kennzahl zum Umfang, z. B. Anzahl Optimierungsläufe und Lastprofile,
-sofern veröffentlicht]**
+### Ergebnis
 
-Veröffentlichungen und Software dazu: siehe [Über mich]({{< ref "about" >}}).
+- Dissertation: *Hybrid energy storage systems: a generalized quantitative
+  analysis with a focus on system sizing*
+- Sechs Fachartikel als Erstautor, quelloffene Software und Daten: siehe
+  [Über mich]({{< ref "about" >}})

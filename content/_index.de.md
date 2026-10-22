@@ -1,5 +1,4 @@
 ---
-# Interim text; final wording in front (a), see todo_relaunch.md
 title: ""
 description: "Sebastian Günther, Ingenieur in Hannover: Forschungssoftware, Scientific Computing und Hardware-Prototyping für Energiesysteme und technische Anwendungen."
 ---
@@ -10,9 +9,9 @@ description: "Sebastian Günther, Ingenieur in Hannover: Forschungssoftware, Sci
 ## Methoden aus der Forschung für Fragestellungen aus der Praxis
 
 Ich bin Ingenieur in Hannover und arbeite seit über zehn Jahren in Forschung
-und Entwicklung zu Energiesystemen und Energiespeichern. Ich bringe
-Modellierung, Simulation und Optimierung aus der Forschung zu Unternehmen und
-liefere das Ergebnis als nutzbares Werkzeug: als Software, als Berechnung mit
+und Entwicklung zu Energiesystemen und Energiespeichern. Ich modelliere,
+simuliere und optimiere technische Systeme und liefere das Ergebnis so, dass
+Sie damit weiterarbeiten können: als Software, als Berechnung mit
 nachvollziehbarem Bericht oder als funktionsfähigen Prototyp.
 
 {{< tiles >}}
@@ -20,7 +19,7 @@ nachvollziehbarem Bericht oder als funktionsfähigen Prototyp.
 [Mehr zu den Leistungen ›]({{< ref "services" >}})
 {.sg-more}
 
-**Zwei Arten der Zusammenarbeit:** als Auftrag mit klar definiertem Ergebnis,
+**Zwei Arten der Zusammenarbeit:** als Auftrag mit klar definiertem Ergebnis
 oder als Verstärkung Ihres Projektteams bei Arbeitsspitzen.
 [Mehr zur Zusammenarbeit]({{< ref "services" >}}#zusammenarbeit)
 {.sg-band}
@@ -28,13 +27,20 @@ oder als Verstärkung Ihres Projektteams bei Arbeitsspitzen.
 [Konkrete Projekte ansehen ›]({{< ref "projects" >}})
 {.sg-cta}
 
-## Nachweise
+## Über mich
 
-- Promotion an der Leibniz Universität Hannover zu hybriden
-  Energiespeichersystemen: Dissertation eingereicht und begutachtet,
-  Verteidigung am 23.11.2026.
-- Fachartikel in *Applied Energy*, *Energy Informatics* und *Renewable and
-  Sustainable Energy Reviews*; quelloffene Software auf
-  [GitHub](https://github.com/s-guenther).
-- Industrieprojekt zur Speicherauslegung, eigenständig akquiriert und
-  umgesetzt; freiberufliche Projekte seit 2024.
+Mechatronik-Studium in Magdeburg, Forschung und Dissertation zu hybriden
+Energiespeichersystemen an der Leibniz Universität Hannover, sechs
+Fachartikel als Erstautor. Die Software zu meiner Forschung ist quelloffen
+auf GitHub.
+
+[Mehr über mich ›]({{< ref "about" >}})
+{.sg-more}
+
+## Kontakt
+
+Schreiben Sie mir in zwei, drei Sätzen, worum es geht, oder rufen Sie an. Ich
+melde mich innerhalb von zwei Werktagen.
+
+[Kontakt aufnehmen ›]({{< ref "contact" >}})
+{.sg-more}

@@ -1,8 +1,12 @@
 ---
 title: "Projects"
-description: "Selected projects from freelance work, industry, research and studies."
+description: "Software, simulation, optimisation and hardware from freelance work, industry and research."
 ---
 
-The first project comes from my freelance work since 2024. The others came
-earlier: during my doctorate, in an industry project alongside it, as a
-working student and in my theses. The setting is stated for each.
+Software, simulation, optimisation and hardware from freelance work,
+industry and research.
+{.sg-lead}
+
+These projects show how I work: I translate a technical question into a
+model, compute it and deliver a result the client can keep working with.
+Each project lists the setting, my contribution and the outcome.

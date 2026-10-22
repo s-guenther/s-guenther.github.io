@@ -1,19 +1,22 @@
 ---
 title: "Energy concept for an energy-plus neighbourhood"
-subheadline: "Project [TODO: setting]"
-summary: "Simulation of electricity and heat demand, and assessment of PV, storage and load shifting for a planned residential area."
+subheadline: "Simulating demand and generation"
+summary: "How far can a planned residential area cover its own electricity and heat demand? I simulated consumption and generation with high time resolution and compared variants with photovoltaics, storage, combined heat and power, and load shifting."
 weight: 40
 ---
 
-**Setting:** **[TODO: e.g. cooperation with ecovillage hannover eG,
-confirm]** · **Period:** **[TODO]** · **Tools:** **[TODO]**
+- **Setting:** cooperation with ecovillage hannover eG
+- **Methods:** time-resolved simulation, scenario comparison
 
-For a planned residential area, the question was how far the demand for
-electricity, space heating and hot water could be covered by local
-generation.
+### My contribution
 
-I simulated time-resolved consumption and generation profiles for different
-building types and insulation standards, and used them to compare scenarios
-with photovoltaics, electricity and heat storage, combined heat and power
-units, and load shifting. The main criteria were self-consumption and grid
-imports.
+- Demand profiles for electricity, space heating and hot water, for
+  different building types and insulation standards
+- Generation profiles for photovoltaics
+- Scenarios with electricity and heat storage, combined heat and power
+  units, and load shifting
+- Evaluation by self-consumption and grid imports
+
+### Outcome
+
+- A quantitative basis for planning the energy system of the neighbourhood

@@ -1,26 +1,31 @@
 ---
 title: "Hybrid energy storage systems"
-subheadline: "Doctorate, Leibniz University Hannover"
-summary: "When is a combination of two storage technologies worthwhile, and how large must they be?"
+subheadline: "Sizing combined storage systems"
+summary: "When does it pay to combine two storage technologies, and how large must they be? I investigated this question independently of a specific application: with optimisation models, simulation and parameter studies across more than 1,000 load profiles."
 weight: 20
 ---
 
-**Setting:** doctorate, Leibniz University Hannover · **Period:**
-**[TODO]**–2026 · **Tools:** Python, Pyomo, GLPK, IPOPT, pygmo, SLURM
+- **Setting:** Leibniz University Hannover, Institute of Electric Power
+  Systems, Electrical Energy Storage Systems group
+- **Status:** dissertation submitted and graded, defence on 23 November 2026
+- **Tools:** Python, Pyomo, GLPK, IPOPT, pygmo, computing cluster with SLURM
 
-Dissertation: *Hybrid energy storage systems: a generalized quantitative
-analysis with a focus on system sizing* (submitted in June 2026, graded,
-defence on 23 November 2026).
+### Content
 
-A hybrid storage system combines two storage technologies, for example one
-for large amounts of energy and one for high power. The thesis investigates,
-independently of a specific application, when such a combination can be
-smaller than a single storage system, and how the operating strategy,
-efficiencies and self-discharge affect this.
+- Theoretical sizing limits: when a hybrid storage system can be smaller
+  than a single one
+- A benchmark set of representative load profiles for unbiased comparisons
+  (ESTSS)
+- Representative energy management strategies derived from a meta-review
+- Comparison of four strategy classes in about 10,000 configurations:
+  sizing and strategy design can be separated with little loss
+- Effect of efficiency and self-discharge in more than 800,000 parameter
+  configurations: sizing gains rarely exceed 3 %, loss savings often
+  exceed 20 %
 
-The methods are optimisation models for sizing, simulation of energy
-management strategies, and large parameter studies across many load profiles,
-run on a computing cluster. **[TODO: one concrete figure on scale, e.g.
-number of optimisation runs and load profiles, if published]**
+### Outcome
 
-Publications and software: see [About]({{< ref "about" >}}).
+- Dissertation: *Hybrid energy storage systems: a generalized quantitative
+  analysis with a focus on system sizing*
+- Six journal articles as first author, open-source software and data: see
+  [About]({{< ref "about" >}})

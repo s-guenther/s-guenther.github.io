@@ -1,21 +1,25 @@
 ---
 title: "Storage sizing for wind farms"
-subheadline: "Industry project alongside the doctorate"
-summary: "A tool that checks whether storage for curtailed energy pays off for a wind farm."
+subheadline: "Industry assignment, Python tool"
+summary: "When a wind farm is curtailed, energy is lost. For an operator I developed a tool that determines storage technology, size and operating strategy for each wind farm and shows whether the investment pays off."
 weight: 30
 ---
 
-**Setting:** industry project alongside the doctorate **[TODO: confirm]** ·
-**Period:** **[TODO]** · **Tools:** Python, linear optimisation
+- **Setting:** industry assignment, carried out at Leibniz University
+  Hannover
+- **Client:** wind farm operator
+- **Tools:** Python, linear optimisation
 
-Wind farms are curtailed at times, and the energy is lost. The client wanted
-to know for which of its wind farms a storage system that absorbs this energy
-and sells it later would pay off.
+### My contribution
 
-I developed a model that evaluates the power profiles of a wind farm and
-determines storage technology, size and operating strategy. An economic
-evaluation with investment and operating costs shows whether the investment
-is worthwhile. The tool can be applied automatically to several wind farms.
+- Acquisition at a conference, offer and price negotiation
+- An optimisation model that determines storage technology, size and
+  operating strategy from the power profiles of a wind farm
+- Economic evaluation with investment and operating costs
+- Client communication through to handover
 
-I acquired the project at a conference and handled it on my own, from offer
-and price negotiation through implementation to client communication.
+### Outcome
+
+- A tool that can be applied automatically to several wind farms
+- A clear answer per site: which storage, what size, and whether it pays
+  off

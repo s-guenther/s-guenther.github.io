@@ -1,5 +1,4 @@
 ---
-# Interim text; final wording in front (a), see todo_relaunch.md
 title: "Leistungen"
 slug: "leistungen"
 # Tiles on the home page ({{< tiles >}}): title, text, image (path in
@@ -11,11 +10,11 @@ tiles:
     image: "img/services/tile-research-software.jpg"
     anchor: "research-software"
   - title: "Scientific Computing"
-    text: "Modelle, Simulationen und Optimierung für Energiesysteme und Energiespeicher, von der Auslegung bis zur Auswertung großer Parameterstudien."
+    text: "Modelle, Simulation und Optimierung für Energiesysteme und Energiespeicher, von der Auslegung bis zur Parameterstudie mit Hunderttausenden Varianten."
     image: "img/services/banner.jpg"
     anchor: "scientific-computing"
   - title: "Hardware-Prototyping"
-    text: "Konstruktion und Aufbau mechatronischer Prototypen und Versuchsstände, mit Ansteuerung und Messdatenerfassung."
+    text: "Konstruktion und Aufbau mechatronischer Prototypen und Versuchsstände, mit Ansteuerung und automatisierter Messung."
     image: "img/services/tile-hardware-prototyping.jpg"
     anchor: "hardware-prototyping"
 ---
@@ -23,76 +22,50 @@ tiles:
 ![Blick in einen Rechner: Hauptplatine, Prozessor und Grafikkarte](img/services/banner.jpg)
 {.sg-page-banner}
 
-Ich übertrage Methoden aus der Forschung auf konkrete Fragestellungen von
-Unternehmen und liefere das Ergebnis als nutzbares Werkzeug: als Software,
-als Berechnung mit nachvollziehbarem Bericht oder als funktionsfähigen
-Prototyp. Die drei Bereiche greifen dabei oft ineinander: Ein Modell wird zur
-Software, eine Simulation begleitet einen Prototyp.
+Ich bearbeite technische Fragestellungen mit den Methoden der Forschung und
+liefere ein Ergebnis, mit dem Sie weiterarbeiten können. Die drei Bereiche
+greifen oft ineinander: Ein Modell wird zur Software, eine Simulation
+begleitet einen Prototyp.
 
 ## Forschungssoftware {#research-software}
 
-Viele technische Fragestellungen werden mit Tabellen, Skripten oder
-einmaligen Berechnungen beantwortet, die sich später kaum nachvollziehen,
-erweitern oder auf neue Fälle anwenden lassen. Ich entwickle daraus
-Werkzeuge, die genau das ermöglichen: Ich überführe bestehende Berechnungen
-aus Excel oder Matlab in Python, implementiere Modelle und Algorithmen aus der
-Literatur oder aus Ihrer Entwicklung und sorge mit Versionsverwaltung,
-Dokumentation und Tests dafür, dass die Software gepflegt und weitergegeben
-werden kann.
+Aus Tabellen, Skripten und Einzelrechnungen mache ich Werkzeuge, die sich
+nachvollziehen, erweitern und auf neue Fälle anwenden lassen. Ich überführe
+Berechnungen aus Excel oder Matlab in Python, implementiere Modelle und
+Algorithmen aus der Literatur oder aus Ihrer Entwicklung und übergebe sie
+versioniert, dokumentiert und getestet.
 
-Beispiele: [Speicherauslegung für Windparks]({{< ref "projects/wind-farm" >}})
-und quelloffene Software zu hybriden Energiespeichern (siehe
-[Über mich]({{< ref "about" >}})).
+Beispiele: [Speicherauslegung für Windparks]({{< ref "projects/wind-farm" >}}),
+[Bewertung von Flexibilitätspotenzialen]({{< ref "projects/flexibility" >}}).
 
 ## Scientific Computing {#scientific-computing}
 
 Ich beantworte technische und wirtschaftliche Fragen mit mathematischen
-Modellen: Welche Speichergröße, Technologie und Betriebsstrategie passen zu
-einem gegebenen Last- oder Erzeugungsprofil? Wie viel Last lässt sich
-zeitlich verschieben, und was bringt das? Was zeigen vorhandene Mess-,
-Betriebs- und Zeitreihendaten? Dazu formuliere ich Optimierungsprobleme
-(linear und nichtlinear), simuliere Betriebsstrategien und rechne
-Parameterstudien mit vielen Varianten, bei Bedarf auf einem Rechencluster.
+Modellen: Welche Speichergröße und Betriebsstrategie passen zu einem
+Lastprofil? Wie viel Last lässt sich zeitlich verschieben, und was bringt
+das? Was steckt in Ihren Mess- und Betriebsdaten? Dafür formuliere ich
+lineare und nichtlineare Optimierungsprobleme, simuliere Betriebsstrategien
+und rechne Parameterstudien mit Hunderttausenden Varianten auf einem
+Rechencluster.
 
-Beispiele: [Bewertung von Flexibilitätspotenzialen]({{< ref "projects/flexibility" >}}),
-[Hybride Energiespeichersysteme]({{< ref "projects/dissertation" >}}),
-[Plusenergie-Quartier]({{< ref "projects/residential-area" >}}).
+Beispiele: [Hybride Energiespeichersysteme]({{< ref "projects/dissertation" >}}),
+[Plusenergie-Quartier]({{< ref "projects/residential-area" >}}),
+[Straßenbahnnetz mit Schwungradspeichern]({{< ref "projects/tram-system" >}}).
 
 ## Hardware-Prototyping {#hardware-prototyping}
 
-Wenn eine Idee am realen Aufbau geprüft werden muss, konstruiere und baue ich
-Prototypen und Versuchsstände: Konstruktion mit 3D-Modell und Zeichnungen,
-Auslegung von Lagerung, Antrieb und Getriebe, Abschätzung von thermischem
-Verhalten und Rotordynamik, Ansteuerung von Motoren und Automatisierung von
-Messabläufen.
+Wenn eine Idee am realen Aufbau geprüft werden muss, konstruiere und baue
+ich Prototypen und Versuchsstände: vom 3D-Modell über Lagerung, Antrieb und
+Rotordynamik bis zur Motoransteuerung und automatisierten Messung.
 
 Beispiele: [Schwungradspeicher-Prototyp]({{< ref "projects/flywheel" >}}),
 [NC-Drehtisch für ein Laser-Scanning-Vibrometer]({{< ref "projects/rotary-table" >}}).
 
-## Werkzeuge
-
-Python (NumPy, Pyomo), mathematische Optimierung (GLPK, IPOPT, pygmo),
-Matlab/Simulink, Statistik und Zeitreihenanalyse, Git, Linux, Rechencluster
-mit SLURM, 3D-Konstruktion. Ausführlicher unter
-[Über mich]({{< ref "about" >}}).
-
 ## Zwei Arten der Zusammenarbeit {#zusammenarbeit}
 
 **Auftrag mit klar definiertem Ergebnis.** Wir legen Fragestellung, Umfang
-und Ergebnis vorab fest. Sie erhalten Bericht, Quellcode und Dokumentation,
-sodass die Ergebnisse nachvollziehbar und wiederholbar sind.
+und Ergebnis vorab fest. Sie erhalten Bericht, Quellcode und Dokumentation;
+die Ergebnisse sind nachvollziehbar und wiederholbar.
 
-**Verstärkung Ihres Projektteams.** Bei Arbeitsspitzen arbeite ich
-zeitweise in Ihrem Team mit, für einen vereinbarten Zeitraum und Umfang.
-
-## Ablauf
-
-1. Kurzes, unverbindliches Gespräch zur Fragestellung.
-2. Angebot mit Umfang, Ergebnis und Aufwand.
-3. Bearbeitung mit Zwischenständen.
-4. Übergabe von Ergebnis, Quellcode und Dokumentation.
-
-## Was ich nicht anbiete
-
-Standardauslegungen, für die es spezialisierte Anbieter gibt, etwa
-PV-Anlagen für Wohnhäuser oder Klimatechnik für Bürogebäude.
+**Verstärkung Ihres Projektteams.** Bei Arbeitsspitzen arbeite ich in Ihrem
+Team mit, für einen vereinbarten Zeitraum und Umfang.

@@ -5,12 +5,6 @@ build:
   list: never
 ---
 
-**[TODO: Text vor Veröffentlichung prüfen. Übernommen aus der bisherigen
-Website (Generator e-recht24), nur von HTML in Markdown umgewandelt. Zu
-klären: Die neue Website lädt keine Inhalte von Drittanbietern; sie speichert
-lediglich die gewählte Hell/Dunkel-Darstellung im Browser (localStorage).
-Passt der Text dazu, oder sollte er neu generiert werden?]**
-
 ## 1. Datenschutz auf einen Blick
 
 ### Allgemeine Hinweise
@@ -32,19 +26,21 @@ Stelle“ in dieser Datenschutzerklärung entnehmen.
 #### Wie erfassen wir Ihre Daten?
 
 Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen.
-Hierbei kann es sich z. B. um Daten handeln, die Sie in ein Kontaktformular
-eingeben.
+Hierbei handelt es sich um Daten, die Sie uns per E-Mail oder Telefon
+mitteilen. Diese Website hat kein Kontaktformular.
 
-Andere Daten werden automatisch oder nach Ihrer Einwilligung beim Besuch der
-Website durch unsere IT-Systeme erfasst. Das sind vor allem technische Daten
-(z. B. Internetbrowser, Betriebssystem oder Uhrzeit des Seitenaufrufs). Die
-Erfassung dieser Daten erfolgt automatisch, sobald Sie diese Website betreten.
+Andere Daten werden beim Besuch der Website automatisch durch die IT-Systeme
+unseres Hosters erfasst. Das sind vor allem technische Daten (z. B.
+IP-Adresse, Internetbrowser, Betriebssystem oder Uhrzeit des
+Seitenaufrufs). Die Erfassung dieser Daten erfolgt automatisch, sobald Sie
+diese Website betreten.
 
 #### Wofür nutzen wir Ihre Daten?
 
-Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung der Website
-zu gewährleisten. Andere Daten können zur Analyse Ihres Nutzerverhaltens
-verwendet werden.
+Die automatisch erfassten Daten dienen der fehlerfreien und sicheren
+Bereitstellung der Website. Eine Analyse Ihres Nutzerverhaltens findet nicht
+statt: Diese Website verwendet keine Cookies, keine Analyse- oder
+Tracking-Werkzeuge und bindet keine Inhalte von Drittanbietern ein.
 
 #### Welche Rechte haben Sie bezüglich Ihrer Daten?
 
@@ -62,36 +58,40 @@ an uns wenden.
 
 ## 2. Hosting
 
-Wir hosten die Inhalte unserer Website bei folgendem Anbieter:
-
 ### Externes Hosting
 
-Diese Website wird extern gehostet. Die personenbezogenen Daten, die auf dieser
-Website erfasst werden, werden auf den Servern des Hosters / der Hoster
-gespeichert. Hierbei kann es sich v. a. um IP-Adressen, Kontaktanfragen, Meta-
-und Kommunikationsdaten, Vertragsdaten, Kontaktdaten, Namen, Websitezugriffe
-und sonstige Daten, die über eine Website generiert werden, handeln.
+Diese Website wird bei GitHub Pages gehostet, einem Dienst der GitHub Inc.
+Beim Aufruf der Website verarbeitet GitHub technisch notwendige Daten, die
+Ihr Browser übermittelt, insbesondere Ihre IP-Adresse, Datum und Uhrzeit des
+Abrufs, die aufgerufene Seite sowie Browser- und Betriebssysteminformationen.
+GitHub speichert IP-Adressen nach eigenen Angaben in Protokolldateien, um die
+Sicherheit und Integrität des Dienstes zu gewährleisten. Auf diese
+Protokolldateien haben wir keinen Zugriff.
 
-Das externe Hosting erfolgt zum Zwecke der Vertragserfüllung gegenüber unseren
-potenziellen und bestehenden Kunden (Art. 6 Abs. 1 lit. b DSGVO) und im
-Interesse einer sicheren, schnellen und effizienten Bereitstellung unseres
-Online-Angebots durch einen professionellen Anbieter (Art. 6 Abs. 1 lit. f
-DSGVO). Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die
-Verarbeitung ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und §
-25 Abs. 1 TDDDG, soweit die Einwilligung die Speicherung von Cookies oder den
-Zugriff auf Informationen im Endgerät des Nutzers (z. B. Device-Fingerprinting)
-im Sinne des TDDDG umfasst. Die Einwilligung ist jederzeit widerrufbar.
+Die Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Wir
+haben ein berechtigtes Interesse an einer sicheren, schnellen und
+zuverlässigen Bereitstellung dieser Website durch einen professionellen
+Anbieter.
 
-Unser(e) Hoster wird bzw. werden Ihre Daten nur insoweit verarbeiten, wie dies
-zur Erfüllung seiner Leistungspflichten erforderlich ist und unsere Weisungen
-in Bezug auf diese Daten befolgen.
-
-Wir setzen folgende(n) Hoster ein:
+Anbieter ist:
 
 GitHub Inc.  
 88 Colin P Kelly Jr St  
 San Francisco, CA 94107  
 United States
+
+Dabei können Daten in die USA übertragen werden. GitHub ist nach dem
+EU-US Data Privacy Framework (DPF) zertifiziert. Für zertifizierte
+Unternehmen besteht ein Angemessenheitsbeschluss der Europäischen Kommission
+(Art. 45 DSGVO). Weitere Informationen finden Sie in der
+Datenschutzerklärung von GitHub:
+<https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement>.
+
+### Verschlüsselung
+
+Diese Website wird ausschließlich über eine verschlüsselte Verbindung
+(HTTPS) ausgeliefert. Daten, die Sie beim Aufruf übermitteln, können
+dadurch nicht von Dritten mitgelesen werden.
 
 ## 3. Allgemeine Hinweise und Pflicht­informationen
 
@@ -209,6 +209,8 @@ Beschwerderecht bei einer Aufsichtsbehörde, insbesondere in dem Mitgliedstaat
 ihres gewöhnlichen Aufenthalts, ihres Arbeitsplatzes oder des Orts des
 mutmaßlichen Verstoßes zu. Das Beschwerderecht besteht unbeschadet
 anderweitiger verwaltungsrechtlicher oder gerichtlicher Rechtsbehelfe.
+Zuständig für uns ist der Landesbeauftragte für den Datenschutz
+Niedersachsen, Prinzenstraße 5, 30159 Hannover.
 
 ### Recht auf Daten­übertrag­barkeit
 
@@ -259,9 +261,28 @@ der Europäischen Union oder eines Mitgliedstaats verarbeitet werden.
 
 ## 4. Datenerfassung auf dieser Website
 
-### Anfrage per E-Mail, Telefon oder Telefax
+### Speicherung im Browser (Hell/Dunkel-Darstellung)
 
-Wenn Sie uns per E-Mail, Telefon oder Telefax kontaktieren, wird Ihre Anfrage
+Diese Website setzt keine Cookies. Wenn Sie über den Schalter in der Kopf-
+oder Fußzeile zwischen heller und dunkler Darstellung wechseln, speichert
+Ihr Browser diese Auswahl im lokalen Speicher (localStorage), damit sie beim
+nächsten Seitenaufruf erhalten bleibt. Dieser Eintrag enthält nur die
+gewählte Darstellung, verbleibt auf Ihrem Endgerät und wird nicht an uns
+oder Dritte übertragen. Die Speicherung ist für die von Ihnen ausdrücklich
+gewünschte Funktion unbedingt erforderlich (§ 25 Abs. 2 Nr. 2 TDDDG). Sie
+können den Eintrag jederzeit über die Einstellungen Ihres Browsers löschen.
+
+### Schriftarten und externe Inhalte
+
+Alle Schriftarten und Skripte werden von dieser Website selbst ausgeliefert.
+Es werden keine Inhalte von Drittanbietern wie Google Fonts, Kartendiensten,
+Videoplattformen oder Social-Media-Plugins eingebunden. Links zu externen
+Seiten (z. B. GitHub oder LinkedIn) sind einfache Verweise; Daten werden an
+diese Anbieter erst übertragen, wenn Sie einen solchen Link anklicken.
+
+### Anfrage per E-Mail oder Telefon
+
+Wenn Sie uns per E-Mail oder Telefon kontaktieren, wird Ihre Anfrage
 inklusive aller daraus hervorgehenden personenbezogenen Daten (Name, Anfrage)
 zum Zwecke der Bearbeitung Ihres Anliegens bei uns gespeichert und verarbeitet.
 Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.
@@ -281,4 +302,5 @@ abgeschlossener Bearbeitung Ihres Anliegens). Zwingende gesetzliche
 Bestimmungen – insbesondere gesetzliche Aufbewahrungsfristen – bleiben
 unberührt.
 
-Quelle: <https://www.e-recht24.de>
+Stand: Oktober 2026. Grundlage: Vorlage von <https://www.e-recht24.de>, an
+diese Website angepasst.

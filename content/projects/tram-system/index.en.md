@@ -1,19 +1,25 @@
 ---
 title: "Tram network with flywheel storage"
-subheadline: "Project [TODO: setting]"
-summary: "Simulation of a tram network in Matlab/Simulink and optimisation of location and size of flywheel storage units."
+subheadline: "Rail simulation and optimisation"
+summary: "Braking trams feed back energy that is often lost without storage. I built a simulation model for tram networks that optimises the location and size of flywheel storage units."
 weight: 50
 ---
 
-**Setting:** **[TODO]** · **Period:** **[TODO]** · **Tools:** Matlab,
-Simulink, SimPowerSystems, XML
+- **Setting:** research and development at TII Energy GmbH & Co. KG
+  (flywheel storage)
+- **Tools:** Matlab, Simulink, SimPowerSystems, XML
 
-The aim was to reduce the energy demand of a tram network by storing braking
-energy in flywheel storage units.
+### My contribution
 
-I built a modular simulation model of the electrical network. Track and
-network data are described in XML, from which the program generates the
-Simulink model automatically. Timetables, elevation and curve profiles and
-the location of substations enter the calculation. Location and size of the
-storage units were optimised with external evolutionary algorithms coupled to
-the model via XML.
+- A modular simulation model of the electrical rail network
+- Automatic generation of the Simulink model from track and network data in
+  XML
+- Timetables, elevation and curve profiles and substation locations as
+  inputs
+- Optimisation of storage location and size with evolutionary algorithms,
+  coupled to the model via XML
+
+### Outcome
+
+- A simulation tool that transfers to other networks, such as AC or DC
+  networks in industrial plants

@@ -1,20 +1,26 @@
 ---
 title: "Straßenbahnnetz mit Schwungradspeichern"
 slug: "strassenbahn"
-subheadline: "Projekt [TODO: Rahmen]"
-summary: "Simulation eines Straßenbahnnetzes in Matlab/Simulink und Optimierung von Lage und Größe von Schwungradspeichern."
+subheadline: "Bahnnetz-Simulation und Optimierung"
+summary: "Bremsende Straßenbahnen speisen Energie zurück, die ohne Speicher oft verloren geht. Ich habe ein Simulationsmodell für Straßenbahnnetze aufgebaut, mit dem sich Lage und Größe von Schwungradspeichern optimieren lassen."
 weight: 50
 ---
 
-**Rahmen:** **[TODO]** · **Zeitraum:** **[TODO]** · **Werkzeuge:**
-Matlab, Simulink, SimPowerSystems, XML
+- **Rahmen:** Forschung und Entwicklung bei der TII Energy GmbH & Co. KG
+  (Schwungradspeicher)
+- **Werkzeuge:** Matlab, Simulink, SimPowerSystems, XML
 
-Ziel war, den Energiebedarf eines Straßenbahnnetzes zu senken, indem
-Bremsenergie in Schwungradspeichern zwischengespeichert wird.
+### Mein Beitrag
 
-Ich habe ein modulares Simulationsmodell des elektrischen Netzes aufgebaut.
-Strecken- und Netzdaten werden in XML beschrieben, daraus erzeugt das
-Programm das Simulink-Modell automatisch. Fahrpläne, Höhen- und
-Kurvenprofile sowie die Lage der Unterwerke gehen in die Berechnung ein.
-Lage und Größe der Speicher wurden mit externen evolutionären Algorithmen
-optimiert, die über XML an das Modell angebunden sind.
+- Modulares Simulationsmodell des elektrischen Bahnnetzes
+- Automatische Erzeugung des Simulink-Modells aus Strecken- und Netzdaten
+  in XML
+- Fahrpläne, Höhen- und Kurvenprofile und die Lage der Unterwerke als
+  Eingangsgrößen
+- Optimierung von Lage und Größe der Speicher mit evolutionären
+  Algorithmen, über XML an das Modell gekoppelt
+
+### Ergebnis
+
+- Simulationswerkzeug, das sich auf andere Netze übertragen lässt, etwa auf
+  Gleich- oder Wechselstromnetze in Industrieanlagen

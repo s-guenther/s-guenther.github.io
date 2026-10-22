@@ -1,24 +1,27 @@
 ---
 title: "Schwungradspeicher-Prototyp"
 slug: "schwungradspeicher"
-subheadline: "Masterarbeit, Otto-von-Guericke-Universität Magdeburg"
-summary: "Inselnetzfähiger Schwungradspeicher mit 200 Wh für Forschung und Lehre."
+subheadline: "Demonstrator mit 200 Wh"
+summary: "Ein Schwungradspeicher im Labormaßstab, der die Technologie vorführbar macht und Studierenden als Versuchsstand dient. Der Rotor dreht mit 25.000 Umdrehungen pro Minute; eine Ladung reicht für etwa fünf Tassen Kaffee."
 weight: 60
 ---
 
-**Rahmen:** Masterarbeit, Otto-von-Guericke-Universität Magdeburg **[TODO:
-bestätigen]** · **Zeitraum:** **[TODO]**
+- **Rahmen:** Forschung und Lehre, Otto-von-Guericke-Universität Magdeburg
+  und Leibniz Universität Hannover
+- **Kenndaten:** 200 Wh, 25.000 min⁻¹ (überkritisch), permanenterregte
+  Synchronmaschine mit 3,5 kW, Rotor aus hochfestem Aluminium und CFK,
+  Feinvakuum, inselnetzfähig
 
-Ziel war ein Schwungradspeicher im Labormaßstab, der als Demonstrator und als
-Versuchsstand für die Lehre dient.
+### Mein Beitrag
 
-Der Prototyp speichert 200 Wh. Der Rotor aus hochfestem Aluminium und
-kohlenstofffaserverstärktem Kunststoff dreht mit 25.000 min⁻¹ im
-Feinvakuum oberhalb der kritischen Drehzahl, angetrieben von einer permanenterregten
-Synchronmaschine mit 3,5 kW. Der Speicher ist inselnetzfähig; eine Ladung
-reicht für etwa fünf Tassen Kaffee.
+- Konstruktion mit 3D-Modell und Zeichnungen
+- Auswahl von Spindellagern und Leistungselektronik
+- Thermisches Modell mit konzentrierten Parametern
+- Rotordynamische Auslegung mit der Finite-Elemente-Methode
+- Aufbau und Betreuung im Laborbetrieb
 
-Ich habe die Konstruktion einschließlich 3D-Modell und Zeichnungen erstellt,
-Lager und Leistungselektronik ausgewählt, das thermische Verhalten mit einem
-Modell konzentrierter Parameter abgeschätzt und die Rotordynamik mit der
-Finite-Elemente-Methode ausgelegt.
+### Ergebnis
+
+- Funktionsfähiger Demonstrator für Ausstellungen und Lehre
+- Modularer Versuchsstand für Untersuchungen zu Vakuum, Luftreibung und
+  Lagerung

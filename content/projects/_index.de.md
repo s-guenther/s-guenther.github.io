@@ -1,9 +1,13 @@
 ---
 title: "Projekte"
-description: "Ausgewählte Projekte aus freiberuflicher Arbeit, Industrie, Forschung und Studium."
+description: "Software, Simulation, Optimierung und Hardware aus freiberuflicher Arbeit, Industrie und Forschung."
 ---
 
-Das erste Projekt stammt aus meiner freiberuflichen Tätigkeit seit 2024. Die
-übrigen entstanden vorher: in der Promotion, in einem Industrieprojekt
-parallel dazu, als Werkstudent und in Abschlussarbeiten. Der Rahmen steht
-jeweils dabei.
+Software, Simulation, Optimierung und Hardware aus freiberuflicher Arbeit,
+Industrie und Forschung.
+{.sg-lead}
+
+Die Projekte zeigen, wie ich arbeite: Ich übersetze eine technische Frage in
+ein Modell, rechne es durch und liefere ein Ergebnis, mit dem der
+Auftraggeber weiterarbeiten kann. Zu jedem Projekt finden Sie Rahmen,
+meinen Beitrag und das Ergebnis.

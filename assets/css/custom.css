@@ -460,8 +460,12 @@ figure.sg-banner img {
 .dark .sg-lead {
   color: rgb(var(--color-neutral-200));
 }
+/* Long German compounds ("Energiespeichersysteme") would overflow on phones;
+   hyphenate them by the page language instead. */
 #single_header h1 {
   margin-bottom: 0;
+  hyphens: auto;
+  overflow-wrap: break-word;
 }
 
 /* Photo strip at the top of a detail page: column width, moderate height. */

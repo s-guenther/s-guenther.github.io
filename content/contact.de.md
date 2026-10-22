@@ -8,7 +8,7 @@ description: "So erreichen Sie mich."
 {.sg-page-banner}
 
 Am einfachsten per E-Mail mit zwei, drei Sätzen zu Ihrer Fragestellung. Ich
-melde mich in der Regel innerhalb von **[TODO]** Werktagen.
+melde mich innerhalb von zwei Werktagen.
 
 **Sebastian Günther**\
 Freiberuflicher Ingenieur, Hannover
