@@ -1,0 +1,5 @@
+{{/* Theme hook (not an override): rendered under the title of each entry in
+     a list page. Shows the front matter field "subheadline". */}}
+{{ with .Params.subheadline }}
+  <p class="sg-subheadline">{{ . }}</p>
+{{ end }}

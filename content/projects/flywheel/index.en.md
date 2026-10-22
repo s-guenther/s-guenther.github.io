@@ -1,6 +1,7 @@
 ---
 title: "Flywheel storage prototype"
-summary: "Master's thesis **[TODO: confirm, year]**. A 200 Wh island-capable flywheel storage system for research and teaching."
+subheadline: "Master's thesis, Otto von Guericke University Magdeburg"
+summary: "A 200 Wh island-capable flywheel storage system for research and teaching."
 weight: 60
 ---
 

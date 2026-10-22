@@ -1,7 +1,8 @@
 ---
 title: "Schwungradspeicher-Prototyp"
 slug: "schwungradspeicher"
-summary: "Masterarbeit **[TODO: bestätigen, Jahr]**. Inselnetzfähiger Schwungradspeicher mit 200 Wh für Forschung und Lehre."
+subheadline: "Masterarbeit, Otto-von-Guericke-Universität Magdeburg"
+summary: "Inselnetzfähiger Schwungradspeicher mit 200 Wh für Forschung und Lehre."
 weight: 60
 ---
 

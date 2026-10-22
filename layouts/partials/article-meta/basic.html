@@ -1,0 +1,14 @@
+{{/* Site override of themes/blowfish/layouts/partials/article-meta/basic.html.
+     Reason: show subheadline and lead (front matter "subheadline" and
+     "summary") directly under the title of project and service pages.
+     The theme's meta line (date, reading time, ...) is switched off for
+     this site anyway; in lists this partial outputs nothing (the
+     subheadline there comes from partials/extend-article-link.html). */}}
+{{ if and (reflect.IsMap .) (eq .scope "single") }}
+  {{ with .context.Params.subheadline }}
+    <p class="sg-subheadline">{{ . }}</p>
+  {{ end }}
+  {{ with .context.Params.summary }}
+    <p class="sg-lead">{{ . | markdownify }}</p>
+  {{ end }}
+{{ end }}

@@ -1,6 +1,7 @@
 ---
 title: "Assessing flexibility potential"
-summary: "Freelance, **[TODO: year]**. A tool to assess load-shifting potential (demand-side management) and analyses run with it."
+subheadline: "Freelance assignment"
+summary: "A tool to assess load-shifting potential (demand-side management) and analyses run with it."
 weight: 10
 ---
 

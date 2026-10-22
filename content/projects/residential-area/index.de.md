@@ -1,7 +1,8 @@
 ---
 title: "Energiekonzept für ein Plusenergie-Quartier"
 slug: "plusenergie-quartier"
-summary: "**[TODO: Rahmen, Jahr]**. Simulation von Strom- und Wärmebedarf und Bewertung von PV, Speichern und Lastverschiebung für ein geplantes Wohnquartier."
+subheadline: "Projekt [TODO: Rahmen]"
+summary: "Simulation von Strom- und Wärmebedarf und Bewertung von PV, Speichern und Lastverschiebung für ein geplantes Wohnquartier."
 weight: 40
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Storage sizing for wind farms"
-summary: "Industry project alongside the doctorate. A tool that checks whether storage for curtailed energy pays off for a wind farm."
+subheadline: "Industry project alongside the doctorate"
+summary: "A tool that checks whether storage for curtailed energy pays off for a wind farm."
 weight: 30
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: "Speicherauslegung für Windparks"
 slug: "windpark"
-summary: "Industrieprojekt parallel zur Promotion. Werkzeug, das für einen Windpark prüft, ob sich ein Speicher für abgeregelte Energie lohnt."
+subheadline: "Industrieprojekt parallel zur Promotion"
+summary: "Werkzeug, das für einen Windpark prüft, ob sich ein Speicher für abgeregelte Energie lohnt."
 weight: 30
 ---
 

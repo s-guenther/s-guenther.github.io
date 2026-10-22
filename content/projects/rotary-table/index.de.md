@@ -1,7 +1,8 @@
 ---
 title: "NC-Drehtisch für ein Laser-Scanning-Vibrometer"
 slug: "drehtisch"
-summary: "Bachelorarbeit **[TODO: bestätigen, Jahr]**. Automatisierter Drehtisch für Messungen an gekrümmten Faserverbundbauteilen."
+subheadline: "Bachelorarbeit, Otto-von-Guericke-Universität Magdeburg"
+summary: "Automatisierter Drehtisch für Messungen an gekrümmten Faserverbundbauteilen."
 weight: 70
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Energy concept for an energy-plus neighbourhood"
-summary: "**[TODO: setting, year]**. Simulation of electricity and heat demand, and assessment of PV, storage and load shifting for a planned residential area."
+subheadline: "Project [TODO: setting]"
+summary: "Simulation of electricity and heat demand, and assessment of PV, storage and load shifting for a planned residential area."
 weight: 40
 ---
 

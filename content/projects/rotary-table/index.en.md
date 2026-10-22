@@ -1,6 +1,7 @@
 ---
 title: "NC rotary table for a laser scanning vibrometer"
-summary: "Bachelor's thesis **[TODO: confirm, year]**. An automated rotary table for measurements on curved fibre composite parts."
+subheadline: "Bachelor's thesis, Otto von Guericke University Magdeburg"
+summary: "An automated rotary table for measurements on curved fibre composite parts."
 weight: 70
 ---
 

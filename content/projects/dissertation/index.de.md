@@ -1,7 +1,8 @@
 ---
 title: "Hybride Energiespeichersysteme"
 slug: "promotion"
-summary: "Promotion, Leibniz Universität Hannover, bis 2026. Wann lohnt sich die Kombination zweier Speichertechnologien, und wie groß müssen sie sein?"
+subheadline: "Promotion, Leibniz Universität Hannover"
+summary: "Wann lohnt sich die Kombination zweier Speichertechnologien, und wie groß müssen sie sein?"
 weight: 20
 ---
 

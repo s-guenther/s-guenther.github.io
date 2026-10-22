@@ -1,6 +1,7 @@
 ---
 title: "Tram network with flywheel storage"
-summary: "**[TODO: setting, year]**. Simulation of a tram network in Matlab/Simulink and optimisation of location and size of flywheel storage units."
+subheadline: "Project [TODO: setting]"
+summary: "Simulation of a tram network in Matlab/Simulink and optimisation of location and size of flywheel storage units."
 weight: 50
 ---
 

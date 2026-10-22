@@ -1,7 +1,8 @@
 ---
 title: "Straßenbahnnetz mit Schwungradspeichern"
 slug: "strassenbahn"
-summary: "**[TODO: Rahmen, Jahr]**. Simulation eines Straßenbahnnetzes in Matlab/Simulink und Optimierung von Lage und Größe von Schwungradspeichern."
+subheadline: "Projekt [TODO: Rahmen]"
+summary: "Simulation eines Straßenbahnnetzes in Matlab/Simulink und Optimierung von Lage und Größe von Schwungradspeichern."
 weight: 50
 ---
 

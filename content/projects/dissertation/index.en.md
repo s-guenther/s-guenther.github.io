@@ -1,6 +1,7 @@
 ---
 title: "Hybrid energy storage systems"
-summary: "Doctorate, Leibniz University Hannover, until 2026. When is a combination of two storage technologies worthwhile, and how large must they be?"
+subheadline: "Doctorate, Leibniz University Hannover"
+summary: "When is a combination of two storage technologies worthwhile, and how large must they be?"
 weight: 20
 ---
 

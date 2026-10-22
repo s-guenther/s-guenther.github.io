@@ -1,7 +1,8 @@
 ---
 title: "Bewertung von Flexibilitätspotenzialen"
 slug: "flexibilitaet"
-summary: "Freiberuflich, **[TODO: Jahr]**. Werkzeug zur Bewertung von Lastverschiebungspotenzialen (Demand-Side-Management) und Analysen damit."
+subheadline: "Freiberuflicher Auftrag"
+summary: "Werkzeug zur Bewertung von Lastverschiebungspotenzialen (Demand-Side-Management) und Analysen damit."
 weight: 10
 ---
 
