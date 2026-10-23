@@ -9,7 +9,7 @@ tiles:
     text: "Ein Werkzeug, das Sie selbst weiter nutzen: eigene Software für technische Fragen, für die es noch keine passende Lösung gibt."
     image: "img/services/tile-research-software.jpg"
     anchor: "research-software"
-  - title: "Modellierung und Optimierung"
+  - title: "Modellierung & Optimierung"
     text: "Eine belastbare Antwort auf Ihre Frage: Modelle, Simulation und Optimierung für Energiesysteme und Energiespeicher, bis zur Parameterstudie mit Hunderttausenden Varianten."
     image: "img/services/banner.jpg"
     anchor: "scientific-computing"

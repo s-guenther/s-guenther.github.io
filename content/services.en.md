@@ -8,7 +8,7 @@ tiles:
     text: "A tool you keep using yourself: custom software for technical questions that no existing solution answers."
     image: "img/services/tile-research-software.jpg"
     anchor: "research-software"
-  - title: "Modelling and optimisation"
+  - title: "Modelling & optimisation"
     text: "A reliable answer to your question: models, simulation and optimisation for energy systems and energy storage, up to parameter studies with hundreds of thousands of variants."
     image: "img/services/banner.jpg"
     anchor: "scientific-computing"

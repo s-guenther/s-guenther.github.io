@@ -17,6 +17,10 @@ Wittekamp 21\
 Telefon: +49 160 9160 9708\
 E-Mail: info@sgrse.de
 
+## Wirtschafts-Identifikationsnummer
+
+Wirtschafts-Identifikationsnummer gemäß § 139c AO: DE400444631-00001
+
 ## Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV
 
 Sebastian Günther\
