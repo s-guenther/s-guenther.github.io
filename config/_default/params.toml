@@ -8,6 +8,7 @@ defaultAppearance = "light"
 autoSwitchAppearance = true     # follow the visitor's light/dark setting
 
 enableSearch = false
+disableImageZoom = true         # no click-to-enlarge (it caught clicks on linked tiles)
 enableCodeCopy = false
 disableTextInHeader = true      # the logo already shows "sgrse"
 logo = "img/logo-white.svg"   # header bar is always teal

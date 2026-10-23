@@ -6,7 +6,7 @@ description: "Sebastian Günther, engineer in Hannover: research software, scien
 ![sgrse: Sebastian Günther, research • software • engineering](img/logo-banner.svg)
 {.sg-banner}
 
-## Methods from research for questions from practice
+## Research-grade answers to practical questions
 
 I am an engineer based in Hannover, Germany, and have worked in research and
 development on energy systems and energy storage for more than ten years. I

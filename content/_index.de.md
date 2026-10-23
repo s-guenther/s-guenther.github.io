@@ -6,7 +6,7 @@ description: "Sebastian Günther, Ingenieur in Hannover: Forschungssoftware, Sci
 ![sgrse: Sebastian Günther, research • software • engineering](img/logo-banner.svg)
 {.sg-banner}
 
-## Methoden aus der Forschung für Fragestellungen aus der Praxis
+## Fragen aus der Praxis, beantwortet auf Forschungsniveau
 
 Ich bin Ingenieur in Hannover und arbeite seit über zehn Jahren in Forschung
 und Entwicklung zu Energiesystemen und Energiespeichern. Ich modelliere,

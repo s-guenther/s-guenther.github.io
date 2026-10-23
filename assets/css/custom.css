@@ -380,7 +380,7 @@ figure.sg-banner img {
 
 
 /* Button: in Markdown, {.sg-more} on the line after a paragraph that
-   contains one link. Left-aligned, closing each home page section. */
+   contains one link. Right-aligned, closing each home page section. */
 .sg-more a {
   display: inline-block;
   align-self: flex-start;
@@ -394,6 +394,7 @@ figure.sg-banner img {
 }
 .sg-more {
   margin: 0 0 2rem;
+  text-align: right;
 }
 .sg-more a {
   padding: 0.4rem 1rem;
