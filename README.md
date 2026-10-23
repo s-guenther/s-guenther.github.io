@@ -51,7 +51,7 @@ weight: 30              # order in lists and tiles (lower first)
   the thumbnail and the photo strip).
 - **Service tiles:** edit the `tiles` list in `content/services.*.md`
   (title, text, image path in `assets/`, anchor). Each tile links to the subheading with that
-  anchor, written in Markdown as `## Forschungssoftware {#research-software}`.
+  anchor, written in Markdown as `## Technische Software {#research-software}`.
   Anchors are the same in both languages.
 - **Banner photo inside a page:** put the image line in Markdown and
   `{.sg-page-banner}` on the line directly below it. `{.sg-portrait}` floats

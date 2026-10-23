@@ -1,6 +1,6 @@
 ---
 title: ""
-description: "Sebastian Günther, Ingenieur in Hannover: Forschungssoftware, Scientific Computing und Hardware-Prototyping für Energiesysteme und technische Anwendungen."
+description: "Sebastian Günther, Ingenieur in Hannover: technische Software, Modellierung und Optimierung sowie Hardware-Prototyping für Energiesysteme und technische Anwendungen."
 ---
 
 ![sgrse: Sebastian Günther, research • software • engineering](img/logo-banner.svg)

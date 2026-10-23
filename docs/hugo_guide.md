@@ -324,7 +324,7 @@ preview reloads automatically.
 Edit the `tiles` list at the top of `content/services.de.md` and
 `services.en.md`: title, text, image (path inside `assets/`), anchor. The
 anchor is the jump target on the services page and must match a heading
-there, e.g. `## Forschungssoftware {#research-software}`. Anchors are the
+there, e.g. `## Technische Software {#research-software}`. Anchors are the
 same in both languages.
 
 ### 5.4 Add or replace an image
@@ -403,7 +403,7 @@ class to it. Used on this site:
 | `{.sg-more}` | Paragraph with one link shown as a small button. |
 | `{.sg-contact-lines}` | Contact lines with icons (contact). |
 
-Headings can get a fixed jump target: `## Forschungssoftware {#research-software}`.
+Headings can get a fixed jump target: `## Technische Software {#research-software}`.
 
 ### 6.4 Shortcodes used
 

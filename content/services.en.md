@@ -4,16 +4,16 @@ title: "Services"
 # assets/), and the subheading on this page they link to (the {#...} ids
 # below).
 tiles:
-  - title: "Research software"
-    text: "Custom software for technical questions that no existing tool answers: models, algorithms and analyses."
+  - title: "Engineering software"
+    text: "A tool you keep using yourself: custom software for technical questions that no existing solution answers."
     image: "img/services/tile-research-software.jpg"
     anchor: "research-software"
-  - title: "Scientific computing"
-    text: "Models, simulation and optimisation for energy systems and energy storage, from sizing to parameter studies with hundreds of thousands of variants."
+  - title: "Modelling and optimisation"
+    text: "A reliable answer to your question: models, simulation and optimisation for energy systems and energy storage, up to parameter studies with hundreds of thousands of variants."
     image: "img/services/banner.jpg"
     anchor: "scientific-computing"
   - title: "Hardware prototyping"
-    text: "Design and construction of mechatronic prototypes and test rigs, including control and automated measurement."
+    text: "A working setup: design and construction of mechatronic prototypes and test rigs, including control and automated measurement."
     image: "img/services/tile-hardware-prototyping.jpg"
     anchor: "hardware-prototyping"
 ---
@@ -31,26 +31,27 @@ department of their own. A typical assignment is a well-scoped task in
 modelling, simulation or automation, completed within a few days to a few
 weeks.
 
-## Research software {#research-software}
+## Engineering software {#research-software}
 
-I develop software for questions that no existing tool answers: my own
+**You get a tool you keep using yourself.** I develop software for questions that no existing tool answers: my own
 models, algorithms and analyses, from the method to the working program.
 This is how a benchmark set for load profiles and frameworks for energy
 management strategies came about, now available as open source. Where
-calculations in Excel or Matlab already exist, I build on them. You receive
-the software under version control, documented and tested.
+calculations in Excel or Matlab already exist, I build on them. The software
+is under version control, documented and tested.
 
 Examples: [storage sizing for wind farms]({{< ref "projects/wind-farm" >}}),
 [assessing flexibility potential]({{< ref "projects/flexibility" >}}).
 
-## Scientific computing {#scientific-computing}
+## Modelling and optimisation {#scientific-computing}
 
-I answer technical and economic questions with mathematical models: Which
-storage size and operating strategy suit a load profile? How much load can
-be shifted in time, and what is it worth? What do your measurement and
-operating data show? For this I formulate linear and nonlinear optimisation
-problems, simulate operating strategies and run parameter studies with
-hundreds of thousands of variants on a computing cluster.
+**You get a reliable answer to your question.** Which storage size and
+operating strategy suit a load profile? How much load can be shifted in
+time, and what is it worth? What do your measurement and operating data
+show? I answer such questions with mathematical models: I formulate linear
+and nonlinear optimisation problems, simulate operating strategies and run
+parameter studies with hundreds of thousands of variants on a computing
+cluster. The result is a traceable report with source code.
 
 Examples: [hybrid energy storage systems]({{< ref "projects/dissertation" >}}),
 [energy-plus neighbourhood]({{< ref "projects/residential-area" >}}),
@@ -58,8 +59,8 @@ Examples: [hybrid energy storage systems]({{< ref "projects/dissertation" >}}),
 
 ## Hardware prototyping {#hardware-prototyping}
 
-When an idea has to be tested on real hardware, I design and build
-prototypes and test rigs: from the 3D model through bearings, drives and
+**You get a working setup on which your idea can be tested.** I design
+and build prototypes and test rigs: from the 3D model through bearings, drives and
 rotor dynamics to motor control and automated measurement.
 
 Examples: [flywheel storage prototype]({{< ref "projects/flywheel" >}}),
