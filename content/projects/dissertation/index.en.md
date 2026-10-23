@@ -7,7 +7,8 @@ weight: 20
 
 - **Setting:** Leibniz University Hannover, Institute of Electric Power
   Systems, Electrical Energy Storage Systems group
-- **Status:** dissertation submitted and graded, defence on 23 November 2026
+- **Status:** dissertation submitted and graded, defence at the end of
+  November 2026
 - **Tools:** Python, Pyomo, GLPK, IPOPT, pygmo, computing cluster with SLURM
 
 ### Content

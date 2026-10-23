@@ -8,8 +8,8 @@ weight: 20
 
 - **Rahmen:** Leibniz Universität Hannover, Institut für Elektrische
   Energiesysteme, Fachgebiet Elektrische Energiespeichersysteme
-- **Stand:** Dissertation eingereicht und begutachtet, Disputation am
-  23.11.2026
+- **Stand:** Dissertation eingereicht und begutachtet, Disputation Ende
+  November 2026
 - **Werkzeuge:** Python, Pyomo, GLPK, IPOPT, pygmo, Rechencluster mit SLURM
 
 ### Inhalt

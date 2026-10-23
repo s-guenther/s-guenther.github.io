@@ -252,7 +252,7 @@ html {
    header and text separately to max-w-prose and aligns them left. */
 #main-content {
   width: 100%;
-  max-width: 36rem;
+  max-width: 42rem;
   margin-inline: auto;
   padding-top: 1.5rem;
 }
@@ -379,10 +379,9 @@ figure.sg-banner img {
 }
 
 
-/* Buttons: in Markdown, {.sg-more} (small) or {.sg-cta} (large, full
-   width) on the line after a paragraph that contains one link. */
-.sg-more a,
-.sg-cta a {
+/* Button: in Markdown, {.sg-more} on the line after a paragraph that
+   contains one link. Left-aligned, closing each home page section. */
+.sg-more a {
   display: inline-block;
   align-self: flex-start;
   font-family: var(--sg-font-ui);
@@ -395,24 +394,13 @@ figure.sg-banner img {
 }
 .sg-more {
   margin: 0 0 2rem;
-  text-align: right;
 }
 .sg-more a {
   padding: 0.4rem 1rem;
   font-size: 0.95rem;
 }
-.sg-more a:hover,
-.sg-cta a:hover {
+.sg-more a:hover {
   background-color: rgb(var(--color-primary-700));
-}
-.sg-cta {
-  margin: 2.5rem 0;
-  text-align: center;
-}
-.sg-cta a {
-  display: block;
-  padding: 0.9rem 1.5rem;
-  font-size: 1.25rem;
 }
 
 /* Highlighted band, e.g. "Zwei Arten der Zusammenarbeit". */

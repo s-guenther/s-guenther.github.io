@@ -55,9 +55,8 @@ weight: 30              # order in lists and tiles (lower first)
   Anchors are the same in both languages.
 - **Banner photo inside a page:** put the image line in Markdown and
   `{.sg-page-banner}` on the line directly below it. `{.sg-portrait}` floats
-  an image to the right (About page). `{.sg-band}`, `{.sg-more}` and
-  `{.sg-cta}` below a paragraph give the highlighted band, a small button
-  and a large full-width button (home page).
+  an image to the right (About page). `{.sg-band}` and `{.sg-more}`
+  below a paragraph give the highlighted band and a button (home page).
 - **Tiles:** `{{< tiles >}}` shows the three service tiles (home page).
 - **Menu:** `config/_default/menus.*.toml`. The first entry ("Start" /
   "Home") is shown only in the burger menu on narrow screens.

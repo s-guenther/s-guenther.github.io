@@ -5,6 +5,30 @@ build:
   list: never
 ---
 
+***Vorab, in einfachen Worten:***
+
+*Dies ist eine statische Website. Sie verwendet kein
+Content-Management-System, keine Cookies und keinerlei Tracking. Die Seiten werden Ihnen als
+fertiges HTML ausgeliefert; ich verarbeite dabei weder Ihre IP-Adresse noch
+Angaben zu Gerät oder Browser. Wie bei jeder Website übermittelt Ihr Browser
+solche Daten zwar automatisch, aber weder diese Website noch ich werten sie
+aus. Gespeichert wird nur, falls Sie den Schalter benutzen, Ihre Wahl
+zwischen heller und dunkler Darstellung, und zwar in Ihrem eigenen Browser.*
+
+*Der Hoster, GitHub Pages, kann diese Daten aus technischen Gründen
+protokollieren, etwa für Sicherheit und Wartung. Darauf habe ich keinen
+Einfluss. Wie GitHub damit umgeht, steht in der
+[Datenschutzerklärung von GitHub](https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement).
+Externe Links führen zu Diensten mit eigenen Datenschutzregeln, für die ich
+nicht verantwortlich bin.*
+
+*In English: this is a static website without cookies or tracking; I do
+not process any visitor data. Only the hosting provider, GitHub Pages, may
+log technical data such as IP addresses for security reasons. The legally
+binding privacy policy below is available in German only.*
+
+---
+
 ## 1. Datenschutz auf einen Blick
 
 ### Allgemeine Hinweise

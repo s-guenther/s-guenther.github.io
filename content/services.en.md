@@ -5,7 +5,7 @@ title: "Services"
 # below).
 tiles:
   - title: "Research software"
-    text: "Software for modelling, simulation and analysis that turns scientific methods into usable tools."
+    text: "Custom software for technical questions that no existing tool answers: models, algorithms and analyses."
     image: "img/services/tile-research-software.jpg"
     anchor: "research-software"
   - title: "Scientific computing"
@@ -27,11 +27,12 @@ model becomes software, a simulation accompanies a prototype.
 
 ## Research software {#research-software}
 
-I turn spreadsheets, scripts and one-off calculations into tools that can be
-traced, extended and applied to new cases. I port calculations from Excel or
-Matlab to Python, implement models and algorithms from the literature or
-from your own development, and hand them over under version control,
-documented and tested.
+I develop software for questions that no existing tool answers: my own
+models, algorithms and analyses, from the method to the working program.
+This is how a benchmark set for load profiles and frameworks for energy
+management strategies came about, now available as open source. Where
+calculations in Excel or Matlab already exist, I build on them. You receive
+the software under version control, documented and tested.
 
 Examples: [storage sizing for wind farms]({{< ref "projects/wind-farm" >}}),
 [assessing flexibility potential]({{< ref "projects/flexibility" >}}).

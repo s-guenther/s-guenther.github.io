@@ -6,7 +6,7 @@ slug: "leistungen"
 # below).
 tiles:
   - title: "Forschungssoftware"
-    text: "Software für Modellierung, Simulation und Auswertung, die wissenschaftliche Methoden in nutzbare Werkzeuge überführt."
+    text: "Eigene Software für technische Fragen, für die es noch kein passendes Werkzeug gibt: Modelle, Algorithmen und Auswertungen."
     image: "img/services/tile-research-software.jpg"
     anchor: "research-software"
   - title: "Scientific Computing"
@@ -29,11 +29,13 @@ begleitet einen Prototyp.
 
 ## Forschungssoftware {#research-software}
 
-Aus Tabellen, Skripten und Einzelrechnungen mache ich Werkzeuge, die sich
-nachvollziehen, erweitern und auf neue Fälle anwenden lassen. Ich überführe
-Berechnungen aus Excel oder Matlab in Python, implementiere Modelle und
-Algorithmen aus der Literatur oder aus Ihrer Entwicklung und übergebe sie
-versioniert, dokumentiert und getestet.
+Ich entwickle Software für Fragen, auf die es noch kein fertiges Werkzeug
+gibt: eigene Modelle, Algorithmen und Auswertungen, von der Methode bis zum
+lauffähigen Programm. So sind etwa ein Benchmark-Satz für Lastprofile und
+Rahmenwerke für Energiemanagementstrategien entstanden, die heute quelloffen
+verfügbar sind. Wo es bereits Berechnungen in Excel oder Matlab gibt, baue ich
+darauf auf. Sie erhalten die Software versioniert, dokumentiert und
+getestet.
 
 Beispiele: [Speicherauslegung für Windparks]({{< ref "projects/wind-farm" >}}),
 [Bewertung von Flexibilitätspotenzialen]({{< ref "projects/flexibility" >}}).

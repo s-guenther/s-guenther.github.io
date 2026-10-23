@@ -401,7 +401,6 @@ class to it. Used on this site:
 | `{.sg-banner}` | Logo banner with fade-in (home). |
 | `{.sg-band}` | Highlighted box with teal edge (home). |
 | `{.sg-more}` | Paragraph with one link shown as a small button. |
-| `{.sg-cta}` | Paragraph with one link shown as a large full-width button. |
 | `{.sg-contact-lines}` | Contact lines with icons (contact). |
 
 Headings can get a fixed jump target: `## Forschungssoftware {#research-software}`.

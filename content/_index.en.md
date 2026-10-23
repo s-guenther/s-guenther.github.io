@@ -14,18 +14,29 @@ model, simulate and optimise technical systems and deliver the result in a
 form you can keep working with: as software, as a calculation with a
 traceable report, or as a working prototype.
 
-{{< tiles >}}
+## Services
 
-[More about services ›]({{< ref "services" >}})
-{.sg-more}
+Three areas that often work together: a model becomes software, a
+simulation accompanies a prototype.
+
+{{< tiles >}}
 
 **Two ways of working together:** as an assignment with a defined result,
 or as support for your project team during workload peaks.
 [More on working together]({{< ref "services" >}}#zusammenarbeit)
 {.sg-band}
 
-[See concrete projects ›]({{< ref "projects" >}})
-{.sg-cta}
+[More about services ›]({{< ref "services" >}})
+{.sg-more}
+
+## Projects
+
+Storage sizing for wind farms, flexibility in electricity demand, simulation
+of rail networks, a 200 Wh flywheel: what I have built and calculated, with
+setting, contribution and outcome.
+
+[See projects ›]({{< ref "projects" >}})
+{.sg-more}
 
 ## About
 

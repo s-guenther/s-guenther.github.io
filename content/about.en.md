@@ -16,8 +16,8 @@ evaluate the results with sound statistics. My studies and industry work add
 the practical side: mechanical design, drives and measurement.
 
 My dissertation on hybrid energy storage systems at Leibniz University
-Hannover is submitted and graded; the defence takes place on 23 November
-2026.
+Hannover is submitted and graded; the defence takes place at the end of
+November 2026.
 
 ## Background
 

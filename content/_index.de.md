@@ -14,18 +14,29 @@ simuliere und optimiere technische Systeme und liefere das Ergebnis so, dass
 Sie damit weiterarbeiten können: als Software, als Berechnung mit
 nachvollziehbarem Bericht oder als funktionsfähigen Prototyp.
 
-{{< tiles >}}
+## Leistungen
 
-[Mehr zu den Leistungen ›]({{< ref "services" >}})
-{.sg-more}
+Drei Bereiche, die oft ineinandergreifen: Ein Modell wird zur Software, eine
+Simulation begleitet einen Prototyp.
+
+{{< tiles >}}
 
 **Zwei Arten der Zusammenarbeit:** als Auftrag mit klar definiertem Ergebnis
 oder als Verstärkung Ihres Projektteams bei Arbeitsspitzen.
 [Mehr zur Zusammenarbeit]({{< ref "services" >}}#zusammenarbeit)
 {.sg-band}
 
-[Konkrete Projekte ansehen ›]({{< ref "projects" >}})
-{.sg-cta}
+[Mehr zu den Leistungen ›]({{< ref "services" >}})
+{.sg-more}
+
+## Projekte
+
+Speicherauslegung für Windparks, Flexibilität im Stromverbrauch, Simulation
+von Bahnnetzen, ein Schwungradspeicher mit 200 Wh: was ich gebaut und
+berechnet habe, mit Rahmen, Beitrag und Ergebnis.
+
+[Projekte ansehen ›]({{< ref "projects" >}})
+{.sg-more}
 
 ## Über mich
 

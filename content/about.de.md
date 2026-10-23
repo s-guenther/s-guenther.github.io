@@ -19,7 +19,7 @@ Messtechnik.
 
 Meine Dissertation zu hybriden Energiespeichersystemen an der Leibniz
 Universität Hannover ist eingereicht und begutachtet; die Disputation findet
-am 23. November 2026 statt.
+Ende November 2026 statt.
 
 ## Werdegang
 
