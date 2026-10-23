@@ -25,6 +25,12 @@ I work on technical questions with the methods of research and deliver a
 result you can keep working with. The three areas often work together: a
 model becomes software, a simulation accompanies a prototype.
 
+My clients are small and mid-sized companies, engineering firms and
+municipal utilities that have a concrete technical question but no research
+department of their own. A typical assignment is a well-scoped task in
+modelling, simulation or automation, completed within a few days to a few
+weeks.
+
 ## Research software {#research-software}
 
 I develop software for questions that no existing tool answers: my own

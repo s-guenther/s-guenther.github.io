@@ -27,6 +27,12 @@ liefere ein Ergebnis, mit dem Sie weiterarbeiten können. Die drei Bereiche
 greifen oft ineinander: Ein Modell wird zur Software, eine Simulation
 begleitet einen Prototyp.
 
+Meine Auftraggeber sind kleine und mittlere Unternehmen, Ingenieurbüros und
+Stadtwerke, die eine konkrete technische Frage haben, aber keine eigene
+Forschungsabteilung. Typisch sind klar umrissene Aufgaben in Modellierung,
+Simulation und Automatisierung, die nach einigen Tagen bis wenigen Wochen
+abgeschlossen sind.
+
 ## Forschungssoftware {#research-software}
 
 Ich entwickle Software für Fragen, auf die es noch kein fertiges Werkzeug
