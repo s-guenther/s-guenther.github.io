@@ -1,2 +1,3 @@
 User-agent: *
-Sitemap: https://sgrse.de//sitemap.xml
+Allow: /
+Sitemap: https://www.sgrse.de/sitemap.xml
