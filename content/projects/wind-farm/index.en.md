@@ -3,6 +3,7 @@ title: "Storage sizing for wind farms"
 subheadline: "Industry assignment, Python tool"
 summary: "When a wind farm is curtailed, energy is lost. For an operator, a tool was developed that determines storage technology, size and operating strategy for each wind farm and shows whether the investment pays off."
 weight: 30
+aliases: ["../../projects/wind-park/"]   # old Jekyll URL
 ---
 
 - **Setting:** industry assignment, carried out at Leibniz University

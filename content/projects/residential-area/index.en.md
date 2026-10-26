@@ -3,6 +3,7 @@ title: "Energy concept for an energy-plus neighbourhood"
 subheadline: "Simulating demand and generation"
 summary: "How far can a planned residential area cover its own electricity and heat demand? Consumption and generation were simulated with high time resolution, and variants with photovoltaics, storage, combined heat and power, and load shifting were compared."
 weight: 40
+aliases: ["../../projects/green-residential-area/"]   # old Jekyll URL
 ---
 
 - **Setting:** cooperation with ecovillage hannover eG

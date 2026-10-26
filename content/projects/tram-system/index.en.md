@@ -3,6 +3,7 @@ title: "Tram network with flywheel storage"
 subheadline: "Rail simulation and optimisation"
 summary: "Braking trams feed back energy that is often lost without storage. A modular simulation model for tram networks makes it possible to optimise the location and size of flywheel storage units."
 weight: 50
+aliases: ["../../projects/tram-system/"]   # old Jekyll URL
 ---
 
 - **Setting:** research and development at TII Energy GmbH & Co. KG

@@ -3,6 +3,7 @@ title: "NC rotary table for a laser scanning vibrometer"
 subheadline: "Automated measurement on CFRP parts"
 summary: "For structural health monitoring of cylindrical CFRP structures, a numerically controlled rotary table was designed, built and connected to the measurement software so that rotation and measurement run automatically."
 weight: 70
+aliases: ["../../projects/rotary-table/"]   # old Jekyll URL
 ---
 
 - **Setting:** research on structural health monitoring, Otto von Guericke

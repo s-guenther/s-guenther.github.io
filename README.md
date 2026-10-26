@@ -60,6 +60,12 @@ weight: 30              # order in lists and tiles (lower first)
 - **Tiles:** `{{< tiles >}}` shows the three service tiles (home page).
 - **Menu:** `config/_default/menus.*.toml`. The first entry ("Start" /
   "Home") is shown only in the burger menu on narrow screens.
+- **Old URLs:** the English pages carry `aliases` for the addresses of the
+  old Jekyll site (e.g. `/about/`, `/projects/wind-park/`), so old links
+  redirect to the new pages. On English pages an alias is resolved relative
+  to the page folder below `/en/`, hence `"../about/"` on top-level pages
+  and `"../../projects/..."` on project pages; `"/about/"` would end up at
+  `/en/about/`.
 - Placeholders that still need facts are marked `**[TODO: ...]**`; list them
   with `grep -rn TODO content`.
 

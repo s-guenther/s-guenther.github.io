@@ -1,7 +1,7 @@
 ---
 title: "Über mich"
 slug: "ueber-mich"
-description: "Werdegang, Kenntnisse, Veröffentlichungen und Software."
+description: "Werdegang und Veröffentlichungen."
 ---
 
 ![Sebastian Günther](img/portrait.jpg)

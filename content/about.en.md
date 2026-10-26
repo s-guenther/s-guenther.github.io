@@ -1,6 +1,7 @@
 ---
 title: "About"
-description: "Background, skills, publications and software."
+description: "Background and publications."
+aliases: ["../about/"]   # old Jekyll URL
 ---
 
 ![Sebastian Günther](img/portrait.jpg)

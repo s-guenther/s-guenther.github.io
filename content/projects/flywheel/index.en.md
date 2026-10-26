@@ -3,6 +3,7 @@ title: "Flywheel storage prototype"
 subheadline: "A 200 Wh demonstrator"
 summary: "A laboratory-scale flywheel storage system that makes the technology tangible and serves students as a test rig. The rotor spins at 25,000 rpm; one charge brews about five cups of coffee."
 weight: 60
+aliases: ["../../projects/flywheel/"]   # old Jekyll URL
 ---
 
 - **Setting:** research and teaching, Otto von Guericke University

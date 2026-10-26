@@ -1,6 +1,7 @@
 ---
 title: "Contact"
 description: "How to reach me."
+aliases: ["../contact/"]   # old Jekyll URL
 ---
 
 ![sgrse business cards](img/contact.jpg)

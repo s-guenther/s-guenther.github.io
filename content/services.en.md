@@ -16,6 +16,7 @@ tiles:
     text: "A working setup: design and construction of mechatronic prototypes and test rigs, including control and automated measurement."
     image: "img/services/tile-hardware-prototyping.jpg"
     anchor: "hardware-prototyping"
+aliases: ["../services/", "../research-software/", "../scientific-computing/", "../hardware-prototyping/", "../projects/others/"]   # old Jekyll URLs
 ---
 
 ![Inside a computer: mainboard, processor and graphics card](img/services/banner.jpg)
