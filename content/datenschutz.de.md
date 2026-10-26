@@ -287,8 +287,8 @@ der Europäischen Union oder eines Mitgliedstaats verarbeitet werden.
 
 ### Speicherung im Browser (Hell/Dunkel-Darstellung)
 
-Diese Website setzt keine Cookies. Wenn Sie über den Schalter in der Kopf-
-oder Fußzeile zwischen heller und dunkler Darstellung wechseln, speichert
+Diese Website setzt keine Cookies. Wenn Sie über den Schalter in der Kopfzeile
+zwischen heller und dunkler Darstellung wechseln, speichert
 Ihr Browser diese Auswahl im lokalen Speicher (localStorage), damit sie beim
 nächsten Seitenaufruf erhalten bleibt. Dieser Eintrag enthält nur die
 gewählte Darstellung, verbleibt auf Ihrem Endgerät und wird nicht an uns
