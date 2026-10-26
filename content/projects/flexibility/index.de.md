@@ -2,7 +2,7 @@
 title: "Bewertung von Flexibilitätspotenzialen"
 slug: "flexibilitaet"
 subheadline: "Demand-Side-Management"
-summary: "Wie viel Last lässt sich zeitlich verschieben, und was bringt das? Für einen Kunden habe ich ein Werkzeug entwickelt, das diese Frage quantitativ beantwortet, und damit die Analysen durchgeführt."
+summary: "Wie viel Last lässt sich zeitlich verschieben, und was bringt das? Ein eigens entwickeltes Werkzeug beantwortet diese Frage quantitativ; damit wurden die Analysen für den Kunden durchgeführt."
 weight: 10
 ---
 
@@ -10,7 +10,7 @@ weight: 10
 - **Auftraggeber:** VEA
 - **Werkzeuge:** Python
 
-### Mein Beitrag
+### Umsetzung
 
 - Entwicklung eines Werkzeugs zur Bewertung von
   Lastverschiebungspotenzialen (Demand-Side-Management)

@@ -454,6 +454,7 @@ figure.sg-banner img {
 #single_header h1 {
   margin-bottom: 0;
   hyphens: auto;
+  hyphenate-limit-chars: 10 4 4;   /* no "...potenzia-len" */
   overflow-wrap: break-word;
 }
 

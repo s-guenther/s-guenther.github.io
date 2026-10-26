@@ -1,7 +1,7 @@
 ---
 title: "Assessing flexibility potential"
 subheadline: "Demand-side management"
-summary: "How much load can be shifted in time, and what is it worth? For a client I developed a tool that answers this question quantitatively, and ran the analyses with it."
+summary: "How much load can be shifted in time, and what is it worth? A purpose-built tool answers this question quantitatively; the analyses for the client were run with it."
 weight: 10
 ---
 
@@ -9,7 +9,7 @@ weight: 10
 - **Client:** VEA
 - **Tools:** Python
 
-### My contribution
+### Implementation
 
 - Development of a tool to assess load-shifting potential (demand-side
   management)

@@ -1,7 +1,7 @@
 ---
 title: "Hybrid energy storage systems"
 subheadline: "Sizing combined storage systems"
-summary: "When does it pay to combine two storage technologies, and how large must they be? I investigated this question independently of a specific application: with optimisation models, simulation and parameter studies across more than 1,000 load profiles."
+summary: "When does it pay to combine two storage technologies, and how large must they be? The question was investigated independently of a specific application: with optimisation models, simulation and parameter studies across more than 1,000 load profiles."
 weight: 20
 ---
 

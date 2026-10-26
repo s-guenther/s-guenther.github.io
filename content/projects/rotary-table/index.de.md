@@ -2,7 +2,7 @@
 title: "NC-Drehtisch für ein Laser-Scanning-Vibrometer"
 slug: "drehtisch"
 subheadline: "Messautomatisierung für CFK-Bauteile"
-summary: "Für die Bauteilüberwachung an zylindrischen CFK-Strukturen habe ich einen numerisch gesteuerten Drehtisch konstruiert, gebaut und so an die Messsoftware angebunden, dass Drehen und Messen automatisch ablaufen."
+summary: "Für die Bauteilüberwachung an zylindrischen CFK-Strukturen wurde ein numerisch gesteuerter Drehtisch konstruiert, gebaut und so an die Messsoftware angebunden, dass Drehen und Messen automatisch ablaufen."
 weight: 70
 ---
 
@@ -10,7 +10,7 @@ weight: 70
   Monitoring), Otto-von-Guericke-Universität Magdeburg
 - **Werkzeuge:** 3D-CAD, Schrittmotorsteuerung, Messsoftware von Polytec
 
-### Mein Beitrag
+### Umsetzung
 
 - Konstruktion und Bau: Welle, Lagerung, Getriebe, Schleifring
 - Auswahl und Programmierung der Schrittmotorsteuerung

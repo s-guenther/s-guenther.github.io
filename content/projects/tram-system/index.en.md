@@ -1,7 +1,7 @@
 ---
 title: "Tram network with flywheel storage"
 subheadline: "Rail simulation and optimisation"
-summary: "Braking trams feed back energy that is often lost without storage. I built a simulation model for tram networks that optimises the location and size of flywheel storage units."
+summary: "Braking trams feed back energy that is often lost without storage. A modular simulation model for tram networks makes it possible to optimise the location and size of flywheel storage units."
 weight: 50
 ---
 
@@ -9,7 +9,7 @@ weight: 50
   (flywheel storage)
 - **Tools:** Matlab, Simulink, SimPowerSystems, XML
 
-### My contribution
+### Implementation
 
 - A modular simulation model of the electrical rail network
 - Automatic generation of the Simulink model from track and network data in

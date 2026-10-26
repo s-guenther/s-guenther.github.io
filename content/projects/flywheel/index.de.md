@@ -12,7 +12,7 @@ weight: 60
   Synchronmaschine mit 3,5 kW, Rotor aus hochfestem Aluminium und CFK,
   Feinvakuum, inselnetzfähig
 
-### Mein Beitrag
+### Umsetzung
 
 - Konstruktion mit 3D-Modell und Zeichnungen
 - Auswahl von Spindellagern und Leistungselektronik

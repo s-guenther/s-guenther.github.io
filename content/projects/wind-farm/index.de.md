@@ -2,7 +2,7 @@
 title: "Speicherauslegung für Windparks"
 slug: "windpark"
 subheadline: "Industrieauftrag, Python-Werkzeug"
-summary: "Wird ein Windpark abgeregelt, geht Energie verloren. Für einen Betreiber habe ich ein Werkzeug entwickelt, das je Windpark Speichertechnologie, Größe und Betriebsstrategie bestimmt und zeigt, ob sich die Investition trägt."
+summary: "Wird ein Windpark abgeregelt, geht Energie verloren. Für einen Betreiber wurde ein Werkzeug entwickelt, das je Windpark Speichertechnologie, Größe und Betriebsstrategie bestimmt und zeigt, ob sich die Investition trägt."
 weight: 30
 ---
 
@@ -11,7 +11,7 @@ weight: 30
 - **Auftraggeber:** Windparkbetreiber
 - **Werkzeuge:** Python, lineare Optimierung
 
-### Mein Beitrag
+### Umsetzung
 
 - Akquise auf einer Fachkonferenz, Angebot und Preisverhandlung
 - Optimierungsmodell, das aus den Leistungsprofilen eines Windparks

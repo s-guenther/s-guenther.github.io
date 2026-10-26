@@ -35,7 +35,7 @@ quantitative analysis with a focus on system sizing*), Mitarbeit im
 BMBF-Forschungsprojekt MetroHESS, ein Industrieauftrag zur
 Speicherauslegung für Windparks, Energiekonzept mit der ecovillage hannover
 eG, Aufbau und Laborbetreuung eines Schwungradspeichers, Lehre und Betreuung
-von Abschlussarbeiten, 2x 12 Monate Elternzeit.
+von Abschlussarbeiten, 2 × 12 Monate Elternzeit.
 
 **TII Energy GmbH & Co. KG, Dessau-Roßlau.** Forschung und Entwicklung zu
 Schwungradspeichern: Finite-Elemente-Modelle zur Festigkeitsberechnung von

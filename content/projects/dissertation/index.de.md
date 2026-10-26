@@ -2,7 +2,7 @@
 title: "Hybride Energiespeichersysteme"
 slug: "promotion"
 subheadline: "Auslegung kombinierter Speicher"
-summary: "Wann lohnt es sich, zwei Speichertechnologien zu kombinieren, und wie groß müssen sie sein? Ich habe diese Frage anwendungsunabhängig untersucht: mit Optimierungsmodellen, Simulation und Parameterstudien über mehr als 1.000 Lastprofile."
+summary: "Wann lohnt es sich, zwei Speichertechnologien zu kombinieren, und wie groß müssen sie sein? Diese Frage wurde anwendungsunabhängig untersucht: mit Optimierungsmodellen, Simulation und Parameterstudien über mehr als 1.000 Lastprofile."
 weight: 20
 ---
 

@@ -11,7 +11,7 @@ weight: 60
   synchronous machine, rotor of high-strength aluminium and CFRP, medium
   vacuum, island-grid capable
 
-### My contribution
+### Implementation
 
 - Mechanical design with 3D model and drawings
 - Selection of spindle bearings and power electronics
