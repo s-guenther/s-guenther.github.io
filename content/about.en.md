@@ -16,7 +16,7 @@ evaluate the results with sound statistics. My studies and industry work add
 the practical side: mechanical design, drives and measurement.
 
 My dissertation on hybrid energy storage systems at Leibniz University
-Hannover is submitted and graded; the defence takes place at the end of
+Hannover is submitted and graded. The defence takes place at the end of
 November 2026.
 
 ## Background
@@ -32,7 +32,7 @@ systems: a generalized quantitative analysis with a focus on system
 sizing*), work in the BMBF research project MetroHESS, an industry
 assignment on storage sizing for wind farms, an energy concept with
 ecovillage hannover eG, construction and laboratory supervision of a
-flywheel storage system, teaching and thesis supervision.
+flywheel storage system, teaching and thesis supervision, 2 × 12 months of parental leave.
 
 **TII Energy GmbH & Co. KG, Dessau-Roßlau.** Research and development on
 flywheel energy storage: finite element models for the strength of CFRP
@@ -43,24 +43,10 @@ Bachelor and Master of Science with a focus on mechanics, robotics and
 simulation. Industrial internship at Continental in Hannover in noise,
 vibration and harshness (NVH).
 
-## Skills
-
-- **Methods:** mathematical optimisation (linear, quadratic and nonlinear
-  models, evolutionary methods), simulation, statistics and time-series
-  analysis, finite element method, multibody simulation.
-- **Software:** Python (NumPy, pandas, SciPy, Matplotlib, scikit-learn,
-  statsmodels, Pyomo, pygmo), the solvers GLPK and IPOPT, Matlab/Simulink,
-  Git, Linux, computing clusters with SLURM, SolidWorks, LaTeX; basic C/C++
-  and Modelica.
-- **Domain:** energy storage and hybrid storage systems, energy management
-  strategies, storage sizing, load profiles and flexibility, battery
-  characterisation, design of mechatronic systems.
-- **Languages:** German (native), English (business fluent).
-
 ## Academic first-author record
 
-Six articles in peer-reviewed journals, each as first author. Code and data
-are publicly available.
+Six articles in peer-reviewed journals, each as first author. Code
+([GitHub](https://github.com/s-guenther)) and data are publicly available.
 
 - Günther, S.; Bensmann, A.; Hanke-Rauschenbach, R. (2026): The effect of
   efficiency and self-discharge parameterization on the sizing of hybrid
@@ -88,22 +74,3 @@ are publicly available.
   dimensioning and sizing limits of hybrid energy storage systems. *Applied
   Energy* 210, 127–137.
   [doi:10.1016/j.apenergy.2017.10.116](https://doi.org/10.1016/j.apenergy.2017.10.116)
-
-## Software
-
-Open source on [GitHub](https://github.com/s-guenther), developed alongside
-the publications:
-
-- [hybrid](https://github.com/s-guenther/hybrid): determine the hybridisation
-  potential of a load profile (Matlab).
-- [optess](https://github.com/s-guenther/optess): optimal sizing of single and
-  hybrid storage systems.
-- [estss](https://github.com/s-guenther/estss): benchmark set of
-  representative load profiles.
-- [hess-ems](https://github.com/s-guenther/hess-ems) and
-  [hess-sim](https://github.com/s-guenther/hess-sim): representative energy
-  management strategies and their simulation.
-- [hess-opt](https://github.com/s-guenther/hess-opt): optimisation problems
-  for sizing hybrid storage systems.
-- [hess-study](https://github.com/s-guenther/hess-study): orchestration,
-  evaluation and visualisation of the large parameter studies.

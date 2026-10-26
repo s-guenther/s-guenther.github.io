@@ -18,7 +18,7 @@ und Industrie kommt die praktische Seite dazu: Konstruktion, Antriebe und
 Messtechnik.
 
 Meine Dissertation zu hybriden Energiespeichersystemen an der Leibniz
-Universität Hannover ist eingereicht und begutachtet; die Disputation findet
+Universität Hannover ist eingereicht und begutachtet. Die Disputation findet
 Ende November 2026 statt.
 
 ## Werdegang
@@ -35,7 +35,7 @@ quantitative analysis with a focus on system sizing*), Mitarbeit im
 BMBF-Forschungsprojekt MetroHESS, ein Industrieauftrag zur
 Speicherauslegung für Windparks, Energiekonzept mit der ecovillage hannover
 eG, Aufbau und Laborbetreuung eines Schwungradspeichers, Lehre und Betreuung
-von Abschlussarbeiten.
+von Abschlussarbeiten, 2x 12 Monate Elternzeit.
 
 **TII Energy GmbH & Co. KG, Dessau-Roßlau.** Forschung und Entwicklung zu
 Schwungradspeichern: Finite-Elemente-Modelle zur Festigkeitsberechnung von
@@ -46,25 +46,10 @@ Bachelor und Master of Science mit den Schwerpunkten Mechanik, Robotik und
 Simulation. Industriepraktikum bei Continental in Hannover im Bereich
 Akustik und Schwingungen (NVH).
 
-## Kenntnisse
-
-- **Methoden:** mathematische Optimierung (lineare, quadratische und
-  nichtlineare Modelle, evolutionäre Verfahren), Simulation, Statistik und
-  Zeitreihenanalyse, Finite-Elemente-Methode, Mehrkörpersimulation.
-- **Software:** Python (NumPy, pandas, SciPy, Matplotlib, scikit-learn,
-  statsmodels, Pyomo, pygmo), Solver GLPK und IPOPT, Matlab/Simulink, Git,
-  Linux, Rechencluster mit SLURM, SolidWorks, LaTeX; Grundkenntnisse in
-  C/C++ und Modelica.
-- **Fachgebiete:** Energiespeicher und hybride Speichersysteme,
-  Energiemanagementstrategien, Speicherauslegung, Lastprofile und
-  Flexibilität, Batteriecharakterisierung, Konstruktion mechatronischer
-  Systeme.
-- **Sprachen:** Deutsch (Muttersprache), Englisch (verhandlungssicher).
-
 ## Veröffentlichungen als Erstautor
 
 Sechs Artikel in begutachteten Fachzeitschriften, jeweils als Erstautor.
-Code und Daten dazu sind öffentlich zugänglich.
+Code ([GitHub](https://github.com/s-guenther)) und Daten dazu sind öffentlich zugänglich.
 
 - Günther, S.; Bensmann, A.; Hanke-Rauschenbach, R. (2026): The effect of
   efficiency and self-discharge parameterization on the sizing of hybrid
@@ -92,22 +77,3 @@ Code und Daten dazu sind öffentlich zugänglich.
   dimensioning and sizing limits of hybrid energy storage systems. *Applied
   Energy* 210, 127–137.
   [doi:10.1016/j.apenergy.2017.10.116](https://doi.org/10.1016/j.apenergy.2017.10.116)
-
-## Software
-
-Quelloffen auf [GitHub](https://github.com/s-guenther), entstanden zu den
-Veröffentlichungen:
-
-- [hybrid](https://github.com/s-guenther/hybrid): Hybridisierungspotenzial
-  eines Lastprofils bestimmen (Matlab).
-- [optess](https://github.com/s-guenther/optess): optimale Auslegung von
-  Einzel- und Hybridspeichern.
-- [estss](https://github.com/s-guenther/estss): Benchmark-Satz repräsentativer
-  Lastprofile.
-- [hess-ems](https://github.com/s-guenther/hess-ems) und
-  [hess-sim](https://github.com/s-guenther/hess-sim): repräsentative
-  Energiemanagementstrategien und ihre Simulation.
-- [hess-opt](https://github.com/s-guenther/hess-opt): Optimierungsprobleme zur
-  Auslegung hybrider Speicher.
-- [hess-study](https://github.com/s-guenther/hess-study): Steuerung,
-  Auswertung und Visualisierung der großen Parameterstudien.

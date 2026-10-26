@@ -27,11 +27,12 @@ liefere ein Ergebnis, mit dem Sie weiterarbeiten können. Die drei Bereiche
 greifen oft ineinander: Ein Modell wird zur Software, eine Simulation
 begleitet einen Prototyp.
 
-Meine Auftraggeber sind kleine und mittlere Unternehmen, Ingenieurbüros und
-Stadtwerke, die eine konkrete technische Frage haben, aber keine eigene
-Forschungsabteilung. Typisch sind klar umrissene Aufgaben in Modellierung,
-Simulation und Automatisierung, die nach einigen Tagen bis wenigen Wochen
-abgeschlossen sind.
+Meine Auftraggeber sind typischerweise kleine und mittlere Unternehmen,
+Ingenieurbüros und Stadtwerke, die eine konkrete technische Frage haben, aber
+keine eigene Forschungsabteilung. Typisch sind klar umrissene Aufgaben und
+Fragen in Modellierung, Simulation und Automatisierung, die nach einigen Wochen
+bis Monaten abgeschlossen sind und keine dauerhafte Vollzeitstelle
+rechtfertigen.
 
 ## Technische Software {#research-software}
 
@@ -53,7 +54,7 @@ Speichergröße und Betriebsstrategie passen zu einem Lastprofil? Wie viel
 Last lässt sich zeitlich verschieben, und was bringt das? Was steckt in
 Ihren Mess- und Betriebsdaten? Ich beantworte solche Fragen mit
 mathematischen Modellen: Ich formuliere lineare und nichtlineare
-Optimierungsprobleme, simuliere Betriebsstrategien und rechne
+Optimierungsprobleme, simuliere Betriebsstrategien oder rechne
 Parameterstudien mit Hunderttausenden Varianten auf einem Rechencluster.
 Das Ergebnis ist ein nachvollziehbarer Bericht mit Quellcode.
 

@@ -7,17 +7,19 @@ weight: 10
 ---
 
 - **Rahmen:** freiberuflicher Auftrag
-- **Auftraggeber:** vertraulich
+- **Auftraggeber:** VEA
 - **Werkzeuge:** Python
 
 ### Mein Beitrag
 
 - Entwicklung eines Werkzeugs zur Bewertung von
   Lastverschiebungspotenzialen (Demand-Side-Management)
+- Modulares, sich selbst generierendes Optimierungsmodell auf Basis eines
+  Blockschaltbildes
 - Durchführung und Auswertung der Analysen
 - Aufbereitung der Ergebnisse für den Kunden
 
 ### Ergebnis
 
 - Quantitative Entscheidungsgrundlage zur Nutzung von Flexibilität
-- Weitere Details sind vertraulich.
+- Potenzialbestimmung für typische Anwendungsfälle

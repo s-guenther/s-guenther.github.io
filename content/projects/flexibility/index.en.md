@@ -6,17 +6,18 @@ weight: 10
 ---
 
 - **Setting:** freelance assignment
-- **Client:** confidential
+- **Client:** VEA
 - **Tools:** Python
 
 ### My contribution
 
 - Development of a tool to assess load-shifting potential (demand-side
   management)
+- Modular optimisation model that generates itself from a block diagram
 - Running and evaluating the analyses
 - Preparing the results for the client
 
 ### Outcome
 
 - A quantitative basis for decisions on using flexibility
-- Further details are confidential.
+- Potential assessment for typical use cases

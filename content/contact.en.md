@@ -6,8 +6,8 @@ description: "How to reach me."
 ![sgrse business cards](img/contact.jpg)
 {.sg-page-banner}
 
-The easiest way is an email with two or three sentences about your question.
-I reply within two working days.
+I look forward to hearing about your project! Feel free to send me an email
+or give me a call.
 
 **Sebastian Günther**\
 Freelance engineer, Hannover, Germany

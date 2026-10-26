@@ -7,8 +7,7 @@ description: "So erreichen Sie mich."
 ![Visitenkarten von sgrse](img/contact.jpg)
 {.sg-page-banner}
 
-Am einfachsten per E-Mail mit zwei, drei Sätzen zu Ihrer Fragestellung. Ich
-melde mich innerhalb von zwei Werktagen.
+Ich freue mich, von Ihrem Projekt zu hören! Schreiben Sie mir gerne per Mail oder melden Sie sich telefonisch.
 
 **Sebastian Günther**\
 Freiberuflicher Ingenieur, Hannover

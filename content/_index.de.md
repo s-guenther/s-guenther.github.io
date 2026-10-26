@@ -31,9 +31,8 @@ oder als Verstärkung Ihres Projektteams bei Arbeitsspitzen.
 
 ## Projekte
 
-Speicherauslegung für Windparks, Flexibilität im Stromverbrauch, Simulation
-von Bahnnetzen, ein Schwungradspeicher mit 200 Wh: was ich gebaut und
-berechnet habe, mit Rahmen, Beitrag und Ergebnis.
+Speicherauslegung für Windparks, Flexibilität im Stromverbrauch, Simulation von
+Bahnnetzen, ein Schwungradspeicher für Demonstrationszwecke, ...
 
 [Projekte ansehen ›]({{< ref "projects" >}})
 {.sg-more}
@@ -42,16 +41,15 @@ berechnet habe, mit Rahmen, Beitrag und Ergebnis.
 
 Mechatronik-Studium in Magdeburg, Forschung und Dissertation zu hybriden
 Energiespeichersystemen an der Leibniz Universität Hannover, sechs
-Fachartikel als Erstautor. Die Software zu meiner Forschung ist quelloffen
-auf GitHub.
+Fachartikel als Erstautor, Open-Access und Open-Source.
 
 [Mehr über mich ›]({{< ref "about" >}})
 {.sg-more}
 
 ## Kontakt
 
-Schreiben Sie mir in zwei, drei Sätzen, worum es geht, oder rufen Sie an. Ich
-melde mich innerhalb von zwei Werktagen.
+Ich freue mich, von Ihrem Projekt zu hören! Schreiben Sie mir gerne per Mail
+oder melden Sie sich telefonisch.
 
 [Kontakt aufnehmen ›]({{< ref "contact" >}})
 {.sg-more}

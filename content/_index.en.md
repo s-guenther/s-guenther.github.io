@@ -32,8 +32,7 @@ or as support for your project team during workload peaks.
 ## Projects
 
 Storage sizing for wind farms, flexibility in electricity demand, simulation
-of rail networks, a 200 Wh flywheel: what I have built and calculated, with
-setting, contribution and outcome.
+of rail networks, a flywheel storage system for demonstration purposes, ...
 
 [See projects ›]({{< ref "projects" >}})
 {.sg-more}
@@ -42,15 +41,15 @@ setting, contribution and outcome.
 
 Studies in mechatronics in Magdeburg, research and a dissertation on hybrid
 energy storage systems at Leibniz University Hannover, six journal articles
-as first author. The software behind my research is open source on GitHub.
+as first author, open access and open source.
 
 [More about me ›]({{< ref "about" >}})
 {.sg-more}
 
 ## Contact
 
-Write me two or three sentences about your question, or give me a call. I
-reply within two working days.
+I look forward to hearing about your project! Feel free to send me an email
+or give me a call.
 
 [Get in touch ›]({{< ref "contact" >}})
 {.sg-more}

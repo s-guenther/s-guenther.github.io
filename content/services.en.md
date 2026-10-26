@@ -25,16 +25,16 @@ I work on technical questions with the methods of research and deliver a
 result you can keep working with. The three areas often work together: a
 model becomes software, a simulation accompanies a prototype.
 
-My clients are small and mid-sized companies, engineering firms and
-municipal utilities that have a concrete technical question but no research
-department of their own. A typical assignment is a well-scoped task in
-modelling, simulation or automation, completed within a few days to a few
-weeks.
+My clients are typically small and mid-sized companies, engineering firms
+and municipal utilities that have a concrete technical question but no
+research department of their own. Typical are well-scoped tasks and
+questions in modelling, simulation and automation that are completed within
+a few weeks to months and do not justify a permanent full-time position.
 
 ## Engineering software {#research-software}
 
-**You get a tool you keep using yourself.** I develop software for questions that no existing tool answers: my own
-models, algorithms and analyses, from the method to the working program.
+**You get a tool you keep using yourself.** I develop software for
+questions that no existing tool answers: my own models, algorithms and analyses, from the method to the working program.
 This is how a benchmark set for load profiles and frameworks for energy
 management strategies came about, now available as open source. Where
 calculations in Excel or Matlab already exist, I build on them. The software
@@ -49,7 +49,7 @@ Examples: [storage sizing for wind farms]({{< ref "projects/wind-farm" >}}),
 operating strategy suit a load profile? How much load can be shifted in
 time, and what is it worth? What do your measurement and operating data
 show? I answer such questions with mathematical models: I formulate linear
-and nonlinear optimisation problems, simulate operating strategies and run
+and nonlinear optimisation problems, simulate operating strategies or run
 parameter studies with hundreds of thousands of variants on a computing
 cluster. The result is a traceable report with source code.
 
@@ -60,8 +60,8 @@ Examples: [hybrid energy storage systems]({{< ref "projects/dissertation" >}}),
 ## Hardware prototyping {#hardware-prototyping}
 
 **You get a working setup on which your idea can be tested.** I design
-and build prototypes and test rigs: from the 3D model through bearings, drives and
-rotor dynamics to motor control and automated measurement.
+and build prototypes and test rigs: from the 3D model through bearings,
+drives and rotor dynamics to motor control and automated measurement.
 
 Examples: [flywheel storage prototype]({{< ref "projects/flywheel" >}}),
 [NC rotary table for a laser scanning vibrometer]({{< ref "projects/rotary-table" >}}).
