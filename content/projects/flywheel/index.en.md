@@ -1,10 +1,14 @@
 ---
 title: "Flywheel storage prototype"
 subheadline: "A 200 Wh demonstrator"
-summary: "A laboratory-scale flywheel storage system that makes the technology tangible and serves students as a test rig. The rotor spins at 25,000 rpm; one charge brews about five cups of coffee."
+summary: "I designed and built a laboratory-scale flywheel storage system that makes the technology tangible and serves students as a test rig. The rotor spins at 25,000 rpm. One charge brews about five cups of coffee."
 weight: 60
 aliases: ["../../projects/flywheel/"]   # old Jekyll URL
 ---
+
+Flywheels store energy mechanically in a fast-spinning rotor. They deliver
+high power and withstand a very large number of cycles. As a demonstrator
+they make storage technology tangible.
 
 - **Setting:** research and teaching, Otto von Guericke University
   Magdeburg and Leibniz University Hannover
@@ -12,7 +16,7 @@ aliases: ["../../projects/flywheel/"]   # old Jekyll URL
   synchronous machine, rotor of high-strength aluminium and CFRP, medium
   vacuum, island-grid capable
 
-### Implementation
+### My contribution
 
 - Mechanical design with 3D model and drawings
 - Selection of spindle bearings and power electronics

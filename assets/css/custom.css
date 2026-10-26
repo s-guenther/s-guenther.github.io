@@ -306,6 +306,15 @@ figure.sg-banner img {
   figure.sg-banner img { animation: none; }
 }
 
+/* Headline below the banner: the page's h1 (the logo is an image), sized
+   like a section heading so it does not compete with the banner. */
+.sg-banner + h1 {
+  margin-top: 0;
+  font-size: 1.6rem;
+  line-height: 1.3;
+  font-weight: 700;
+}
+
 /* Tiles ({{< tiles >}}): three columns within the reading column; each
    tile is one link to its subheading on the services page. */
 .sg-tiles {
@@ -456,6 +465,13 @@ figure.sg-banner img {
   hyphens: auto;
   hyphenate-limit-chars: 10 4 4;   /* no "...potenzia-len" */
   overflow-wrap: break-word;
+}
+
+/* Previous/next links below project pages (article-pagination.html):
+   same hyphenation for long titles on phones. */
+#main-content .justify-between.pt-3 a {
+  hyphens: auto;
+  hyphenate-limit-chars: 10 4 4;
 }
 
 /* Photo strip at the top of a detail page: column width, moderate height. */

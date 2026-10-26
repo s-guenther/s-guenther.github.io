@@ -2,21 +2,29 @@
 title: "Straßenbahnnetz mit Schwungradspeichern"
 slug: "strassenbahn"
 subheadline: "Bahnnetz-Simulation und Optimierung"
-summary: "Bremsende Straßenbahnen speisen Energie zurück, die ohne Speicher oft verloren geht. Ein modulares Simulationsmodell für Straßenbahnnetze ermöglicht es, Lage und Größe von Schwungradspeichern zu optimieren."
+summary: "Ich habe ein modulares Simulationsmodell für Straßenbahnnetze aufgebaut, mit dem sich Lage und Größe von Schwungradspeichern optimieren lassen."
 weight: 50
 ---
+
+Straßenbahnen bremsen elektrisch und erzeugen dabei Energie. Nimmt kein
+anderes Fahrzeug sie auf, wird sie in Bremswiderständen in Wärme
+umgewandelt. Speicher an der Strecke können sie aufnehmen. Wo sie stehen
+und wie groß sie sein sollten, hängt von Fahrplan und Netz ab.
 
 - **Rahmen:** Forschung und Entwicklung bei der TII Energy GmbH & Co. KG
   (Schwungradspeicher)
 - **Werkzeuge:** Matlab, Simulink, SimPowerSystems, XML
 
-### Umsetzung
+### Mein Beitrag
 
 - Modulares Simulationsmodell des elektrischen Bahnnetzes
 - Automatische Erzeugung des Simulink-Modells aus Strecken- und Netzdaten
   in XML
-- Fahrpläne, Höhen- und Kurvenprofile und die Lage der Unterwerke als
-  Eingangsgrößen
+- Energiebedarf je Streckenabschnitt aus Höhen- und Kurvenprofil
+- Fahrpläne und Lastzyklen in Tabellenform, Lage der Unterwerke und
+  Fahrtrichtung auf beiden Gleisen als Eingangsgrößen
+- Einstellbare Rechengenauigkeit, automatisierte Auswertung der
+  Simulationsdaten
 - Optimierung von Lage und Größe der Speicher mit evolutionären
   Algorithmen, über XML an das Modell gekoppelt
 

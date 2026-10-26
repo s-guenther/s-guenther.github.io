@@ -6,13 +6,17 @@ description: "Sebastian Günther, Ingenieur in Hannover: technische Software, Mo
 ![sgrse: Sebastian Günther, research • software • engineering](img/logo-banner.svg)
 {.sg-banner}
 
-## Fragen aus der Praxis, beantwortet auf Forschungsniveau
+# Fragen aus der Praxis, beantwortet auf Forschungsniveau
 
 Ich bin Ingenieur in Hannover und arbeite seit über zehn Jahren in Forschung
 und Entwicklung zu Energiesystemen und Energiespeichern. Ich modelliere,
 simuliere und optimiere technische Systeme und liefere das Ergebnis so, dass
 Sie damit weiterarbeiten können: als Software, als Berechnung mit
 nachvollziehbarem Bericht oder als funktionsfähigen Prototyp.
+
+Zum Beispiel: Lohnt sich ein Batteriespeicher für Ihren Betrieb? Wie viel
+Ihres Stromverbrauchs lässt sich in günstigere Zeiten verschieben, und was
+spart das?
 
 ## Leistungen
 

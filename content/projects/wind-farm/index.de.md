@@ -2,16 +2,20 @@
 title: "Speicherauslegung für Windparks"
 slug: "windpark"
 subheadline: "Industrieauftrag, Python-Werkzeug"
-summary: "Wird ein Windpark abgeregelt, geht Energie verloren. Für einen Betreiber wurde ein Werkzeug entwickelt, das je Windpark Speichertechnologie, Größe und Betriebsstrategie bestimmt und zeigt, ob sich die Investition trägt."
+summary: "Für einen Windparkbetreiber habe ich ein Werkzeug entwickelt, das je Windpark Speichertechnologie, Größe und Betriebsstrategie bestimmt und zeigt, ob sich die Investition trägt."
 weight: 30
 ---
+
+Bei Netzengpässen werden Windparks abgeregelt. Ein Speicher kann die sonst
+ungenutzte Energie aufnehmen und später einspeisen. Ob sich das rechnet,
+hängt von Standort, Technologie und Betriebsstrategie ab.
 
 - **Rahmen:** Industrieauftrag, bearbeitet an der Leibniz Universität
   Hannover
 - **Auftraggeber:** Windparkbetreiber
 - **Werkzeuge:** Python, lineare Optimierung
 
-### Umsetzung
+### Mein Beitrag
 
 - Akquise auf einer Fachkonferenz, Angebot und Preisverhandlung
 - Optimierungsmodell, das aus den Leistungsprofilen eines Windparks

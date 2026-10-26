@@ -10,7 +10,7 @@ tiles:
     image: "img/services/tile-research-software.jpg"
     anchor: "research-software"
   - title: "Modellierung & Optimierung"
-    text: "Eine belastbare Antwort auf Ihre Frage: Modelle, Simulation und Optimierung für Energiesysteme und Energiespeicher, bis zur Parameterstudie mit Hunderttausenden Varianten."
+    text: "Eine nachvollziehbare Antwort auf Ihre Frage: Modelle, Simulation und Optimierung für Energiesysteme und Energiespeicher, bis zur Parameterstudie mit Hunderttausenden Varianten."
     image: "img/services/banner.jpg"
     anchor: "scientific-computing"
   - title: "Hardware-Prototyping"
@@ -27,12 +27,16 @@ liefere ein Ergebnis, mit dem Sie weiterarbeiten können. Die drei Bereiche
 greifen oft ineinander: Ein Modell wird zur Software, eine Simulation
 begleitet einen Prototyp.
 
-Meine Auftraggeber sind typischerweise kleine und mittlere Unternehmen,
+Mein Angebot richtet sich an kleine und mittlere Unternehmen,
 Ingenieurbüros und Stadtwerke, die eine konkrete technische Frage haben, aber
 keine eigene Forschungsabteilung. Typisch sind klar umrissene Aufgaben und
 Fragen in Modellierung, Simulation und Automatisierung, die nach einigen Wochen
 bis Monaten abgeschlossen sind und keine dauerhafte Vollzeitstelle
 rechtfertigen.
+
+Die Methoden sind nicht auf Energiesysteme beschränkt: Modellierung,
+Optimierung, Prüfstände und Messautomatisierung lassen sich ebenso auf
+Antriebe, Fahrzeugkomponenten oder Produktionsprozesse anwenden.
 
 ## Technische Software {#research-software}
 
@@ -49,14 +53,15 @@ Beispiele: [Speicherauslegung für Windparks]({{< ref "projects/wind-farm" >}}),
 
 ## Modellierung und Optimierung {#scientific-computing}
 
-**Sie erhalten eine belastbare Antwort auf Ihre Frage.** Welche
+**Sie erhalten eine nachvollziehbare Antwort auf Ihre Frage.** Welche
 Speichergröße und Betriebsstrategie passen zu einem Lastprofil? Wie viel
 Last lässt sich zeitlich verschieben, und was bringt das? Was steckt in
 Ihren Mess- und Betriebsdaten? Ich beantworte solche Fragen mit
 mathematischen Modellen: Ich formuliere lineare und nichtlineare
 Optimierungsprobleme, simuliere Betriebsstrategien oder rechne
-Parameterstudien mit Hunderttausenden Varianten auf einem Rechencluster.
-Das Ergebnis ist ein nachvollziehbarer Bericht mit Quellcode.
+Parameterstudien mit Hunderttausenden Varianten auf einem Rechencluster und
+werte sie statistisch aus. Bericht und Quellcode machen jeden Schritt
+überprüfbar.
 
 Beispiele: [Hybride Energiespeichersysteme]({{< ref "projects/dissertation" >}}),
 [Plusenergie-Quartier]({{< ref "projects/residential-area" >}}),
@@ -74,8 +79,24 @@ Beispiele: [Schwungradspeicher-Prototyp]({{< ref "projects/flywheel" >}}),
 ## Zwei Arten der Zusammenarbeit {#zusammenarbeit}
 
 **Auftrag mit klar definiertem Ergebnis.** Wir legen Fragestellung, Umfang
-und Ergebnis vorab fest. Sie erhalten Bericht, Quellcode und Dokumentation;
-die Ergebnisse sind nachvollziehbar und wiederholbar.
+und Ergebnis vorab fest. Sie erhalten Bericht, Quellcode und Dokumentation.
+Die Ergebnisse sind nachvollziehbar und wiederholbar.
 
 **Verstärkung Ihres Projektteams.** Bei Arbeitsspitzen arbeite ich in Ihrem
 Team mit, für einen vereinbarten Zeitraum und Umfang.
+
+## Rahmenbedingungen {#rahmenbedingungen}
+
+Ich richte mich nach dem, was zu Ihrem Vorhaben passt: Abrechnung zum
+Festpreis oder nach Aufwand, Konditionen nach Absprache. Ein erstes Gespräch
+und das Angebot sind selbstverständlich kostenfrei. Vertraulichkeit,
+Nutzungsrechte an Quellcode und Ergebnissen sowie den Umgang mit Ihren Daten
+regeln wir nach Ihren Anforderungen, auf Wunsch mit
+Geheimhaltungsvereinbarung.
+
+## Was ich nicht anbiete
+
+Standardaufgaben, für die es spezialisierte Anbieter gibt, etwa die Auslegung
+von PV-Anlagen für Wohnhäuser oder von Klimatechnik für Bürogebäude.
+Fachbetriebe erledigen das schneller und günstiger. Wenn Ihre Frage in diese
+Kategorie fällt, sage ich Ihnen das offen.

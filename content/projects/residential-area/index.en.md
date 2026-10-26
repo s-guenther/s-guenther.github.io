@@ -1,15 +1,19 @@
 ---
 title: "Energy concept for an energy-plus neighbourhood"
 subheadline: "Simulating demand and generation"
-summary: "How far can a planned residential area cover its own electricity and heat demand? Consumption and generation were simulated with high time resolution, and variants with photovoltaics, storage, combined heat and power, and load shifting were compared."
+summary: "How far can a planned residential area cover its own electricity and heat demand? I simulated consumption and generation with high time resolution and compared variants with photovoltaics, storage, combined heat and power, and load shifting."
 weight: 40
 aliases: ["../../projects/green-residential-area/"]   # old Jekyll URL
 ---
 
+An energy-plus neighbourhood is meant to generate more energy over the year
+than it consumes. What matters, however, is how well generation and demand
+match in time, and an annual balance does not show that.
+
 - **Setting:** cooperation with ecovillage hannover eG
 - **Methods:** time-resolved simulation, scenario comparison
 
-### Implementation
+### My contribution
 
 - Demand profiles for electricity, space heating and hot water, for
   different building types and insulation standards

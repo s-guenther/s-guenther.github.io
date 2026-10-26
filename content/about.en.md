@@ -49,29 +49,29 @@ vibration and harshness (NVH).
 Six articles in peer-reviewed journals, each as first author. Code
 ([GitHub](https://github.com/s-guenther)) and data are publicly available.
 
-- Günther, S.; Bensmann, A.; Hanke-Rauschenbach, R. (2026): The effect of
+- Günther, S., Bensmann, A., Hanke-Rauschenbach, R. (2026): The effect of
   efficiency and self-discharge parameterization on the sizing of hybrid
   energy storage systems. *Energy Informatics* 9, 72.
   [doi:10.1186/s42162-026-00676-z](https://doi.org/10.1186/s42162-026-00676-z)
-- Günther, S.; Bensmann, A.; Hanke-Rauschenbach, R. (2026): Large-scale
+- Günther, S., Bensmann, A., Hanke-Rauschenbach, R. (2026): Large-scale
   performance evaluation of energy management strategies for hybrid energy
   storage systems with a focus on system sizing. *Advances in Applied
   Energy* 23, 100299.
   [doi:10.1016/j.adapen.2026.100299](https://doi.org/10.1016/j.adapen.2026.100299)
-- Günther, S.; Bensmann, A.; Hanke-Rauschenbach, R. (2025): Representative
+- Günther, S., Bensmann, A., Hanke-Rauschenbach, R. (2025): Representative
   energy management strategies for hybrid energy storage systems derived from
   a meta-review. *Renewable and Sustainable Energy Reviews* 216, 115610.
   [doi:10.1016/j.rser.2025.115610](https://doi.org/10.1016/j.rser.2025.115610)
-- Günther, S.; Brandt, J.; Bensmann, A.; Hanke-Rauschenbach, R. (2024):
+- Günther, S., Brandt, J., Bensmann, A., Hanke-Rauschenbach, R. (2024):
   ESTSS, energy system time series suite: a declustered,
   application-independent, semi-artificial load profile benchmark set.
   *Energy Informatics* 7, 3.
   [doi:10.1186/s42162-024-00304-8](https://doi.org/10.1186/s42162-024-00304-8)
-- Günther, S.; Weber, L.; Bensmann, A.; Hanke-Rauschenbach, R. (2022):
+- Günther, S., Weber, L., Bensmann, A., Hanke-Rauschenbach, R. (2022):
   Structured analysis and review of filter-based control strategies for
   hybrid energy storage systems. *IEEE Access* 10, 126269–126284.
   [doi:10.1109/ACCESS.2022.3226261](https://doi.org/10.1109/ACCESS.2022.3226261)
-- Günther, S.; Bensmann, A.; Hanke-Rauschenbach, R. (2018): Theoretical
+- Günther, S., Bensmann, A., Hanke-Rauschenbach, R. (2018): Theoretical
   dimensioning and sizing limits of hybrid energy storage systems. *Applied
   Energy* 210, 127–137.
   [doi:10.1016/j.apenergy.2017.10.116](https://doi.org/10.1016/j.apenergy.2017.10.116)

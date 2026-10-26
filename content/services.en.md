@@ -9,7 +9,7 @@ tiles:
     image: "img/services/tile-research-software.jpg"
     anchor: "research-software"
   - title: "Modelling & optimisation"
-    text: "A reliable answer to your question: models, simulation and optimisation for energy systems and energy storage, up to parameter studies with hundreds of thousands of variants."
+    text: "A traceable answer to your question: models, simulation and optimisation for energy systems and energy storage, up to parameter studies with hundreds of thousands of variants."
     image: "img/services/banner.jpg"
     anchor: "scientific-computing"
   - title: "Hardware prototyping"
@@ -26,11 +26,15 @@ I work on technical questions with the methods of research and deliver a
 result you can keep working with. The three areas often work together: a
 model becomes software, a simulation accompanies a prototype.
 
-My clients are typically small and mid-sized companies, engineering firms
+My services are aimed at small and mid-sized companies, engineering firms
 and municipal utilities that have a concrete technical question but no
 research department of their own. Typical are well-scoped tasks and
 questions in modelling, simulation and automation that are completed within
 a few weeks to months and do not justify a permanent full-time position.
+
+The methods are not limited to energy systems: modelling, optimisation,
+test rigs and measurement automation apply equally to drives, vehicle
+components or production processes.
 
 ## Engineering software {#research-software}
 
@@ -46,13 +50,14 @@ Examples: [storage sizing for wind farms]({{< ref "projects/wind-farm" >}}),
 
 ## Modelling and optimisation {#scientific-computing}
 
-**You get a reliable answer to your question.** Which storage size and
+**You get a traceable answer to your question.** Which storage size and
 operating strategy suit a load profile? How much load can be shifted in
 time, and what is it worth? What do your measurement and operating data
 show? I answer such questions with mathematical models: I formulate linear
 and nonlinear optimisation problems, simulate operating strategies or run
 parameter studies with hundreds of thousands of variants on a computing
-cluster. The result is a traceable report with source code.
+cluster and evaluate them statistically. Report and source code make every
+step verifiable.
 
 Examples: [hybrid energy storage systems]({{< ref "projects/dissertation" >}}),
 [energy-plus neighbourhood]({{< ref "projects/residential-area" >}}),
@@ -70,8 +75,23 @@ Examples: [flywheel storage prototype]({{< ref "projects/flywheel" >}}),
 ## Two ways of working together {#zusammenarbeit}
 
 **An assignment with a defined result.** We agree on question, scope and
-deliverables up front. You receive report, source code and documentation;
-the results can be traced and reproduced.
+deliverables up front. You receive report, source code and documentation.
+The results can be traced and reproduced.
 
 **Support for your project team.** During workload peaks I join your team
 for an agreed period and scope.
+
+## Terms {#terms}
+
+I adapt to what suits your project: a fixed price or billing by effort,
+with terms agreed individually. An initial conversation and the offer are,
+of course, free of charge. Confidentiality, rights of use for source code
+and results, and the handling of your data are arranged according to your
+requirements, with a non-disclosure agreement if you wish.
+
+## What I do not offer
+
+Standard tasks for which specialised providers exist, such as designing PV
+systems for houses or air conditioning for office buildings. Specialist
+firms do this faster and at lower cost. If your question falls into this
+category, I will tell you openly.

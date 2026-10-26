@@ -6,13 +6,17 @@ description: "Sebastian Günther, engineer in Hannover: engineering software, mo
 ![sgrse: Sebastian Günther, research • software • engineering](img/logo-banner.svg)
 {.sg-banner}
 
-## Research-grade answers to practical questions
+# Research-grade answers to practical questions
 
 I am an engineer based in Hannover, Germany, and have worked in research and
 development on energy systems and energy storage for more than ten years. I
 model, simulate and optimise technical systems and deliver the result in a
 form you can keep working with: as software, as a calculation with a
 traceable report, or as a working prototype.
+
+For example: does a battery storage system pay off for your business? How
+much of your electricity demand can be shifted to cheaper times, and what
+does that save?
 
 ## Services
 

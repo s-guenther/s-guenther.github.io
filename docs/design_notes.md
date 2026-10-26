@@ -162,6 +162,8 @@ Re-check these after a theme update (all in `assets/css/custom.css`):
 | `#main-content article > .overflow-hidden:first-child` | Photo strip (`hero/basic.html`). |
 | `.article-link--simple`, `.thumbnail`, `.article-link__summary` | List entries (`article-link/simple.html`). |
 | `.anchor` | Heading anchors (`_markup/render-heading.html`). |
+| `#main-content .justify-between.pt-3 a` | Previous/next links (`article-pagination.html`). |
+| `.sg-banner + h1` | Home headline after the logo banner (content, not theme). |
 
 ## 6. Verification workflow used
 

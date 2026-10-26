@@ -9,7 +9,7 @@ build:
 
 *Dies ist eine statische Website. Sie verwendet kein
 Content-Management-System, keine Cookies und keinerlei Tracking. Die Seiten werden Ihnen als
-fertiges HTML ausgeliefert; ich verarbeite dabei weder Ihre IP-Adresse noch
+fertiges HTML ausgeliefert. Ich verarbeite dabei weder Ihre IP-Adresse noch
 Angaben zu Gerät oder Browser. Wie bei jeder Website übermittelt Ihr Browser
 solche Daten zwar automatisch, aber weder diese Website noch ich werten sie
 aus. Gespeichert wird nur, falls Sie den Schalter benutzen, Ihre Wahl
@@ -22,7 +22,7 @@ Einfluss. Wie GitHub damit umgeht, steht in der
 Externe Links führen zu Diensten mit eigenen Datenschutzregeln, für die ich
 nicht verantwortlich bin.*
 
-*In English: this is a static website without cookies or tracking; I do
+*In English: this is a static website without cookies or tracking. I do
 not process any visitor data. Only the hosting provider, GitHub Pages, may
 log technical data such as IP addresses for security reasons. The legally
 binding privacy policy below is available in German only.*
@@ -158,7 +158,7 @@ für die Datenverarbeitung entfällt. Wenn Sie ein berechtigtes Löschersuchen
 geltend machen oder eine Einwilligung zur Datenverarbeitung widerrufen, werden
 Ihre Daten gelöscht, sofern wir keine anderen rechtlich zulässigen Gründe für
 die Speicherung Ihrer personenbezogenen Daten haben (z. B. steuer- oder
-handelsrechtliche Aufbewahrungsfristen); im letztgenannten Fall erfolgt die
+handelsrechtliche Aufbewahrungsfristen). Im letztgenannten Fall erfolgt die
 Löschung nach Fortfall dieser Gründe.
 
 ### Allgemeine Hinweise zu den Rechtsgrundlagen der Datenverarbeitung auf dieser Website
@@ -209,7 +209,7 @@ Widerruf unberührt.
 WENN DIE DATENVERARBEITUNG AUF GRUNDLAGE VON ART. 6 ABS. 1 LIT. E ODER F DSGVO
 ERFOLGT, HABEN SIE JEDERZEIT DAS RECHT, AUS GRÜNDEN, DIE SICH AUS IHRER
 BESONDEREN SITUATION ERGEBEN, GEGEN DIE VERARBEITUNG IHRER PERSONENBEZOGENEN
-DATEN WIDERSPRUCH EINZULEGEN; DIES GILT AUCH FÜR EIN AUF DIESE BESTIMMUNGEN
+DATEN WIDERSPRUCH EINZULEGEN. DIES GILT AUCH FÜR EIN AUF DIESE BESTIMMUNGEN
 GESTÜTZTES PROFILING. DIE JEWEILIGE RECHTSGRUNDLAGE, AUF DENEN EINE
 VERARBEITUNG BERUHT, ENTNEHMEN SIE DIESER DATENSCHUTZERKLÄRUNG. WENN SIE
 WIDERSPRUCH EINLEGEN, WERDEN WIR IHRE BETROFFENEN PERSONENBEZOGENEN DATEN NICHT
@@ -220,7 +220,7 @@ VERTEIDIGUNG VON RECHTSANSPRÜCHEN (WIDERSPRUCH NACH ART. 21 ABS. 1 DSGVO).
 
 WERDEN IHRE PERSONENBEZOGENEN DATEN VERARBEITET, UM DIREKTWERBUNG ZU BETREIBEN,
 SO HABEN SIE DAS RECHT, JEDERZEIT WIDERSPRUCH GEGEN DIE VERARBEITUNG SIE
-BETREFFENDER PERSONENBEZOGENER DATEN ZUM ZWECKE DERARTIGER WERBUNG EINZULEGEN;
+BETREFFENDER PERSONENBEZOGENER DATEN ZUM ZWECKE DERARTIGER WERBUNG EINZULEGEN.
 DIES GILT AUCH FÜR DAS PROFILING, SOWEIT ES MIT SOLCHER DIREKTWERBUNG IN
 VERBINDUNG STEHT. WENN SIE WIDERSPRECHEN, WERDEN IHRE PERSONENBEZOGENEN DATEN
 ANSCHLIESSEND NICHT MEHR ZUM ZWECKE DER DIREKTWERBUNG VERWENDET (WIDERSPRUCH
@@ -301,7 +301,7 @@ können den Eintrag jederzeit über die Einstellungen Ihres Browsers löschen.
 Alle Schriftarten und Skripte werden von dieser Website selbst ausgeliefert.
 Es werden keine Inhalte von Drittanbietern wie Google Fonts, Kartendiensten,
 Videoplattformen oder Social-Media-Plugins eingebunden. Links zu externen
-Seiten (z. B. GitHub oder LinkedIn) sind einfache Verweise; Daten werden an
+Seiten (z. B. GitHub oder LinkedIn) sind einfache Verweise. Daten werden an
 diese Anbieter erst übertragen, wenn Sie einen solchen Link anklicken.
 
 ### Anfrage per E-Mail oder Telefon
@@ -317,7 +317,7 @@ zur Durchführung vorvertraglicher Maßnahmen erforderlich ist. In allen übrige
 Fällen beruht die Verarbeitung auf unserem berechtigten Interesse an der
 effektiven Bearbeitung der an uns gerichteten Anfragen (Art. 6 Abs. 1 lit. f
 DSGVO) oder auf Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) sofern diese
-abgefragt wurde; die Einwilligung ist jederzeit widerrufbar.
+abgefragt wurde. Die Einwilligung ist jederzeit widerrufbar.
 
 Die von Ihnen an uns per Kontaktanfragen übersandten Daten verbleiben bei uns,
 bis Sie uns zur Löschung auffordern, Ihre Einwilligung zur Speicherung

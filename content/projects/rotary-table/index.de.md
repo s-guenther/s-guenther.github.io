@@ -2,15 +2,20 @@
 title: "NC-Drehtisch für ein Laser-Scanning-Vibrometer"
 slug: "drehtisch"
 subheadline: "Messautomatisierung für CFK-Bauteile"
-summary: "Für die Bauteilüberwachung an zylindrischen CFK-Strukturen wurde ein numerisch gesteuerter Drehtisch konstruiert, gebaut und so an die Messsoftware angebunden, dass Drehen und Messen automatisch ablaufen."
+summary: "Für die Bauteilüberwachung an zylindrischen CFK-Strukturen habe ich einen numerisch gesteuerten Drehtisch konstruiert, gebaut und so an die Messsoftware angebunden, dass Drehen und Messen automatisch ablaufen."
 weight: 70
 ---
+
+Faserverbundbauteile können innen geschädigt sein, ohne dass man es von
+außen sieht. Zur Überwachung werden Wellen durch das Bauteil geschickt und
+gemessen. An gekrümmten Bauteilen sind dafür viele Messpositionen rund um
+den Umfang nötig.
 
 - **Rahmen:** Forschung zur Bauteilüberwachung (Structural Health
   Monitoring), Otto-von-Guericke-Universität Magdeburg
 - **Werkzeuge:** 3D-CAD, Schrittmotorsteuerung, Messsoftware von Polytec
 
-### Umsetzung
+### Mein Beitrag
 
 - Konstruktion und Bau: Welle, Lagerung, Getriebe, Schleifring
 - Auswahl und Programmierung der Schrittmotorsteuerung

@@ -1,15 +1,20 @@
 ---
 title: "Assessing flexibility potential"
 subheadline: "Demand-side management"
-summary: "How much load can be shifted in time, and what is it worth? A purpose-built tool answers this question quantitatively; the analyses for the client were run with it."
+summary: "How much load can be shifted in time, and what is it worth? For VEA I developed a tool that answers this question quantitatively, and ran the analyses with it."
 weight: 10
 ---
 
+Shifting electricity demand in time can lower load peaks and make use of
+cheaper price periods. How large this potential really is in a given
+operation is hard to estimate without a model.
+
 - **Setting:** freelance assignment
-- **Client:** VEA
+- **Client:** VEA (Bundesverband der Energie-Abnehmer e. V., German
+  association of energy consumers)
 - **Tools:** Python
 
-### Implementation
+### My contribution
 
 - Development of a tool to assess load-shifting potential (demand-side
   management)
