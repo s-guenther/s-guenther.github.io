@@ -9,5 +9,6 @@ cascade:
 ---
 
 Software, simulation, optimisation and hardware from freelance work,
-industry and research.
+industry and research. On request, I can put you in touch with contacts
+from previous projects.
 {.sg-lead}

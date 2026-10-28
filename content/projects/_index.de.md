@@ -8,5 +8,6 @@ cascade:
 ---
 
 Software, Simulation, Optimierung und Hardware aus freiberuflicher Arbeit,
-Industrie und Forschung.
+Industrie und Forschung. Gern nenne ich Ihnen Ansprechpartner aus
+früheren Projekten.
 {.sg-lead}
