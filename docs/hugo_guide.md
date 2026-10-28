@@ -450,7 +450,7 @@ After adding new folders under `layouts/` or `i18n/`, restart it.
 
 The live site is built by GitHub, not on this computer:
 
-1. Work happens on a branch (currently `hugo`).
+1. Work happens on `develop`; it is merged into `master` to go live.
 2. A push to `master` starts `.github/workflows/hugo.yml` on GitHub.
 3. That workflow builds the site with the pinned Hugo version and pushes the
    result to the `gh-pages` branch.
