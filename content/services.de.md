@@ -1,5 +1,6 @@
 ---
 title: "Leistungen"
+description: "Technische Software, Modellierung und Optimierung von Energiesystemen und Energiespeichern sowie Hardware-Prototyping für KMU, Ingenieurbüros und Stadtwerke."
 slug: "leistungen"
 # Tiles on the home page ({{< tiles >}}): title, text, image (path in
 # assets/), and the subheading on this page they link to (the {#...} ids

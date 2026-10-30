@@ -1,7 +1,7 @@
 ---
 title: "Über mich"
 slug: "ueber-mich"
-description: "Werdegang und Veröffentlichungen."
+description: "Werdegang von Sebastian Günther, Ingenieur für Energiesysteme und Energiespeicher, und seine Veröffentlichungen zu hybriden Energiespeichersystemen."
 ---
 
 ![Sebastian Günther](img/portrait.jpg)

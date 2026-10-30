@@ -1,5 +1,6 @@
 ---
 title: "Services"
+description: "Engineering software, modelling and optimisation of energy systems and energy storage, and hardware prototyping for SMEs, engineering firms and municipal utilities."
 # Tiles on the home page ({{< tiles >}}): title, text, image (path in
 # assets/), and the subheading on this page they link to (the {#...} ids
 # below).

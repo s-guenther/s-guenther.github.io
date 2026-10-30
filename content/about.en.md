@@ -1,6 +1,6 @@
 ---
 title: "About"
-description: "Background and publications."
+description: "Background of Sebastian Günther, engineer for energy systems and energy storage, and his publications on hybrid energy storage systems."
 aliases: ["../about/"]   # old Jekyll URL
 ---
 

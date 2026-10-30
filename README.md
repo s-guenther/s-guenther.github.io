@@ -82,6 +82,7 @@ comment at the top.
 | `layouts/partials/article-meta/basic.html` | replaces theme file | Subheadline and lead under the title of detail pages. |
 | `layouts/partials/header/components/translations.html` | replaces theme file | Language switch toggles directly instead of opening a dropdown. |
 | `layouts/partials/extend-article-link.html` | theme hook | Subheadline in list entries. |
+| `layouts/partials/extend-head-uncached.html` | theme hook | Home page only: schema.org Person data (name, job title, LinkedIn, GitHub, ORCID) for search engines. |
 | `layouts/shortcodes/tiles.html` | new shortcode | Clickable service tiles (photo, title, text), data from the services page. |
 
 After a theme update, compare the replaced files with their originals in

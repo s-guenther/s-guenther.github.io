@@ -2,7 +2,7 @@ disabled = false
 locale = "en"
 label = "English"
 weight = 2
-title = "sgrse"
+title = "Sebastian Günther · sgrse"   # browser tab and search results
 
 [params]
   displayName = "EN"
@@ -14,6 +14,7 @@ title = "sgrse"
 
 [params.author]
   name = "Sebastian Günther"
+  jobTitle = "Freelance engineer"   # structured data (extend-head-uncached.html)
   image = "img/portrait.jpg"
   headline = "Modelling, simulation and data analysis for energy systems"
   links = [

@@ -1,0 +1,31 @@
+{{/* Theme hook (not an override): added to <head> of every page. On the home
+     page it describes the owner as a schema.org Person, so search engines
+     can connect the website with LinkedIn, GitHub and ORCID. Name, job title
+     and links come from params.author in languages.*.toml. */}}
+{{ if .IsHome }}
+  {{- $author := site.Params.author -}}
+  {{- $sameAs := slice -}}
+  {{- range $author.links -}}
+    {{- range $platform, $url := . -}}
+      {{- if strings.HasPrefix $url "https:" -}}
+        {{- $sameAs = $sameAs | append $url -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $sameAs = $sameAs | append "https://orcid.org/0000-0001-7137-8850" -}}
+  {{- $person := dict
+    "@context" "https://schema.org"
+    "@type" "Person"
+    "@id" (printf "%s#person" site.Home.Permalink)
+    "name" $author.name
+    "jobTitle" $author.jobTitle
+    "url" site.Home.Permalink
+    "email" "info@sgrse.de"
+    "address" (dict "@type" "PostalAddress" "addressLocality" "Hannover" "addressCountry" "DE")
+    "sameAs" $sameAs
+  -}}
+  {{- with resources.Get $author.image -}}
+    {{- $person = merge $person (dict "image" .Permalink) -}}
+  {{- end -}}
+  <script type="application/ld+json">{{ $person | jsonify | safeJS }}</script>
+{{ end }}

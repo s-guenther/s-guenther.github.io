@@ -1,7 +1,7 @@
 ---
 title: "Kontakt"
 slug: "kontakt"
-description: "So erreichen Sie mich."
+description: "Kontakt zu Sebastian Günther, Ingenieur in Hannover: E-Mail, Telefon, LinkedIn und GitHub."
 ---
 
 ![Visitenkarten von sgrse](img/contact.jpg)

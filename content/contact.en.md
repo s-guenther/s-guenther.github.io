@@ -1,6 +1,6 @@
 ---
 title: "Contact"
-description: "How to reach me."
+description: "Contact Sebastian Günther, engineer in Hannover: email, phone, LinkedIn and GitHub."
 aliases: ["../contact/"]   # old Jekyll URL
 ---
 
